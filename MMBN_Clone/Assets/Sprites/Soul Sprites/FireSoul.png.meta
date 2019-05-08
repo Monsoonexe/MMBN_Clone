@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 7065f6c9036422f4fb01d4fac9209add
+timeCreated: 1533624953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FireSoul_0
+    21300002: FireSoul_1
+    21300004: FireSoul_2
+    21300006: FireSoul_3
+    21300008: FireSoul_4
+    21300010: FireSoul_5
+    21300012: FireSoul_6
+    21300014: FireSoul_7
+    21300016: FireSoul_8
+    21300018: FireSoul_9
+    21300020: FireSoul_10
+    21300022: FireSoul_11
+    21300024: FireSoul_12
+    21300026: FireSoul_13
+    21300028: FireSoul_14
+    21300030: FireSoul_15
+    21300032: FireSoul_16
+    21300034: FireSoul_17
+    21300036: FireSoul_18
+    21300038: FireSoul_19
+    21300040: FireSoul_20
+    21300042: FireSoul_21
+    21300044: FireSoul_22
+    21300046: FireSoul_23
+    21300048: FireSoul_24
+    21300050: FireSoul_25
+    21300052: FireSoul_26
+    21300054: FireSoul_27
+    21300056: FireSoul_28
+    21300058: FireSoul_29
+    21300060: FireSoul_30
+    21300062: FireSoul_31
+    21300064: FireSoul_32
+    21300066: FireSoul_33
+    21300068: FireSoul_34
+    21300070: FireSoul_35
+    21300072: FireSoul_36
+    21300074: FireSoul_37
+    21300076: FireSoul_38
+    21300078: FireSoul_39
+    21300080: FireSoul_40
+    21300082: FireSoul_41
+    21300084: FireSoul_42
+    21300086: FireSoul_43
+    21300088: FireSoul_44
+    21300090: FireSoul_45
+    21300092: FireSoul_46
+    21300094: FireSoul_47
+    21300096: FireSoul_48
+    21300098: FireSoul_49
+    21300100: FireSoul_50
+    21300102: FireSoul_51
+    21300104: FireSoul_52
+    21300106: FireSoul_53
+    21300108: FireSoul_54
+    21300110: FireSoul_55
+    21300112: FireSoul_56
+    21300114: FireSoul_57
+    21300116: FireSoul_58
+    21300118: FireSoul_59
+    21300120: FireSoul_60
+    21300122: FireSoul_61
+    21300124: FireSoul_62
+    21300126: FireSoul_63
+    21300128: FireSoul_64
+    21300130: FireSoul_65
+    21300132: FireSoul_66
+    21300134: FireSoul_67
+    21300136: FireSoul_68
+    21300138: FireSoul_69
+    21300140: FireSoul_70
+    21300142: FireSoul_71
+    21300144: FireSoul_72
+    21300146: FireSoul_73
+    21300148: FireSoul_74
+    21300150: FireSoul_75
+    21300152: FireSoul_76
+    21300154: FireSoul_77
+    21300156: FireSoul_78
+    21300158: FireSoul_79
+    21300160: FireSoul_80
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireSoul_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 518
+        width: 34
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 518
+        width: 34
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 517
+        width: 34
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 517
+        width: 34
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 517
+        width: 34
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 515
+        width: 34
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 517
+        width: 34
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 516
+        width: 34
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 448
+        width: 46
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_13
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 448
+        width: 44
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 448
+        width: 44
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 448
+        width: 44
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_17
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 498
+        width: 6
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_18
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 448
+        width: 44
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 448
+        width: 64
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_20
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 448
+        width: 45
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 471
+        width: 24
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_22
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 471
+        width: 24
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 381
+        width: 56
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 381
+        width: 56
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 381
+        width: 56
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_26
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 431
+        width: 6
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_27
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 381
+        width: 56
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_28
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 381
+        width: 56
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 381
+        width: 56
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_30
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 399
+        width: 39
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_31
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 398
+        width: 46
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_32
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 397
+        width: 38
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 310
+        width: 62
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 310
+        width: 64
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_38
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 310
+        width: 33
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_39
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 310
+        width: 62
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 310
+        width: 47
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_41
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 310
+        width: 42
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 310
+        width: 42
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 236
+        width: 38
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 237
+        width: 42
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_45
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 237
+        width: 39
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_46
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 236
+        width: 47
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_50
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 238
+        width: 43
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_51
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 238
+        width: 43
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_52
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 237
+        width: 38
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_53
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 165
+        width: 49
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_57
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 165
+        width: 40
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 165
+        width: 39
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_59
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 165
+        width: 39
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 165
+        width: 39
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_61
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 92
+        width: 35
+        height: 59
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_63
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 91
+        width: 39
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 91
+        width: 40
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_66
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 91
+        width: 27
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_67
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 92
+        width: 35
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_68
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 92
+        width: 36
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_69
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 58
+        width: 17
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_70
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 58
+        width: 19
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_71
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 71
+        width: 6
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_72
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 58
+        width: 15
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_73
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 71
+        width: 6
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_74
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 58
+        width: 15
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_75
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 59
+        width: 17
+        height: 17
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_76
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 4
+        width: 34
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_77
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 4
+        width: 34
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_78
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 5
+        width: 34
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_79
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 5
+        width: 34
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FireSoul_80
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 5
+        width: 34
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

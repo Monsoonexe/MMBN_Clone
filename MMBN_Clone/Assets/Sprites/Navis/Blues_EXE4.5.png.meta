@@ -1,0 +1,1718 @@
+fileFormatVersion: 2
+guid: b869fe02fee6a334ab9b2df6f6106d9d
+timeCreated: 1536081802
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Blues_EXE4.5_0
+    21300002: Blues_EXE4.5_1
+    21300004: Blues_EXE4.5_2
+    21300006: Blues_EXE4.5_3
+    21300008: Blues_EXE4.5_4
+    21300010: Blues_EXE4.5_5
+    21300012: Blues_EXE4.5_6
+    21300014: Blues_EXE4.5_7
+    21300016: Blues_EXE4.5_8
+    21300018: Blues_EXE4.5_9
+    21300020: Blues_EXE4.5_10
+    21300022: Blues_EXE4.5_11
+    21300024: Blues_EXE4.5_12
+    21300026: Blues_EXE4.5_13
+    21300028: Blues_EXE4.5_14
+    21300030: Blues_EXE4.5_15
+    21300032: Blues_EXE4.5_16
+    21300034: Blues_EXE4.5_17
+    21300036: Blues_EXE4.5_18
+    21300038: Blues_EXE4.5_19
+    21300040: Blues_EXE4.5_20
+    21300042: Blues_EXE4.5_21
+    21300044: Blues_EXE4.5_22
+    21300046: Blues_EXE4.5_23
+    21300048: Blues_EXE4.5_24
+    21300050: Blues_EXE4.5_25
+    21300052: Blues_EXE4.5_26
+    21300054: Blues_EXE4.5_27
+    21300056: Blues_EXE4.5_28
+    21300058: Blues_EXE4.5_29
+    21300060: Blues_EXE4.5_30
+    21300062: Blues_EXE4.5_31
+    21300064: Blues_EXE4.5_32
+    21300066: Blues_EXE4.5_33
+    21300068: Blues_EXE4.5_34
+    21300070: Blues_EXE4.5_35
+    21300072: Blues_EXE4.5_36
+    21300074: Blues_EXE4.5_37
+    21300076: Blues_EXE4.5_38
+    21300078: Blues_EXE4.5_39
+    21300080: Blues_EXE4.5_40
+    21300082: Blues_EXE4.5_41
+    21300084: Blues_EXE4.5_42
+    21300086: Blues_EXE4.5_43
+    21300088: Blues_EXE4.5_44
+    21300090: Blues_EXE4.5_45
+    21300092: Blues_EXE4.5_46
+    21300094: Blues_EXE4.5_47
+    21300096: Blues_EXE4.5_52
+    21300098: Blues_EXE4.5_55
+    21300100: Blues_EXE4.5_56
+    21300102: Blues_EXE4.5_57
+    21300104: Blues_EXE4.5_58
+    21300106: Blues_EXE4.5_59
+    21300108: Blues_EXE4.5_60
+    21300110: Blues_EXE4.5_61
+    21300112: Blues_EXE4.5_62
+    21300114: Blues_EXE4.5_63
+    21300116: Blues_EXE4.5_65
+    21300118: Blues_EXE4.5_67
+    21300120: Blues_EXE4.5_68
+    21300122: Blues_EXE4.5_69
+    21300124: Blues_EXE4.5_70
+    21300126: Blues_EXE4.5_71
+    21300128: Blues_EXE4.5_72
+    21300130: Blues_EXE4.5_73
+    21300132: Blues_EXE4.5_74
+    21300134: Blues_EXE4.5_75
+    21300136: Blues_EXE4.5_76
+    21300138: Blues_EXE4.5_77
+    21300140: Blues_EXE4.5_78
+    21300142: Blues_EXE4.5_79
+    21300144: Blues_EXE4.5_80
+    21300146: Blues_EXE4.5_81
+    21300148: Blues_EXE4.5_82
+    21300150: Blues_EXE4.5_84
+    21300152: Blues_EXE4.5_85
+    21300154: Blues_EXE4.5_86
+    21300156: Blues_EXE4.5_87
+    21300158: Blues_EXE4.5_88
+    21300160: Blues_EXE4.5_89
+    21300162: Blues_EXE4.5_90
+    21300164: Blues_EXE4.5_91
+    21300166: Blues_EXE4.5_92
+    21300168: Blues_EXE4.5_93
+    21300170: Blues_EXE4.5_94
+    21300172: Blues_EXE4.5_95
+    21300174: Blues_EXE4.5_96
+    21300176: Blues_EXE4.5_97
+    21300178: Blues_EXE4.5_98
+    21300180: Blues_EXE4.5_99
+    21300182: Blues_EXE4.5_100
+    21300184: Blues_EXE4.5_101
+    21300186: Blues_EXE4.5_102
+    21300188: Blues_EXE4.5_103
+    21300190: Blues_EXE4.5_104
+    21300192: Blues_EXE4.5_105
+    21300194: Blues_EXE4.5_106
+    21300196: Blues_EXE4.5_107
+    21300198: Blues_EXE4.5_108
+    21300200: Blues_EXE4.5_109
+    21300202: Blues_EXE4.5_110
+    21300204: Blues_EXE4.5_111
+    21300206: Blues_EXE4.5_112
+    21300208: Blues_EXE4.5_113
+    21300210: Blues_EXE4.5_114
+    21300212: Blues_EXE4.5_115
+    21300214: Blues_EXE4.5_48
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blues_EXE4.5_0
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1062
+        width: 4
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1062
+        width: 8
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1062
+        width: 8
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1062
+        width: 4
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1062
+        width: 20
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1020
+        width: 20
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1020
+        width: 24
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1020
+        width: 22
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1020
+        width: 23
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1020
+        width: 20
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1020
+        width: 19
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1020
+        width: 19
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 980
+        width: 23
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 980
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_14
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 980
+        width: 33
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 980
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 980
+        width: 22
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 980
+        width: 25
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 980
+        width: 22
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 938
+        width: 24
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_20
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 938
+        width: 24
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 938
+        width: 31
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_22
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 938
+        width: 25
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_23
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 938
+        width: 25
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_24
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 938
+        width: 32
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_25
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 938
+        width: 25
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 896
+        width: 26
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_27
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 896
+        width: 18
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 896
+        width: 23
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 896
+        width: 22
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 896
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 896
+        width: 28
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_32
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 896
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_33
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 852
+        width: 18
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 852
+        width: 23
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 852
+        width: 23
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_36
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 852
+        width: 21
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_37
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 852
+        width: 20
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 852
+        width: 20
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_39
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 852
+        width: 19
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_40
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 809
+        width: 20
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_41
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 809
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_42
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 809
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_43
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 809
+        width: 26
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 809
+        width: 26
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_45
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 809
+        width: 28
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 738
+        width: 48
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 738
+        width: 43
+        height: 57
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_52
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 738
+        width: 46
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 663
+        width: 38
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 663
+        width: 70
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 663
+        width: 63
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_58
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 663
+        width: 59
+        height: 65
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_59
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 663
+        width: 49
+        height: 65
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_60
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 663
+        width: 49
+        height: 65
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_61
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 601
+        width: 52
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_62
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 601
+        width: 52
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_63
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 601
+        width: 79
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_65
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 601
+        width: 79
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_67
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 601
+        width: 71
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_68
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 533
+        width: 42
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_69
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 533
+        width: 48
+        height: 58
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_70
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 533
+        width: 47
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_71
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 533
+        width: 52
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_72
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 533
+        width: 48
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 472
+        width: 38
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 472
+        width: 55
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_75
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 472
+        width: 44
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_76
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 472
+        width: 43
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_77
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 472
+        width: 43
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_78
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 472
+        width: 43
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_79
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 472
+        width: 43
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_80
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 409
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_81
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 408
+        width: 32
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_82
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 408
+        width: 31
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_84
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 409
+        width: 32
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_85
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 336
+        width: 117
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_86
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 349
+        width: 83
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_87
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 359
+        width: 83
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_88
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 369
+        width: 80
+        height: 12
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_89
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 214
+        width: 37
+        height: 99
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_90
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 263
+        width: 26
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 292
+        width: 26
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_92
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 307
+        width: 15
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_93
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_95
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_96
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_97
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_98
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_99
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 252
+        width: 23
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_100
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 167
+        width: 108
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_101
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 219
+        width: 29
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_102
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 201
+        width: 29
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_103
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 186
+        width: 29
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_104
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 168
+        width: 29
+        height: 10
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_105
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 88
+        width: 93
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_106
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 88
+        width: 93
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_107
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 88
+        width: 93
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_108
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 9
+        width: 79
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_109
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 52
+        width: 36
+        height: 19
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_110
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 60
+        width: 23
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_111
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 7
+        width: 79
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_112
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 51
+        width: 36
+        height: 19
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_113
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 60
+        width: 23
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_114
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 15
+        width: 26
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_115
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 14
+        width: 26
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Blues_EXE4.5_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 738
+        width: 38
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

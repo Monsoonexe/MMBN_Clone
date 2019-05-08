@@ -1,0 +1,2139 @@
+fileFormatVersion: 2
+guid: 9d5f9918782a5164790a3b5bb668aa9b
+timeCreated: 1534276005
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Forte_EXE4_0
+    21300002: Forte_EXE4_1
+    21300004: Forte_EXE4_2
+    21300006: Forte_EXE4_3
+    21300008: Forte_EXE4_4
+    21300010: Forte_EXE4_5
+    21300012: Forte_EXE4_6
+    21300014: Forte_EXE4_7
+    21300016: Forte_EXE4_8
+    21300018: Forte_EXE4_9
+    21300020: Forte_EXE4_10
+    21300022: Forte_EXE4_11
+    21300024: Forte_EXE4_12
+    21300026: Forte_EXE4_13
+    21300028: Forte_EXE4_14
+    21300030: Forte_EXE4_15
+    21300032: Forte_EXE4_16
+    21300034: Forte_EXE4_17
+    21300036: Forte_EXE4_18
+    21300038: Forte_EXE4_19
+    21300040: Forte_EXE4_20
+    21300042: Forte_EXE4_21
+    21300044: Forte_EXE4_22
+    21300046: Forte_EXE4_23
+    21300048: Forte_EXE4_24
+    21300050: Forte_EXE4_25
+    21300052: Forte_EXE4_26
+    21300054: Forte_EXE4_27
+    21300056: Forte_EXE4_28
+    21300058: Forte_EXE4_29
+    21300060: Forte_EXE4_30
+    21300062: Forte_EXE4_31
+    21300064: Forte_EXE4_32
+    21300066: Forte_EXE4_33
+    21300068: Forte_EXE4_34
+    21300070: Forte_EXE4_35
+    21300072: Forte_EXE4_36
+    21300074: Forte_EXE4_37
+    21300076: Forte_EXE4_38
+    21300078: Forte_EXE4_39
+    21300080: Forte_EXE4_40
+    21300082: Forte_EXE4_41
+    21300084: Forte_EXE4_42
+    21300086: Forte_EXE4_43
+    21300088: Forte_EXE4_44
+    21300090: Forte_EXE4_45
+    21300092: Forte_EXE4_46
+    21300094: Forte_EXE4_48
+    21300096: Forte_EXE4_50
+    21300098: Forte_EXE4_52
+    21300100: Forte_EXE4_53
+    21300102: Forte_EXE4_54
+    21300104: Forte_EXE4_55
+    21300106: Forte_EXE4_56
+    21300108: Forte_EXE4_57
+    21300110: Forte_EXE4_58
+    21300112: Forte_EXE4_62
+    21300114: Forte_EXE4_63
+    21300116: Forte_EXE4_64
+    21300118: Forte_EXE4_65
+    21300120: Forte_EXE4_66
+    21300122: Forte_EXE4_67
+    21300124: Forte_EXE4_68
+    21300126: Forte_EXE4_69
+    21300128: Forte_EXE4_70
+    21300130: Forte_EXE4_71
+    21300132: Forte_EXE4_72
+    21300134: Forte_EXE4_73
+    21300136: Forte_EXE4_74
+    21300138: Forte_EXE4_75
+    21300140: Forte_EXE4_76
+    21300142: Forte_EXE4_77
+    21300144: Forte_EXE4_78
+    21300146: Forte_EXE4_79
+    21300148: Forte_EXE4_80
+    21300150: Forte_EXE4_81
+    21300152: Forte_EXE4_82
+    21300154: Forte_EXE4_83
+    21300156: Forte_EXE4_84
+    21300158: Forte_EXE4_85
+    21300160: Forte_EXE4_89
+    21300162: Forte_EXE4_90
+    21300164: Forte_EXE4_91
+    21300166: Forte_EXE4_92
+    21300168: Forte_EXE4_93
+    21300170: Forte_EXE4_94
+    21300172: Forte_EXE4_95
+    21300174: Forte_EXE4_96
+    21300176: Forte_EXE4_97
+    21300178: Forte_EXE4_98
+    21300180: Forte_EXE4_99
+    21300182: Forte_EXE4_100
+    21300184: Forte_EXE4_101
+    21300186: Forte_EXE4_102
+    21300188: Forte_EXE4_103
+    21300190: Forte_EXE4_104
+    21300192: Forte_EXE4_105
+    21300194: Forte_EXE4_106
+    21300196: Forte_EXE4_108
+    21300198: Forte_EXE4_110
+    21300200: Forte_EXE4_112
+    21300202: Forte_EXE4_113
+    21300204: Forte_EXE4_114
+    21300206: Forte_EXE4_115
+    21300208: Forte_EXE4_116
+    21300210: Forte_EXE4_117
+    21300212: Forte_EXE4_118
+    21300214: Forte_EXE4_119
+    21300216: Forte_EXE4_120
+    21300218: Forte_EXE4_121
+    21300220: Forte_EXE4_122
+    21300222: Forte_EXE4_123
+    21300224: Forte_EXE4_124
+    21300226: Forte_EXE4_125
+    21300228: Forte_EXE4_126
+    21300230: Forte_EXE4_127
+    21300232: Forte_EXE4_128
+    21300234: Forte_EXE4_129
+    21300236: Forte_EXE4_130
+    21300238: Forte_EXE4_131
+    21300240: Forte_EXE4_132
+    21300242: Forte_EXE4_133
+    21300244: Forte_EXE4_134
+    21300246: Forte_EXE4_135
+    21300248: Forte_EXE4_136
+    21300250: Forte_EXE4_137
+    21300252: Forte_EXE4_138
+    21300254: Forte_EXE4_139
+    21300256: Forte_EXE4_140
+    21300258: Forte_EXE4_141
+    21300260: Forte_EXE4_142
+    21300262: Forte_EXE4_147
+    21300264: Forte_EXE4_150
+    21300266: Forte_EXE4_151
+    21300268: Forte_EXE4_152
+    21300270: Forte_EXE4_153
+    21300272: Forte_EXE4_154
+    21300274: Forte_EXE4_155
+    21300276: Forte_EXE4_156
+    21300278: Forte_EXE4_157
+    21300280: Forte_EXE4_158
+    21300282: Forte_EXE4_159
+    21300284: Forte_EXE4_160
+    21300286: Forte_EXE4_161
+    21300288: Forte_EXE4_162
+    21300290: Forte_EXE4_163
+    21300292: Forte_EXE4_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forte_EXE4_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1270
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1270
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1270
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1270
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1270
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1270
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1270
+        width: 24
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1270
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_8
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1270
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1270
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1212
+        width: 35
+        height: 44
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1212
+        width: 30
+        height: 44
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_17
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1212
+        width: 30
+        height: 44
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1212
+        width: 30
+        height: 44
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1129
+        width: 46
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1129
+        width: 46
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_21
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1129
+        width: 46
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1129
+        width: 46
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1141
+        width: 46
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_24
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1144
+        width: 46
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_28
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1048
+        width: 40
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1049
+        width: 52
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_30
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1050
+        width: 49
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_31
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1050
+        width: 58
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_32
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1050
+        width: 56
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1050
+        width: 50
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_34
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1050
+        width: 51
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_35
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1050
+        width: 54
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_36
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1050
+        width: 49
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 969
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 970
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 970
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_40
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 969
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_41
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 968
+        width: 56
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_42
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 971
+        width: 56
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_43
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 969
+        width: 60
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_44
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 970
+        width: 61
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_45
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 970
+        width: 60
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_46
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 892
+        width: 50
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_48
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 892
+        width: 62
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_50
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 892
+        width: 64
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_52
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 892
+        width: 50
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 805
+        width: 46
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_54
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 805
+        width: 46
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 805
+        width: 46
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 805
+        width: 46
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_57
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 818
+        width: 46
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_58
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 820
+        width: 46
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_62
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 726
+        width: 40
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_63
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 726
+        width: 52
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_64
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 726
+        width: 56
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_65
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 727
+        width: 54
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_66
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 727
+        width: 50
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_67
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 648
+        width: 50
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 648
+        width: 69
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_71
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 648
+        width: 64
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_73
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 648
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_74
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 648
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_75
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 648
+        width: 60
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_76
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 648
+        width: 59
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_77
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 648
+        width: 59
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_78
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 648
+        width: 50
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 559
+        width: 46
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 559
+        width: 46
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_81
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 559
+        width: 46
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_82
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 559
+        width: 46
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_83
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 573
+        width: 46
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_84
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 573
+        width: 46
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_85
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 563
+        width: 40
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_89
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 473
+        width: 52
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_90
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 474
+        width: 49
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 474
+        width: 58
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_92
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 474
+        width: 56
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_93
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 474
+        width: 50
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_94
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 474
+        width: 54
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_95
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 474
+        width: 54
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_96
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 474
+        width: 49
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_97
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 393
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_98
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 394
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 394
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_100
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 393
+        width: 56
+        height: 68
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_101
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 392
+        width: 56
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_102
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 395
+        width: 56
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_103
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 393
+        width: 60
+        height: 73
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_104
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 394
+        width: 61
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_105
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 394
+        width: 60
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_106
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 315
+        width: 50
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_108
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 314
+        width: 62
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_110
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 314
+        width: 64
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_112
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 313
+        width: 50
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_113
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 238
+        width: 16
+        height: 60
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_114
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 236
+        width: 16
+        height: 63
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_115
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 237
+        width: 13
+        height: 62
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_116
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 242
+        width: 47
+        height: 43
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_117
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 242
+        width: 46
+        height: 47
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_118
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 242
+        width: 47
+        height: 49
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_119
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 237
+        width: 28
+        height: 62
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_120
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 263
+        width: 4
+        height: 35
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_121
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 278
+        width: 6
+        height: 33
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_122
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 280
+        width: 5
+        height: 24
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_123
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 273
+        width: 5
+        height: 22
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_124
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 259
+        width: 6
+        height: 27
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_125
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 259
+        width: 4
+        height: 18
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_126
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 255
+        width: 4
+        height: 7
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_127
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 255
+        width: 7
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_128
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 235
+        width: 8
+        height: 18
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_129
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 251
+        width: 6
+        height: 5
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_130
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 235
+        width: 4
+        height: 11
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_131
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 242
+        width: 4
+        height: 8
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_132
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 171
+        width: 48
+        height: 67
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_133
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 177
+        width: 37
+        height: 55
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_134
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 186
+        width: 36
+        height: 41
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_135
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 192
+        width: 36
+        height: 24
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_136
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 183
+        width: 83
+        height: 34
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_137
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 187
+        width: 72
+        height: 26
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_138
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 192
+        width: 71
+        height: 18
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_139
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 198
+        width: 51
+        height: 8
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_140
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 133
+        width: 15
+        height: 15
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_141
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 132
+        width: 24
+        height: 21
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_142
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 127
+        width: 29
+        height: 31
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_147
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 153
+        width: 5
+        height: 6
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_150
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 126
+        width: 34
+        height: 36
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_151
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 122
+        width: 28
+        height: 14
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_152
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 122
+        width: 38
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_153
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 122
+        width: 38
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_154
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 122
+        width: 37
+        height: 38
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 124
+        width: 5
+        height: 18
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_156
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 135
+        width: 25
+        height: 24
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_157
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 142
+        width: 12
+        height: 23
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_158
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 124
+        width: 14
+        height: 13
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_159
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 38
+        height: 42
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_160
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 31
+        width: 38
+        height: 42
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_161
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 8
+        width: 79
+        height: 88
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_162
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 7
+        width: 79
+        height: 88
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_163
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 3
+        width: 79
+        height: 89
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Forte_EXE4_47
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 128
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

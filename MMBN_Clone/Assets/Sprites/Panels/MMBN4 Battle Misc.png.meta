@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: 2b62c5a151a167847b545e82a5f68687
+timeCreated: 1533623652
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MMBN4 Battle Misc_0
+    21300002: MMBN4 Battle Misc_1G
+    21300004: MMBN4 Battle Misc_2
+    21300006: MMBN4 Battle Misc_3
+    21300008: MMBN4 Battle Misc_4
+    21300010: MMBN4 Battle Misc_5
+    21300012: MMBN4 Battle Misc_6
+    21300014: MMBN4 Battle Misc_7
+    21300016: MMBN4 Battle Misc_8
+    21300018: MMBN4 Battle Misc_9
+    21300020: MMBN4 Battle Misc_10
+    21300022: MMBN4 Battle Misc_11
+    21300024: MMBN4 Battle Misc_12
+    21300026: MMBN4 Battle Misc_A
+    21300028: MMBN4 Battle Misc_14
+    21300030: MMBN4 Battle Misc_15
+    21300032: MMBN4 Battle Misc_16
+    21300034: MMBN4 Battle Misc_17
+    21300036: MMBN4 Battle Misc_18
+    21300038: MMBN4 Battle Misc_19
+    21300040: MMBN4 Battle Misc_20
+    21300042: MMBN4 Battle Misc_21
+    21300044: MMBN4 Battle Misc_22
+    21300046: MMBN4 Battle Misc_23
+    21300048: MMBN4 Battle Misc_24
+    21300050: MMBN4 Battle Misc_25
+    21300052: MMBN4 Battle Misc_26
+    21300054: MMBN4 Battle Misc_27
+    21300056: MMBN4 Battle Misc_28
+    21300058: MMBN4 Battle Misc_B
+    21300060: MMBN4 Battle Misc_C
+    21300062: MMBN4 Battle Misc_D
+    21300064: MMBN4 Battle Misc_E
+    21300066: MMBN4 Battle Misc_F
+    21300068: MMBN4 Battle Misc_G
+    21300070: MMBN4 Battle Misc_H
+    21300072: MMBN4 Battle Misc_I
+    21300074: MMBN4 Battle Misc_J
+    21300076: MMBN4 Battle Misc_K
+    21300078: MMBN4 Battle Misc_L
+    21300080: MMBN4 Battle Misc_M
+    21300082: MMBN4 Battle Misc_N
+    21300084: MMBN4 Battle Misc_O
+    21300086: MMBN4 Battle Misc_P
+    21300088: MMBN4 Battle Misc_Q
+    21300090: MMBN4 Battle Misc_R
+    21300092: MMBN4 Battle Misc_S
+    21300094: MMBN4 Battle Misc_T
+    21300096: MMBN4 Battle Misc_U
+    21300098: MMBN4 Battle Misc_V
+    21300100: MMBN4 Battle Misc_W
+    21300102: MMBN4 Battle Misc_X
+    21300104: MMBN4 Battle Misc_Y
+    21300106: MMBN4 Battle Misc_Z
+    21300108: MMBN4 Battle Misc_Asterix
+    21300110: MMBN4 Battle Misc_2G
+    21300112: MMBN4 Battle Misc_3G
+    21300114: MMBN4 Battle Misc_4G
+    21300116: MMBN4 Battle Misc_5G
+    21300118: MMBN4 Battle Misc_6G
+    21300120: MMBN4 Battle Misc_7G
+    21300122: MMBN4 Battle Misc_8G
+    21300124: MMBN4 Battle Misc_9G
+    21300126: MMBN4 Battle Misc_0G
+    21300128: MMBN4 Battle Misc_Asterisk
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 298
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 259
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 250
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 235
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 218
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 200
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 182
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3
+        width: 120
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 147
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_10
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 139
+        width: 86
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 129
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 154
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_14
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_17
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_18
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_21
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_24
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_25
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_26
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 316
+        width: 144
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 180
+        width: 240
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_A
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_B
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_C
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_D
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_E
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_F
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_G
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_H
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 41
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_I
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 41
+        width: 2
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_J
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_K
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_L
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_M
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_N
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_O
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_P
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_Q
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_R
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_S
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_T
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_U
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_V
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_W
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_X
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_Y
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_Z
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_Asterisk
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 13
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_1G
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 292
+        width: 3
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_2G
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_3G
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_4G
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_5G
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_6G
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_7G
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_8G
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_9G
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MMBN4 Battle Misc_0G
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 292
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

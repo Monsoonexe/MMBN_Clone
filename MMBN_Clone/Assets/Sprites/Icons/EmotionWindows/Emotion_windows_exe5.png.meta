@@ -1,0 +1,1498 @@
+fileFormatVersion: 2
+guid: 9516f3ffea81f934ba0f97eabc43818e
+timeCreated: 1533787270
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Emotion_windows_exe5_0
+    21300002: Emotion_windows_exe5_1
+    21300004: Emotion_windows_exe5_2
+    21300006: Emotion_windows_exe5_3
+    21300008: Emotion_windows_exe5_4
+    21300010: Emotion_windows_exe5_5
+    21300012: Emotion_windows_exe5_6
+    21300014: Emotion_windows_exe5_7
+    21300016: Emotion_windows_exe5_8
+    21300018: Emotion_windows_exe5_9
+    21300020: Emotion_windows_exe5_10
+    21300022: Emotion_windows_exe5_11
+    21300024: Emotion_windows_exe5_12
+    21300026: Emotion_windows_exe5_13
+    21300028: Emotion_windows_exe5_14
+    21300030: Emotion_windows_exe5_15
+    21300032: Emotion_windows_exe5_16
+    21300034: Emotion_windows_exe5_17
+    21300036: Emotion_windows_exe5_18
+    21300038: Emotion_windows_exe5_19
+    21300040: Emotion_windows_exe5_20
+    21300042: Emotion_windows_exe5_21
+    21300044: Emotion_windows_exe5_22
+    21300046: Emotion_windows_exe5_23
+    21300048: Emotion_windows_exe5_24
+    21300050: Emotion_windows_exe5_25
+    21300052: Emotion_windows_exe5_26
+    21300054: Emotion_windows_exe5_27
+    21300056: Emotion_windows_exe5_28
+    21300058: Emotion_windows_exe5_29
+    21300060: Emotion_windows_exe5_30
+    21300062: Emotion_windows_exe5_31
+    21300064: Emotion_windows_exe5_32
+    21300066: Emotion_windows_exe5_33
+    21300068: Emotion_windows_exe5_34
+    21300070: Emotion_windows_exe5_35
+    21300072: Emotion_windows_exe5_36
+    21300074: Emotion_windows_exe5_37
+    21300076: Emotion_windows_exe5_38
+    21300078: Emotion_windows_exe5_39
+    21300080: Emotion_windows_exe5_40
+    21300082: Emotion_windows_exe5_41
+    21300084: Emotion_windows_exe5_42
+    21300086: Emotion_windows_exe5_43
+    21300088: Emotion_windows_exe5_44
+    21300090: Emotion_windows_exe5_45
+    21300092: Emotion_windows_exe5_46
+    21300094: Emotion_windows_exe5_47
+    21300096: Emotion_windows_exe5_48
+    21300098: Emotion_windows_exe5_49
+    21300100: Emotion_windows_exe5_50
+    21300102: Emotion_windows_exe5_51
+    21300104: Emotion_windows_exe5_52
+    21300106: Emotion_windows_exe5_53
+    21300108: Emotion_windows_exe5_54
+    21300110: Emotion_windows_exe5_55
+    21300112: Emotion_windows_exe5_56
+    21300114: Emotion_windows_exe5_57
+    21300116: Emotion_windows_exe5_58
+    21300118: Emotion_windows_exe5_59
+    21300120: Emotion_windows_exe5_60
+    21300122: Emotion_windows_exe5_61
+    21300124: Emotion_windows_exe5_62
+    21300126: Emotion_windows_exe5_63
+    21300128: Emotion_windows_exe5_64
+    21300130: Emotion_windows_exe5_65
+    21300132: Emotion_windows_exe5_66
+    21300134: Emotion_windows_exe5_67
+    21300136: Emotion_windows_exe5_68
+    21300138: Emotion_windows_exe5_69
+    21300140: Emotion_windows_exe5_70
+    21300142: Emotion_windows_exe5_71
+    21300144: Emotion_windows_exe5_72
+    21300146: Emotion_windows_exe5_73
+    21300148: Emotion_windows_exe5_74
+    21300150: Emotion_windows_exe5_75
+    21300152: Emotion_windows_exe5_76
+    21300154: Emotion_windows_exe5_77
+    21300156: Emotion_windows_exe5_78
+    21300158: Emotion_windows_exe5_79
+    21300160: Emotion_windows_exe5_80
+    21300162: Emotion_windows_exe5_81
+    21300164: Emotion_windows_exe5_82
+    21300166: Emotion_windows_exe5_83
+    21300168: Emotion_windows_exe5_84
+    21300170: Emotion_windows_exe5_85
+    21300172: Emotion_windows_exe5_86
+    21300174: Emotion_windows_exe5_87
+    21300176: Emotion_windows_exe5_88
+    21300178: Emotion_windows_exe5_89
+    21300180: Emotion_windows_exe5_90
+    21300182: Emotion_windows_exe5_91
+    21300184: Emotion_windows_exe5_92
+    21300186: Emotion_windows_exe5_93
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 381
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 381
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 381
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 381
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 381
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 381
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 362
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 362
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 362
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 362
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_10
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 362
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_11
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 362
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 344
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 344
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 344
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 344
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_16
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 344
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 344
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 325
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 325
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_20
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 325
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 325
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_22
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 325
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_23
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 325
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_24
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 305
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 305
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 305
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 305
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_28
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 305
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 305
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 286
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_31
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 286
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 286
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_33
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 286
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_34
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 286
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_35
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 286
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 267
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_37
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 267
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 267
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 267
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_40
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 267
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_41
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 267
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 248
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_43
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 248
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 248
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_45
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 248
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 248
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_47
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 248
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 230
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_49
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 230
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_50
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 230
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 211
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 211
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_53
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 211
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_54
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 192
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_56
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 192
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_57
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 173
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_58
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 173
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_59
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 173
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 154
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_61
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 154
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_62
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 154
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_63
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 135
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_64
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 135
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_65
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 135
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 116
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 116
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_68
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 116
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_69
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 97
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_70
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_71
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 97
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 78
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_73
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 78
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_74
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 78
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_75
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 59
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_76
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 59
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_77
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 59
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_78
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 40
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_80
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 40
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_81
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 21
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_82
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 21
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_83
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 21
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_84
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_85
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_86
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_87
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_88
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_90
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_91
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_92
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Emotion_windows_exe5_93
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

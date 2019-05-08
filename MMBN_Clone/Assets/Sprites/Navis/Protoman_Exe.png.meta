@@ -1,0 +1,1034 @@
+fileFormatVersion: 2
+guid: b3d001a3474de2142a951c057914c21f
+timeCreated: 1533788344
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Protoman_Exe_0
+    21300002: Protoman_Exe_1
+    21300004: Protoman_Exe_2
+    21300006: Protoman_Exe_3
+    21300008: Protoman_Exe_4
+    21300010: Protoman_Exe_5
+    21300012: Protoman_Exe_6
+    21300014: Protoman_Exe_7
+    21300016: Protoman_Exe_8
+    21300018: Protoman_Exe_9
+    21300020: Protoman_Exe_10
+    21300022: Protoman_Exe_11
+    21300024: Protoman_Exe_12
+    21300026: Protoman_Exe_13
+    21300028: Protoman_Exe_14
+    21300030: Protoman_Exe_15
+    21300032: Protoman_Exe_16
+    21300034: Protoman_Exe_17
+    21300036: Protoman_Exe_18
+    21300038: Protoman_Exe_19
+    21300040: Protoman_Exe_20
+    21300042: Protoman_Exe_21
+    21300044: Protoman_Exe_22
+    21300046: Protoman_Exe_23
+    21300048: Protoman_Exe_24
+    21300050: Protoman_Exe_25
+    21300052: Protoman_Exe_26
+    21300054: Protoman_Exe_27
+    21300056: Protoman_Exe_28
+    21300058: Protoman_Exe_29
+    21300060: Protoman_Exe_30
+    21300062: Protoman_Exe_31
+    21300064: Protoman_Exe_32
+    21300066: Protoman_Exe_33
+    21300068: Protoman_Exe_34
+    21300070: Protoman_Exe_35
+    21300072: Protoman_Exe_36
+    21300074: Protoman_Exe_37
+    21300076: Protoman_Exe_38
+    21300078: Protoman_Exe_39
+    21300080: Protoman_Exe_40
+    21300082: Protoman_Exe_41
+    21300084: Protoman_Exe_42
+    21300086: Protoman_Exe_43
+    21300088: Protoman_Exe_44
+    21300090: Protoman_Exe_45
+    21300092: Protoman_Exe_46
+    21300094: Protoman_Exe_47
+    21300096: Protoman_Exe_48
+    21300098: Protoman_Exe_49
+    21300100: Protoman_Exe_50
+    21300102: Protoman_Exe_51
+    21300104: Protoman_Exe_52
+    21300106: Protoman_Exe_53
+    21300108: Protoman_Exe_54
+    21300110: Protoman_Exe_55
+    21300112: Protoman_Exe_56
+    21300114: Protoman_Exe_57
+    21300116: Protoman_Exe_58
+    21300118: Protoman_Exe_59
+    21300120: Protoman_Exe_60
+    21300122: Protoman_Exe_61
+    21300124: Protoman_Exe_62
+    21300126: Protoman_Exe_63
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Protoman_Exe_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 469
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 469
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 468
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 469
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 469
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 467
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 471
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_7
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 470
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 467
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 471
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 471
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_11
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 467
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 418
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 418
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 419
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 419
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_16
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 419
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_17
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 419
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 414
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 414
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_20
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 414
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 359
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 359
+        width: 58
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_23
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 358
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_24
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 359
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 359
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_26
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 359
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_27
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 350
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 373
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_29
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 350
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_30
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 350
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_31
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 369
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_32
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 281
+        width: 40
+        height: 53
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 281
+        width: 47
+        height: 48
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_35
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 281
+        width: 47
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_36
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 282
+        width: 48
+        height: 53
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_37
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 282
+        width: 43
+        height: 57
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_38
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 282
+        width: 37
+        height: 61
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 68
+        height: 50
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 207
+        width: 63
+        height: 49
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_41
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 207
+        width: 59
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_42
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 206
+        width: 49
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_43
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 207
+        width: 49
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_44
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 207
+        width: 49
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_45
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 207
+        width: 49
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_46
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 207
+        width: 49
+        height: 66
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_47
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 148
+        width: 52
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 148
+        width: 52
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_49
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 148
+        width: 52
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_50
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 148
+        width: 52
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_51
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 148
+        width: 52
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_52
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 148
+        width: 54
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_53
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 148
+        width: 54
+        height: 54
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_54
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 64
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_55
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 84
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_56
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 113
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_57
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 128
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_58
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 68
+        width: 45
+        height: 55
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_59
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 68
+        width: 36
+        height: 55
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_61
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 18
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_62
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 28
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Protoman_Exe_63
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 38
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

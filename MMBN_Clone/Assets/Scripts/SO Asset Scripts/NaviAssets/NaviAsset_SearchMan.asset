@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d28f7d78fb0168f4ab53097b7fe7a46d, type: 3}
+  m_Name: NaviAsset_SearchMan
+  m_EditorClassIdentifier: 
+  naviName: SearchMan
+  READY: 1
+  emotionWindow: {fileID: 21300108, guid: 9516f3ffea81f934ba0f97eabc43818e, type: 3}
+  characterSelectionPortrait: {fileID: 21300012, guid: 1892e49c2132c804b977f57fb2b42e8c,
+    type: 3}
+  runtimeAnimController: {fileID: 9100000, guid: b11228584813d414787cc8fe65cf4f21,
+    type: 2}
+  spriteOffset: {x: 40, y: -20, z: 0}
+  orientation: 1
+  chargeShotAudioClip: {fileID: 0}
+  naviMoveSpeed: 1
+  maxHealth: 9999
+  currentHealth: 4444
+  element: 0
+  busterDelay: 0.25
+  busterChargeRate: 1
+  busterChargeMax: 3
+  busterCooldownRate: 1
+  busterDamageMod: 1
+  busterChargeDamageMod: 1
+  busterDefenseMod: 1
+  swordDelay: 0.45
+  swordChargeRate: 0.5
+  swordChargeMax: 3
+  swordCooldownRate: 1
+  swordDamageMod: 1
+  swordChargeDamageMod: 1
+  swordDefenseMod: 1
+  busterAttack: {fileID: 0}
+  chargedBusterAttack: {fileID: 0}
+  swordAttack: {fileID: 0}
+  chargedSwordAttack: {fileID: 0}
+  throwAttack: {fileID: 0}
+  specialAttack: {fileID: 0}

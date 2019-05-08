@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: d2d8e46010257a0468ffe9f13604c975
+timeCreated: 1533624953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ProtoSoul_0
+    21300002: ProtoSoul_1
+    21300004: ProtoSoul_2
+    21300006: ProtoSoul_3
+    21300008: ProtoSoul_4
+    21300010: ProtoSoul_5
+    21300012: ProtoSoul_6
+    21300014: ProtoSoul_7
+    21300016: ProtoSoul_8
+    21300018: ProtoSoul_9
+    21300020: ProtoSoul_10
+    21300022: ProtoSoul_11
+    21300024: ProtoSoul_12
+    21300026: ProtoSoul_13
+    21300028: ProtoSoul_14
+    21300030: ProtoSoul_15
+    21300032: ProtoSoul_16
+    21300034: ProtoSoul_17
+    21300036: ProtoSoul_18
+    21300038: ProtoSoul_19
+    21300040: ProtoSoul_20
+    21300042: ProtoSoul_21
+    21300044: ProtoSoul_22
+    21300046: ProtoSoul_23
+    21300048: ProtoSoul_24
+    21300050: ProtoSoul_25
+    21300052: ProtoSoul_26
+    21300054: ProtoSoul_27
+    21300056: ProtoSoul_28
+    21300058: ProtoSoul_29
+    21300060: ProtoSoul_30
+    21300062: ProtoSoul_31
+    21300064: ProtoSoul_32
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtoSoul_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 267
+        width: 36
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 267
+        width: 36
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 267
+        width: 37
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 268
+        width: 49
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 268
+        width: 47
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 268
+        width: 72
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 268
+        width: 72
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 268
+        width: 65
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_8
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 192
+        width: 59
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_9
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 192
+        width: 49
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 192
+        width: 49
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 192
+        width: 49
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 186
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 204
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 233
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_15
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 247
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 192
+        width: 68
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 192
+        width: 57
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 124
+        width: 38
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 124
+        width: 42
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_21
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 124
+        width: 40
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_22
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 124
+        width: 50
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_23
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 125
+        width: 42
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_24
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 124
+        width: 42
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_25
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 124
+        width: 40
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 63
+        width: 52
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_27
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 62
+        width: 42
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_28
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 62
+        width: 41
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_29
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 63
+        width: 35
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_30
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 61
+        width: 31
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 6
+        width: 36
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ProtoSoul_32
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 266
+        width: 36
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

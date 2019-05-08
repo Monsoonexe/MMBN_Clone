@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: ec7a9416452aa664b9b144e6eba12201
+timeCreated: 1533624953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AquaSoul_0
+    21300002: AquaSoul_1
+    21300004: AquaSoul_2
+    21300006: AquaSoul_3
+    21300008: AquaSoul_4
+    21300010: AquaSoul_5
+    21300012: AquaSoul_6
+    21300014: AquaSoul_7
+    21300016: AquaSoul_8
+    21300018: AquaSoul_9
+    21300020: AquaSoul_10
+    21300022: AquaSoul_11
+    21300024: AquaSoul_12
+    21300026: AquaSoul_13
+    21300028: AquaSoul_14
+    21300030: AquaSoul_15
+    21300032: AquaSoul_16
+    21300034: AquaSoul_17
+    21300036: AquaSoul_18
+    21300038: AquaSoul_19
+    21300040: AquaSoul_20
+    21300042: AquaSoul_21
+    21300044: AquaSoul_22
+    21300046: AquaSoul_23
+    21300048: AquaSoul_24
+    21300050: AquaSoul_25
+    21300052: AquaSoul_26
+    21300054: AquaSoul_27
+    21300056: AquaSoul_28
+    21300058: AquaSoul_29
+    21300060: AquaSoul_30
+    21300062: AquaSoul_31
+    21300064: AquaSoul_32
+    21300066: AquaSoul_33
+    21300068: AquaSoul_34
+    21300070: AquaSoul_35
+    21300072: AquaSoul_36
+    21300074: AquaSoul_37
+    21300076: AquaSoul_38
+    21300078: AquaSoul_39
+    21300080: AquaSoul_40
+    21300082: AquaSoul_41
+    21300084: AquaSoul_42
+    21300086: AquaSoul_43
+    21300088: AquaSoul_44
+    21300090: AquaSoul_45
+    21300092: AquaSoul_46
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AquaSoul_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 348
+        width: 34
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 348
+        width: 34
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 348
+        width: 34
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 347
+        width: 34
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 34, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 348
+        width: 46
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 348
+        width: 71
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 348
+        width: 71
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 348
+        width: 64
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 292
+        width: 55
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 292
+        width: 55
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 292
+        width: 55
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 292
+        width: 55
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 291
+        width: 69
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_15
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 291
+        width: 70
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 291
+        width: 70
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 243
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 267
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 243
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_21
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 242
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 242
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 243
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 260
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 243
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 178
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 179
+        width: 63
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 178
+        width: 63
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_29
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 179
+        width: 64
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_30
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 179
+        width: 47
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 179
+        width: 41
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 179
+        width: 41
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 119
+        width: 37
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_34
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 120
+        width: 42
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 120
+        width: 39
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_36
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 119
+        width: 47
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_37
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 121
+        width: 42
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_38
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 120
+        width: 35
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_39
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 120
+        width: 35
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 48
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_41
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 63
+        width: 39
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_42
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 63
+        width: 39
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_43
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 63
+        width: 31
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_44
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 62
+        width: 27
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_45
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 4
+        width: 34
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaSoul_46
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 348
+        width: 50
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

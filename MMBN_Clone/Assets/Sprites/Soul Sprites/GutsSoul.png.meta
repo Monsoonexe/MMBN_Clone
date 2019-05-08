@@ -1,0 +1,644 @@
+fileFormatVersion: 2
+guid: bf1d1cfa5d629754bb29851389e33808
+timeCreated: 1533624953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GutsSoul_0
+    21300002: GutsSoul_1
+    21300004: GutsSoul_2
+    21300006: GutsSoul_3
+    21300008: GutsSoul_4
+    21300010: GutsSoul_5
+    21300012: GutsSoul_6
+    21300014: GutsSoul_7
+    21300016: GutsSoul_8
+    21300018: GutsSoul_9
+    21300020: GutsSoul_10
+    21300022: GutsSoul_11
+    21300024: GutsSoul_12
+    21300026: GutsSoul_13
+    21300028: GutsSoul_14
+    21300030: GutsSoul_15
+    21300032: GutsSoul_16
+    21300034: GutsSoul_17
+    21300036: GutsSoul_18
+    21300038: GutsSoul_19
+    21300040: GutsSoul_20
+    21300042: GutsSoul_21
+    21300044: GutsSoul_22
+    21300046: GutsSoul_23
+    21300048: GutsSoul_24
+    21300050: GutsSoul_25
+    21300052: GutsSoul_26
+    21300054: GutsSoul_27
+    21300056: GutsSoul_28
+    21300058: GutsSoul_29
+    21300060: GutsSoul_30
+    21300062: GutsSoul_31
+    21300064: GutsSoul_32
+    21300066: GutsSoul_33
+    21300068: GutsSoul_34
+    21300070: GutsSoul_35
+    21300072: GutsSoul_36
+    21300074: GutsSoul_37
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GutsSoul_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 303
+        width: 37
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 303
+        width: 37
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 303
+        width: 37
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 302
+        width: 33
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 303
+        width: 47
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 303
+        width: 46
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 303
+        width: 70
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 303
+        width: 70
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 303
+        width: 63
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 245
+        width: 49
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 245
+        width: 46
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_12
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 243
+        width: 80
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 245
+        width: 85
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 34
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 181
+        width: 62
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 181
+        width: 62
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_17
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 181
+        width: 64
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 181
+        width: 47
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_19
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 181
+        width: 47
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 181
+        width: 47
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 118
+        width: 46
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_22
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 119
+        width: 46
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 119
+        width: 37
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 117
+        width: 52
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_25
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 119
+        width: 49
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_26
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 119
+        width: 36
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_27
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 119
+        width: 35
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 58
+        width: 51
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 58
+        width: 41
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_30
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 58
+        width: 44
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_31
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 58
+        width: 33
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_32
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 57
+        width: 27
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 4
+        width: 37
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_34
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 4
+        width: 37
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_35
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 4
+        width: 37
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_36
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 4
+        width: 37
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GutsSoul_37
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 4
+        width: 37
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

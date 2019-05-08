@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: e499ea8b2d9e7aa4182be87804609c18
+timeCreated: 1535058110
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ForteSoul_0
+    21300002: ForteSoul_1
+    21300004: ForteSoul_3
+    21300006: ForteSoul_4
+    21300008: ForteSoul_5
+    21300010: ForteSoul_6
+    21300012: ForteSoul_7
+    21300014: ForteSoul_8
+    21300016: ForteSoul_9
+    21300018: ForteSoul_10
+    21300020: ForteSoul_11
+    21300022: ForteSoul_12
+    21300024: ForteSoul_13
+    21300026: ForteSoul_14
+    21300028: ForteSoul_15
+    21300030: ForteSoul_16
+    21300032: ForteSoul_17
+    21300034: ForteSoul_18
+    21300036: ForteSoul_19
+    21300038: ForteSoul_20
+    21300040: ForteSoul_21
+    21300042: ForteSoul_22
+    21300044: ForteSoul_23
+    21300046: ForteSoul_24
+    21300048: ForteSoul_25
+    21300050: ForteSoul_26
+    21300052: ForteSoul_27
+    21300054: ForteSoul_28
+    21300056: ForteSoul_29
+    21300058: ForteSoul_30
+    21300060: ForteSoul_31
+    21300062: ForteSoul_32
+    21300064: ForteSoul_33
+    21300066: ForteSoul_34
+    21300068: ForteSoul_35
+    21300070: ForteSoul_36
+    21300072: ForteSoul_37
+    21300074: ForteSoul_38
+    21300076: ForteSoul_39
+    21300078: ForteSoul_40
+    21300080: ForteSoul_41
+    21300082: ForteSoul_42
+    21300084: ForteSoul_43
+    21300086: ForteSoul_44
+    21300088: ForteSoul_45
+    21300090: ForteSoul_46
+    21300092: ForteSoul_47
+    21300094: ForteSoul_48
+    21300096: ForteSoul_49
+    21300098: ForteSoul_50
+    21300100: ForteSoul_51
+    21300102: ForteSoul_52
+    21300104: ForteSoul_53
+    21300106: ForteSoul_54
+    21300108: ForteSoul_55
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ForteSoul_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 550
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 550
+        width: 35
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 550
+        width: 37
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 550
+        width: 36
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 490
+        width: 53
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 490
+        width: 51
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 490
+        width: 73
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 490
+        width: 74
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 490
+        width: 53
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_10
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 527
+        width: 12
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 519
+        width: 19
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_12
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 507
+        width: 12
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 430
+        width: 53
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 430
+        width: 51
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 430
+        width: 72
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 430
+        width: 72
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 430
+        width: 65
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 366
+        width: 38
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 366
+        width: 63
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 366
+        width: 63
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 366
+        width: 64
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 366
+        width: 47
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 366
+        width: 42
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_24
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 366
+        width: 42
+        height: 56
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 306
+        width: 38
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 306
+        width: 47
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_27
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 306
+        width: 39
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_28
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 306
+        width: 40
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_29
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 294
+        width: 47
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 242
+        width: 41
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_31
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 242
+        width: 44
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_32
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 242
+        width: 41
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_33
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 242
+        width: 48
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 242
+        width: 42
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_35
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 242
+        width: 47
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_37
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 178
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_38
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 178
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 178
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_40
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 150
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_41
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 186
+        width: 46
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_42
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 122
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_43
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 122
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 122
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_45
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 122
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_46
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_47
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 66
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_48
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 66
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 66
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_50
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 66
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_51
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_52
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_53
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 10
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 10
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ForteSoul_55
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 10
+        width: 34
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

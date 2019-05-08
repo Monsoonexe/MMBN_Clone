@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: b681420c9e5a8fe46b64e748083dff00
+timeCreated: 1533624953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NumberSoul_0
+    21300002: NumberSoul_1
+    21300004: NumberSoul_2
+    21300006: NumberSoul_3
+    21300008: NumberSoul_4
+    21300010: NumberSoul_5
+    21300012: NumberSoul_6
+    21300014: NumberSoul_7
+    21300016: NumberSoul_8
+    21300018: NumberSoul_9
+    21300020: NumberSoul_10
+    21300022: NumberSoul_11
+    21300024: NumberSoul_12
+    21300026: NumberSoul_13
+    21300028: NumberSoul_14
+    21300030: NumberSoul_15
+    21300032: NumberSoul_16
+    21300034: NumberSoul_17
+    21300036: NumberSoul_18
+    21300038: NumberSoul_19
+    21300040: NumberSoul_20
+    21300042: NumberSoul_21
+    21300044: NumberSoul_22
+    21300046: NumberSoul_23
+    21300048: NumberSoul_24
+    21300050: NumberSoul_25
+    21300052: NumberSoul_26
+    21300054: NumberSoul_27
+    21300056: NumberSoul_28
+    21300058: NumberSoul_29
+    21300060: NumberSoul_30
+    21300062: NumberSoul_31
+    21300064: NumberSoul_32
+    21300066: NumberSoul_33
+    21300068: NumberSoul_34
+    21300070: NumberSoul_35
+    21300072: NumberSoul_36
+    21300074: NumberSoul_37
+    21300076: NumberSoul_38
+    21300078: NumberSoul_39
+    21300080: NumberSoul_40
+    21300082: NumberSoul_41
+    21300084: NumberSoul_42
+    21300086: NumberSoul_43
+    21300088: NumberSoul_44
+    21300090: NumberSoul_45
+    21300092: NumberSoul_46
+    21300094: NumberSoul_47
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NumberSoul_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 343
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 343
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 343
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 343
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_4
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 343
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 342
+        width: 33
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 340
+        width: 33
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 289
+        width: 48
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 289
+        width: 46
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 289
+        width: 70
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_12
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 289
+        width: 70
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 289
+        width: 63
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 225
+        width: 36
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 226
+        width: 40
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 226
+        width: 37
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 226
+        width: 47
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_18
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 227
+        width: 43
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_19
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 226
+        width: 34
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 226
+        width: 34
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 187
+        width: 28
+        height: 29
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 187
+        width: 25
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 186
+        width: 27
+        height: 30
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_27
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_28
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_29
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_30
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 186
+        width: 26
+        height: 28
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 123
+        width: 32
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_32
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 123
+        width: 62
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 123
+        width: 62
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 123
+        width: 64
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_35
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 123
+        width: 47
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_36
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 123
+        width: 42
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_37
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 123
+        width: 42
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_38
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 63
+        width: 48
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 63
+        width: 38
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_40
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 63
+        width: 39
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 63
+        width: 31
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_42
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 63
+        width: 27
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_43
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 5
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_45
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 5
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_46
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 5
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NumberSoul_47
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 5
+        width: 33
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

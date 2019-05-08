@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: 401efc321c42d104abd0a0c6428cf38e
+timeCreated: 1533624952
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SearchSoul_0
+    21300002: SearchSoul_1
+    21300004: SearchSoul_2
+    21300006: SearchSoul_3
+    21300008: SearchSoul_4
+    21300010: SearchSoul_5
+    21300012: SearchSoul_6
+    21300014: SearchSoul_7
+    21300016: SearchSoul_8
+    21300018: SearchSoul_9
+    21300020: SearchSoul_10
+    21300022: SearchSoul_11
+    21300024: SearchSoul_12
+    21300026: SearchSoul_13
+    21300028: SearchSoul_14
+    21300030: SearchSoul_15
+    21300032: SearchSoul_16
+    21300034: SearchSoul_17
+    21300036: SearchSoul_18
+    21300038: SearchSoul_19
+    21300040: SearchSoul_20
+    21300042: SearchSoul_21
+    21300044: SearchSoul_22
+    21300046: SearchSoul_23
+    21300048: SearchSoul_24
+    21300050: SearchSoul_25
+    21300052: SearchSoul_26
+    21300054: SearchSoul_27
+    21300056: SearchSoul_28
+    21300058: SearchSoul_29
+    21300060: SearchSoul_30
+    21300062: SearchSoul_31
+    21300064: SearchSoul_32
+    21300066: SearchSoul_33
+    21300068: SearchSoul_34
+    21300070: SearchSoul_35
+    21300072: SearchSoul_36
+    21300074: SearchSoul_37
+    21300076: SearchSoul_38
+    21300078: SearchSoul_39
+    21300080: SearchSoul_40
+    21300082: SearchSoul_41
+    21300084: SearchSoul_42
+    21300086: SearchSoul_43
+    21300088: SearchSoul_44
+    21300090: SearchSoul_45
+    21300092: SearchSoul_46
+    21300094: SearchSoul_47
+    21300096: SearchSoul_48
+    21300098: SearchSoul_49
+    21300100: SearchSoul_50
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SearchSoul_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 311
+        width: 41
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 311
+        width: 33
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 311
+        width: 41
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 310
+        width: 39
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 311
+        width: 47
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 311
+        width: 46
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 311
+        width: 70
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 311
+        width: 70
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_8
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 311
+        width: 63
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 254
+        width: 53
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 254
+        width: 76
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 254
+        width: 67
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_27
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 190
+        width: 32
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 190
+        width: 62
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 190
+        width: 61
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_30
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 190
+        width: 64
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_31
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 190
+        width: 53
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_32
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 190
+        width: 53
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_33
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 190
+        width: 53
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 120
+        width: 37
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_35
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 121
+        width: 46
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_36
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 121
+        width: 45
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 121
+        width: 48
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_38
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 123
+        width: 43
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_39
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 121
+        width: 44
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_40
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 121
+        width: 42
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 62
+        width: 48
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 62
+        width: 45
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 62
+        width: 49
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_44
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 61
+        width: 43
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_45
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 61
+        width: 38
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_46
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 8
+        width: 41
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_47
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 41
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_48
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 8
+        width: 41
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_49
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 8
+        width: 41
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 8
+        width: 41
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_12
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 266
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 265
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SearchSoul_14
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 263
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

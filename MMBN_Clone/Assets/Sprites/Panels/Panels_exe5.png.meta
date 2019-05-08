@@ -1,0 +1,1678 @@
+fileFormatVersion: 2
+guid: a8025be7091a94345a1e7778bf92483e
+timeCreated: 1533762415
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Top_Null_Red
+    21300002: Panels_exe5_1
+    21300004: Panels_exe5_2
+    21300006: Panels_exe5_3
+    21300008: Panels_exe5_4
+    21300010: Panels_exe5_5
+    21300012: Panels_exe5_6
+    21300014: Panels_exe5_7
+    21300016: Panels_exe5_8
+    21300018: Panels_exe5_9
+    21300020: Panels_exe5_10
+    21300022: Panels_exe5_11
+    21300024: Panels_exe5_12
+    21300026: Panels_exe5_13
+    21300028: Panels_exe5_14
+    21300030: Panels_exe5_15
+    21300032: Panels_exe5_16
+    21300034: Panels_exe5_17
+    21300036: Panels_exe5_18
+    21300038: Panels_exe5_19
+    21300040: Panels_exe5_20
+    21300042: Panels_exe5_21
+    21300044: Panels_exe5_22
+    21300046: Panels_exe5_23
+    21300048: Panels_exe5_24
+    21300050: Panels_exe5_25
+    21300052: Panels_exe5_26
+    21300054: Panels_exe5_27
+    21300056: Panels_exe5_28
+    21300058: Panels_exe5_29
+    21300060: Panels_exe5_30
+    21300062: Panels_exe5_31
+    21300064: Panels_exe5_32
+    21300066: Panels_exe5_33
+    21300068: Panels_exe5_34
+    21300070: Panels_exe5_35
+    21300072: Panels_exe5_36
+    21300074: Panels_exe5_37
+    21300076: Panels_exe5_38
+    21300078: Panels_exe5_39
+    21300080: Panels_exe5_40
+    21300082: Panels_exe5_41
+    21300084: Panels_exe5_42
+    21300086: Panels_exe5_43
+    21300088: Panels_exe5_44
+    21300090: Panels_exe5_45
+    21300092: Panels_exe5_46
+    21300094: Panels_exe5_47
+    21300096: Panels_exe5_48
+    21300098: Panels_exe5_49
+    21300100: Panels_exe5_50
+    21300102: Panels_exe5_51
+    21300104: Panels_exe5_52
+    21300106: Panels_exe5_53
+    21300108: Panels_exe5_54
+    21300110: Panels_exe5_55
+    21300112: Panels_exe5_56
+    21300114: Panels_exe5_57
+    21300116: Panels_exe5_58
+    21300118: Panels_exe5_59
+    21300120: Panels_exe5_60
+    21300122: Panels_exe5_61
+    21300124: Panels_exe5_62
+    21300126: Panels_exe5_63
+    21300128: Panels_exe5_64
+    21300130: Panels_exe5_65
+    21300132: Panels_exe5_66
+    21300134: Panels_exe5_67
+    21300136: Panels_exe5_68
+    21300138: Panels_exe5_69
+    21300140: Panels_exe5_70
+    21300142: Panels_exe5_71
+    21300144: Panels_exe5_72
+    21300146: Panels_exe5_73
+    21300148: Panels_exe5_74
+    21300150: Panels_exe5_75
+    21300152: Panels_exe5_76
+    21300154: Panels_exe5_77
+    21300156: Panels_exe5_78
+    21300158: Panels_exe5_79
+    21300160: Panels_exe5_80
+    21300162: Panels_exe5_81
+    21300164: Top_Null_Blue
+    21300166: Panels_exe5_83
+    21300168: Panels_exe5_84
+    21300170: Panels_exe5_85
+    21300172: Panels_exe5_86
+    21300174: Panels_exe5_87
+    21300176: Panels_exe5_88
+    21300178: Panels_exe5_89
+    21300180: Middle_Null_Red
+    21300182: Middle_Null_Blue
+    21300184: Panels_exe5_92
+    21300186: Panels_exe5_93
+    21300188: Panels_exe5_94
+    21300190: Panels_exe5_95
+    21300192: Panels_exe5_96
+    21300194: Panels_exe5_97
+    21300196: Bottom_Null_Red
+    21300198: Bottom_Null_Blue
+    21300200: Panels_exe5_100
+    21300202: Panels_exe5_101
+    21300204: Panels_exe5_102
+    21300206: Panels_exe5_103
+    21300208: Panels_exe5_104
+    21300210: Panels_exe5_105
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Panels_exe5_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 371
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 371
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 347
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 347
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 323
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 323
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_14
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 292
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_18
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_20
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 268
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_24
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_26
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_28
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_29
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_30
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 244
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_31
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 215
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_32
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 215
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 215
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_34
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 215
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 215
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_36
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 215
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_37
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_38
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_40
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_42
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 191
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_43
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 167
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_44
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 167
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_45
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 167
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 167
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_47
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 167
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_48
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 167
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_49
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 131
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_50
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 131
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 131
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_52
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 131
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 131
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_54
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 107
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_55
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 107
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_56
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 107
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_57
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 107
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_58
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 107
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_59
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 83
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_60
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 83
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_61
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 83
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_62
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 83
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_63
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 83
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_64
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_65
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_66
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_67
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_68
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_69
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 55
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_70
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 32
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_71
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 32
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_72
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 32
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_73
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 32
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_74
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 32
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_75
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 32
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_76
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 7
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_77
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 7
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_78
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 7
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_79
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 7
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_80
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 7
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_81
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 7
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Top_Null_Red
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Top_Null_Blue
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_83
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_84
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_85
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_86
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_87
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_88
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 452
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_89
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 350
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Middle_Null_Red
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Middle_Null_Blue
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_93
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_94
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_95
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_96
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_97
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 428
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bottom_Null_Red
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Bottom_Null_Blue
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_100
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_101
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_102
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_103
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_104
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Panels_exe5_105
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 398
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

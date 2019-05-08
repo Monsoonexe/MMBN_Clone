@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: c0e141da9c80d484c9b81f7d65c51a38
+timeCreated: 1533624953
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WindSoul_0
+    21300002: WindSoul_1
+    21300004: WindSoul_2
+    21300006: WindSoul_3
+    21300008: WindSoul_4
+    21300010: WindSoul_5
+    21300012: WindSoul_6
+    21300014: WindSoul_7
+    21300016: WindSoul_8
+    21300018: WindSoul_9
+    21300020: WindSoul_10
+    21300022: WindSoul_11
+    21300024: WindSoul_12
+    21300026: WindSoul_13
+    21300028: WindSoul_14
+    21300030: WindSoul_15
+    21300032: WindSoul_16
+    21300034: WindSoul_17
+    21300036: WindSoul_18
+    21300038: WindSoul_19
+    21300040: WindSoul_20
+    21300042: WindSoul_21
+    21300044: WindSoul_22
+    21300046: WindSoul_23
+    21300048: WindSoul_24
+    21300050: WindSoul_25
+    21300052: WindSoul_26
+    21300054: WindSoul_27
+    21300056: WindSoul_28
+    21300058: WindSoul_29
+    21300060: WindSoul_30
+    21300062: WindSoul_31
+    21300064: WindSoul_32
+    21300066: WindSoul_33
+    21300068: WindSoul_34
+    21300070: WindSoul_35
+    21300072: WindSoul_36
+    21300074: WindSoul_37
+    21300076: WindSoul_38
+    21300078: WindSoul_39
+    21300080: WindSoul_40
+    21300082: WindSoul_41
+    21300084: WindSoul_42
+    21300086: WindSoul_43
+    21300088: WindSoul_44
+    21300090: WindSoul_45
+    21300092: WindSoul_46
+    21300094: WindSoul_47
+    21300096: WindSoul_48
+    21300098: WindSoul_49
+    21300100: WindSoul_50
+    21300102: WindSoul_51Shadow
+    21300104: WindSoul_52x
+    21300106: WindSoul_53x
+    21300108: WindSoul_54x
+    21300110: WindSoul_55x
+    21300112: WindSoul_56
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WindSoul_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 394
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 393
+        width: 33
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 393
+        width: 33
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 394
+        width: 47
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 394
+        width: 45
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_5
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 394
+        width: 46
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_6
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 333
+        width: 48
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 333
+        width: 62
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 333
+        width: 75
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 333
+        width: 77
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 333
+        width: 77
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 333
+        width: 49
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 362
+        width: 12
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 291
+        width: 32
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 261
+        width: 34
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 261
+        width: 60
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_23
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 261
+        width: 85
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 251
+        width: 86
+        height: 68
+      alignment: 9
+      pivot: {x: 0.04, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_27
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 246
+        width: 83
+        height: 73
+      alignment: 9
+      pivot: {x: 0.08, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_29
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 244
+        width: 76
+        height: 75
+      alignment: 9
+      pivot: {x: 0.09, y: 0.235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 258
+        width: 32
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_32
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 181
+        width: 34
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 181
+        width: 62
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 181
+        width: 62
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 181
+        width: 64
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_36
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 181
+        width: 47
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_37
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 181
+        width: 42
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_38
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 181
+        width: 42
+        height: 55
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_39
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 120
+        width: 37
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_40
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 121
+        width: 43
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_41
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 121
+        width: 39
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_42
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 121
+        width: 47
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_43
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 122
+        width: 43
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_44
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 121
+        width: 36
+        height: 44
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_45
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 121
+        width: 36
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 61
+        width: 49
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 61
+        width: 40
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 61
+        width: 39
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 63
+        width: 31
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_50
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 61
+        width: 29
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_51Shadow
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_52x
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_53x
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 6
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_54x
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 6
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_55x
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 6
+        width: 33
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WindSoul_56
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 393
+        width: 33
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
