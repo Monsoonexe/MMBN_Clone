@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class ProjectileAttack : BaseAttack {
 
+    public GameObject projectilePrefab;
+
+    private GameObject projectileInstance;
+
     public ProjectileAttack()
     {
         this.Initialize();
     }
 
-    public override void Initialize()
+    protected override void Initialize()
     {
         //setup attack
         attackName = "Generic Projectile Attack";
