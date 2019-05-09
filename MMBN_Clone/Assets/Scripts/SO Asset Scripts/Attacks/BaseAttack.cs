@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class BaseAttack : ScriptableObject{
     public string attackName;
@@ -9,8 +7,8 @@ public abstract class BaseAttack : ScriptableObject{
     public int baseCritRate; //0-100
     public float magnitude; //magnitude of over 1 will stagger, 2 will knockback
 
-    public abstract void Initialize();
+    //member functions
+    protected abstract void Initialize();
     public abstract void TriggerAttack(NaviController_Battle naviController);  
-
 
 }
