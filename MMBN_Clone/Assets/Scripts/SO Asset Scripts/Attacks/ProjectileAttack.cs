@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProjectileAttack : BaseAttack {
 
     public GameObject projectilePrefab;
+    public int projectileSpeed;
 
     private GameObject projectileInstance;
 
