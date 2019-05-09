@@ -31,7 +31,6 @@ public class ProjectileAttack : BaseAttack {
         //play noise
         //show animation on thing hit
 
-
     }
 
 }
