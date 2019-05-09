@@ -9,7 +9,7 @@ public class LaserAttack : BaseAttack {
         this.Initialize();
     }
 
-    public override void Initialize()
+    protected override void Initialize()
     {
         //setup attack
         attackName = "Generic Laser Attack";
