@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Obsolete("This should be an instance of a scriptable object, not its own class.  Refactoring...")]
 public class Attack_Buster : BaseAttack
 {
 
@@ -10,7 +11,7 @@ public class Attack_Buster : BaseAttack
         this.Initialize();
     }
 
-    public override void Initialize()
+    protected override void Initialize()
     {
         //setup attack
         attackName = "Basic Buster Attack";
