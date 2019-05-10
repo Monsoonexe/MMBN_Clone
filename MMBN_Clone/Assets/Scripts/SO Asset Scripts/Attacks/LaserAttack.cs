@@ -19,18 +19,13 @@ public class LaserAttack : BaseAttack {
 
     public override void TriggerAttack(NaviController_Battle naviController)
     {
-        //gimme every panel in my row
-        //of the panels in front of me,
-        //do any of these panels have any occupants? (that aren't me)
-        //Fuck that occupant up!
+        //get targets using targeting behavior
+        var targets = targetingBehavior.GatherTargets(naviController);
 
-
-
-        //look at everythign in your row
-        //if found something,
-        //do damage to it
-        //play noise
-        //show animation on thing hit
+        foreach(var target in targets)
+        {
+            //target.DealDamage();
+        }
 
         Debug.Log("LAZERS!!! PEW PEW BANG!");
     }
