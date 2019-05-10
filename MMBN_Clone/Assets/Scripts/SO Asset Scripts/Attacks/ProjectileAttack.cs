@@ -21,7 +21,6 @@ public class ProjectileAttack : BaseAttack {
         attackType = AttackType.PROJECTILE;
         basePower = 10; //0-255 i guess
         baseCritRate = 1; //0-100
-        magnitude = 0.5f;
     }
 
     public override void TriggerAttack(NaviController_Battle naviController)
