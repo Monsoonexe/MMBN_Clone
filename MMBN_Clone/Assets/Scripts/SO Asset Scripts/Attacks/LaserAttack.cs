@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewLaserAttack", menuName = "Abilities/Laser Attack")]
 public class LaserAttack : BaseAttack {
