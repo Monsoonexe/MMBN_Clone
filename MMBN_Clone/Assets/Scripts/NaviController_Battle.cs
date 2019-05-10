@@ -237,8 +237,6 @@ public class NaviController_Battle : MonoBehaviour {
             movementY = 0;
             
         }
-
-
     }
 
     private void GetMoveInput_Letters()
@@ -341,6 +339,9 @@ public class NaviController_Battle : MonoBehaviour {
         movementY = 0;//reset these values after move phase
     }//end HandleMovement_HumanPlayer()
 
+    /// <summary>
+    /// Handles movement if player is AI. Not yet defined.
+    /// </summary>
     private void HandleMovement_AIPlayer()
     {
         //TODO 
@@ -618,23 +619,26 @@ public class NaviController_Battle : MonoBehaviour {
        
     private void HandleActionInput_HumanPlayer()
     {
-        if(owningPlayer == 1)
-        {
-            HandleBuster();
-            HandleSword();
-            HandleChip();
-            HandleThrow();
-            //TODO pause
-        }
-        else if(owningPlayer == 2)
-        {
-            HandleBuster();
-            HandleSword();
-            HandleChip();
-            HandleThrow();
+        HandleBuster();
+        HandleSword();
+        HandleChip();
+        HandleThrow();
 
-
-        }
+        //if (owningPlayer == 1)
+        //{
+        //    HandleBuster();
+        //    HandleSword();
+        //    HandleChip();
+        //    HandleThrow();
+        //    //TODO pause
+        //}
+        //else if(owningPlayer == 2)
+        //{
+        //    HandleBuster();
+        //    HandleSword();
+        //    HandleChip();
+        //    HandleThrow();
+        //}
 
         //check for enter custom gauge
     }//end function
