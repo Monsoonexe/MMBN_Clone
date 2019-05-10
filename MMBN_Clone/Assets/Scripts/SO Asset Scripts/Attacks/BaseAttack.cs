@@ -16,7 +16,15 @@ public abstract class BaseAttack : ScriptableObject{
     protected string animatorMessage;
 
     //member functions
+    /// <summary>
+    /// Used for initialization
+    /// </summary>
     protected abstract void Initialize();
+
+    /// <summary>
+    /// Do the things the attack does.
+    /// </summary>
+    /// <param name="naviController">The navi using the ability.</param>
     public abstract void TriggerAttack(NaviController_Battle naviController);  
 
 }
