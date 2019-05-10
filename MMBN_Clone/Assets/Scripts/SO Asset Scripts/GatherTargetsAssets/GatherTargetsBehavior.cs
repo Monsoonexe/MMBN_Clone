@@ -9,6 +9,6 @@ public abstract class GatherTargetsBehavior : ScriptableObject
 
     private static PanelArray panelManager;
 
-    public abstract NaviController_Battle[] GatherTargets(NaviController_Battle user, PanelArray panelManager);
+    public abstract NaviController_Battle[] GatherTargets(NaviController_Battle user);
 
 }
