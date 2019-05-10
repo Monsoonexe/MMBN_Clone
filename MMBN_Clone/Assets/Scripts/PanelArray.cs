@@ -5,6 +5,7 @@ using UnityEngine;
 public class PanelArray : MonoBehaviour {
     private static int boardRowsCount = 3;
     private static int boardColumnsCount = 6;
+    public static int globalScale = 600;
     
     //game and other things should reference panels with a Cartesian Plane in mind.  Panel 0,0 is on the bottom row on the farthest left side.
     //internally, the list is more natural: the panels belong to a row. access a panel through the row.
