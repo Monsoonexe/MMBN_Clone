@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MegaMan Battle Scene.unity
+    guid: 253d9e8aaf467e048a9117f2acedd062
+  - enabled: 1
+    path: Assets/Scenes/Navi Select Screen.unity
+    guid: 20ca5325fe2f9e547a49866a01c8d8c8
   m_configObjects: {}
