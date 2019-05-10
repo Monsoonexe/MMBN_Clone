@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Audio;
 
 [System.Serializable]
@@ -21,7 +19,6 @@ public class NaviAsset : ScriptableObject {
     [Header("Battle Stats")]
     public float naviMoveSpeed = 1.0f;
     public int maxHealth = 9999;
-    public int currentHealth = 4444;
     public Element element = Element.NONE;
 
     [Header("Buster Stats")]
