@@ -1,20 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[CreateAssetMenu(fileName = "New Basic Raycast Target", menuName = "Targeting Behaviors / RaycastTarget")]
 public class FirstRaycast : GatherTargetsBehavior
 {
-    public override NaviController_Battle[] GatherTargets(NaviController_Battle user, PanelArray panelManager)
+    public override NaviController_Battle[] GatherTargets(NaviController_Battle user)
     {
-        NaviController_Battle[] targetList = new NaviController_Battle[0];//dumb, but it compiles
+        NaviController_Battle[] targetList = new NaviController_Battle[1];//this type of attack can only ever hit one target
 
-        //does not necessarily use a raycast
         //get forward direction
-        //look down list of panels
+        //get start position
+        //fire ray
+        //if hit something
+        //return
 
+        Transform userXform = user.transform;
 
+        RaycastHit2D raycastHitInfo = Physics2D.Raycast(user.transform.position, user.transform.forward * user.GetOrientation(), PanelArray.globalScale);
 
+        if (raycastHitInfo)
+        {
+            Debug.Log("ZAP! I shot and hit: " + raycastHitInfo.collider.name);
+            targetList[0] = raycastHitInfo.collider.gameObject.GetComponent<NaviController_Battle>() as NaviController_Battle; 
+        }
+
+        else
+        {
+            Debug.Log("ZAP! I shot but missed.");
+        }
+        
         return targetList;
-
     }
 }
