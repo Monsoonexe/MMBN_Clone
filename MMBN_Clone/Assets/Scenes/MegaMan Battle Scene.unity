@@ -1676,6 +1676,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: -0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.53
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2ec458eee56ecc4f9c60298ab1e9183, type: 3}
 --- !u!1 &726821651 stripped
@@ -3877,7 +3897,7 @@ PrefabInstance:
         type: 3}
       propertyPath: naviAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8fa087b93743e3e40bb356bb89313711,
+      objectReference: {fileID: 11400000, guid: 7239a68e3a0851b42bb9226658ea0d54,
         type: 2}
     - target: {fileID: 114435024773837526, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
@@ -3896,6 +3916,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300110, guid: a122c7fa1a6deb24f8badb5385058938,
         type: 3}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.57
+      objectReference: {fileID: 0}
     - target: {fileID: 1832157897690876, guid: e2ec458eee56ecc4f9c60298ab1e9183, type: 3}
       propertyPath: m_Name
       value: ChargeAura
