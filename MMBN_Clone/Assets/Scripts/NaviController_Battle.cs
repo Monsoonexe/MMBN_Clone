@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 
-public class NaviController_Battle : MonoBehaviour {
+public class NaviController_Battle : MonoBehaviour
+{
+    private static PanelArray panelArray;
     public NaviAsset naviAsset;
     public HealthColors healthColorsAsset;
     public Animator bodyAnim;
@@ -78,7 +80,6 @@ public class NaviController_Battle : MonoBehaviour {
     public Image emotionWindow;
     public Text healthText;
 
-    public PanelArray panelArray;
     public Panel startingPanel; //panel that the Player WANTS to start at.  GameManager or BoardManager will actually determine where to start
 
     public BattleTeam battleTeam = BattleTeam.BLUE;//default
@@ -90,7 +91,7 @@ public class NaviController_Battle : MonoBehaviour {
     public Panel GetDesiredStartingPanel()
     // gives where the Navi WANTS to start when asked. GameManager / Board Manager makes the call.
     {
-        if (startingPanel == null)
+        if (!startingPanel)
         {
             SetStartingPanel();
         }
@@ -103,7 +104,7 @@ public class NaviController_Battle : MonoBehaviour {
         if (GameObject.Find("PlayerManager") != null)//look for naviAssets from previous scenes
         {
             Debug.Log("PlayerManager found. Navi Assets loaded from previous scene.");
-            PlayerManager pm = GameObject.Find("PlayerManager").GetComponent<PlayerManager>();
+            var pm = GameObject.Find("PlayerManager").GetComponent<PlayerManager>() as PlayerManager;
             pm.GetNaviStats(ref this.battleTeam, ref this.naviAsset, ref this.maxHealth, ref this.currentHealth);
 
         }
@@ -112,14 +113,15 @@ public class NaviController_Battle : MonoBehaviour {
             Debug.Log("PlayerManager not found. Using default navi Assets and Inspector values.");
             //uses default health values or values set in Inspector
         }
+
         InitializeNavi();//initializes from naviAsset
 
-        if (panelArray == null)
+        if (!panelArray)
         {
             panelArray = GameObject.FindGameObjectWithTag("PanelArray").GetComponent<PanelArray>();
         }
 
-        if (startingPanel == null)
+        if (!startingPanel)
         {
             SetStartingPanel();
         }
@@ -193,6 +195,13 @@ public class NaviController_Battle : MonoBehaviour {
         this.swordDamageMod = naviAsset.swordDamageMod;
         this.swordChargeDamageMod = naviAsset.swordChargeDamageMod; 
         this.swordDefenseMod = naviAsset.swordDefenseMod;
+
+        this.busterAttack = naviAsset.busterAttack;
+        this.chargedBusterAttack = naviAsset.chargedBusterAttack;
+        this.swordAttack = naviAsset.swordAttack;
+        this.chargedSwordAttack = naviAsset.chargedSwordAttack;
+        this.throwAttack = naviAsset.throwAttack;
+        this.specialAttack = naviAsset.specialAttack;
     }
 
     public void MoveNavi(Panel targetPanel)
@@ -292,7 +301,7 @@ public class NaviController_Battle : MonoBehaviour {
 
     private void HandleMovement_HumanPlayer()
     {
-        bool skipMovement = false;
+        var skipMovement = false;
         
         //check movementDelay
         if (movementDelayTimeSince >= movementDelay)//if enough time has passed between moves, ie move cooldown is over
@@ -350,7 +359,7 @@ public class NaviController_Battle : MonoBehaviour {
 
     private void HandleBuster()
     {
-        bool fireBuster = false;
+        var fireBuster = false;
         //get buster input for player1
         if(owningPlayer == 1)
             //TODO controls are SO with easy-to-change variables
@@ -416,7 +425,7 @@ public class NaviController_Battle : MonoBehaviour {
                 bodyAnim.SetTrigger("ChargeShot");//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
-                //TODO Send damage or something combat related
+                chargedBusterAttack.TriggerAttack(this);
             }
             else//regular buster shot
             {
@@ -424,6 +433,7 @@ public class NaviController_Battle : MonoBehaviour {
                 //busterAttack.DoAttack();
                 //TODO play sound
                 //TODO Send damage or something combat related
+                busterAttack.TriggerAttack(this);
 
             }
             //reset values
@@ -521,12 +531,14 @@ public class NaviController_Battle : MonoBehaviour {
                 bodyAnim.SetTrigger("ChargeSword");//show animation
                 //TODO play sound
                 //TODO Send damage or something combat related
+                chargedSwordAttack.TriggerAttack(this);
             }
             else//regular sword swing
             {
                 bodyAnim.SetTrigger("Sword");//swing the sword
                 //TODO play sound
                 //TODO Send damage or something combat related
+                swordAttack.TriggerAttack(this);
 
             }
             //reset values
@@ -581,6 +593,8 @@ public class NaviController_Battle : MonoBehaviour {
             movementDelayTimeSince = -1.0f;//reset movement
             swordDelayTimeSince = -1.0f;
             busterDelayTimeSince = -1.0f;
+            
+            specialAttack.TriggerAttack(this);
         }
 
         chipDelayTimeSince += Time.deltaTime;
@@ -612,6 +626,7 @@ public class NaviController_Battle : MonoBehaviour {
             movementDelayTimeSince = -1.0f;//reset movement
             swordDelayTimeSince = -1.0f;
             busterDelayTimeSince = -1.0f;
+            throwAttack.TriggerAttack(this);
         }
 
         chipDelayTimeSince += Time.deltaTime;
