@@ -240,8 +240,6 @@ public class NaviController_Battle : MonoBehaviour {
 
 
     }
-            //get movement
-
 
     private void GetMoveInput_Letters()
     {
@@ -283,6 +281,10 @@ public class NaviController_Battle : MonoBehaviour {
         }
     }//end GetMoveInput_Numbers()
 
+    [System.Obsolete("I don't know why this doesn't work as well.  Use GetMoveInput_Numbers()")]
+    /// <summary>
+    /// 
+    /// </summary>
     private void GetMovementInput_Axes()
     {
         //I don't understand why this doesn't work as well
@@ -293,8 +295,7 @@ public class NaviController_Battle : MonoBehaviour {
     private void HandleMovement_HumanPlayer()
     {
         bool skipMovement = false;
-
-
+        
         //check movementDelay
         if (movementDelayTimeSince >= movementDelay)//if enough time has passed between moves, ie move cooldown is over
         {
@@ -452,7 +453,7 @@ public class NaviController_Battle : MonoBehaviour {
 
     private void HandleSword()
     {
-        bool fireSword = false;
+        var fireSword = false;
 
 
         if(owningPlayer == 1)
@@ -555,7 +556,7 @@ public class NaviController_Battle : MonoBehaviour {
 
     private void HandleChip()
     {
-        bool chipAttack = false;
+        var chipAttack = false;
         if (owningPlayer == 1)
         {
             if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -586,7 +587,7 @@ public class NaviController_Battle : MonoBehaviour {
 
     private void HandleThrow()
     {
-        bool chipAttack = false;
+        var chipAttack = false;
         if (owningPlayer == 1)
         {
             if (Input.GetKeyDown(KeyCode.V))
@@ -680,13 +681,13 @@ public class NaviController_Battle : MonoBehaviour {
             //TODO set with code instead of hard numbers
             startingPanel = panelArray.GetPanel(4, 1); //center panel of red side
         }
-    }
+    }//end SetStartingPanel()
 
     public void SetStartingPanel(Panel desiredPanelToStartOn)
     {
-        for (int column = 0; column < PanelArray.GetBoardColumnsCount(); ++column)//iterate through all Panels in PanelArray
+        for (var column = 0; column < PanelArray.GetBoardColumnsCount(); ++column)//iterate through all Panels in PanelArray
         {
-            for (int row = 0; row < PanelArray.GetBoardRowsCount(); ++row)
+            for (var row = 0; row < PanelArray.GetBoardRowsCount(); ++row)
             {
                 if (panelArray.GetPanel(column, row) == desiredPanelToStartOn)//if panel being searched for matches one
                 {
@@ -706,23 +707,25 @@ public class NaviController_Battle : MonoBehaviour {
 
     public bool CanMoveToPanel(Panel desiredPanel)
     {
+        var canMove = true;
+
         //these conditions cause check to fail
         if (desiredPanel.GetPanelTeam() != battleTeam)//if panel is not on same team
         {
-            return false;
+            canMove = false;
         }
         else if (desiredPanel.GetPanelType() == PanelType.BROKEN)//if panel is BROKEN
         {
             //TODO check if Navi can fly or float
-            return false;
+            canMove = false;
         }
         else if (desiredPanel.GetPanelType() == PanelType.MISSING)// if panel is MISSING
         {
             //TODO check if Navi can fly or float
-            return false;
+            canMove = false;
         }
 
-        else return true;
+        return canMove;
     }//end NaviCanMoveToPanel()
 
     public void SetOrientation(){
@@ -739,13 +742,20 @@ public class NaviController_Battle : MonoBehaviour {
         }//end switch
     }//end SetOrientation()
 
+    /// <summary>
+    /// returns +1 or -1.  Used to help determine direction and facing
+    /// </summary>
+    /// <returns>+1 or -1</returns>
     public int GetOrientation()
     {
         return orientation;
     }
 
+    /// <summary>
+    /// Syncs coordinates to panel currently occupying.
+    /// </summary>
     public void UpdateCurrentPanelCoordinates()
     {
-        panelArray.GetPanelCoordinates(currentPanel, ref currentPanelX, ref currentPanelY);//update coordinates of current panel
+        panelArray.GetPanelCoordinates(currentPanel, ref currentPanelX, ref currentPanelY);//get the coordinates for this panel
     }
 }
