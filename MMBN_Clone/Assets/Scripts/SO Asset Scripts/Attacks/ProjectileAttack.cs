@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[CreateAssetMenu(fileName = "NewProjectileAttack", menuName = "Abilities/Projectile Attack")]
 public class ProjectileAttack : BaseAttack {
 
     public GameObject projectilePrefab;
