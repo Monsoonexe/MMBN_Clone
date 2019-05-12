@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84d0bcd65e370a74eb16f1184952ef6d, type: 3}
   m_Name: BasicBuster
   m_EditorClassIdentifier: 
-  attackName: Cannon
+  attackName: Basic Buster
   delay: 0.25
   chargeTime: 3
   damage: 1
   chargeDamage: 3
   targetingBehavior: {fileID: 11400000, guid: a98dc8e810f8cd6439b4ab438a1cb1d6, type: 2}
   statusEffect:
-    statusName: Stun
-    type: 8
-    duration: 1
+    statusName: none
+    type: 0
+    duration: 0
   statusEffect_Charged:
     statusName: SuperStun
     type: 8
-    duration: 3
+    duration: 1.5
   animatorMessage: Buster
   animatorMessage_charged: ChargeShot
