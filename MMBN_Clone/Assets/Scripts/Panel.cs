@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-[ExecuteInEditMode]
 public class Panel : MonoBehaviour
 {
-    private PanelType lastUpdatePanelType;
+    //private PanelType lastUpdatePanelType;
     private GameObject panelOccupant;
-    private BattleTeam lastUpdatePanelTeam;
+    //private BattleTeam lastUpdatePanelTeam;
 
     public PanelType panelType = PanelType.NULL;
     public BattleTeam panelTeam = BattleTeam.BLUE;
@@ -43,29 +40,33 @@ public class Panel : MonoBehaviour
 
 
     // Use this for initialization
-    void Start()
-    {
-        lastUpdatePanelType = panelType;
-        lastUpdatePanelTeam = panelTeam;
-        UpdatePanelType();
-    }
+    //void Start()
+    //{
+    //    lastUpdatePanelType = panelType;
+    //    lastUpdatePanelTeam = panelTeam;
+    //    UpdatePanelType();
+    //}
 
     // Update is called once per frame
-    void Update()
-    {
-        if (lastUpdatePanelType != panelType || lastUpdatePanelTeam != panelTeam)
-        {
-            UpdatePanelType();//check to see if anything has changed
-        }
+    //void Update()
+    //{
+    //    if (lastUpdatePanelType != panelType || lastUpdatePanelTeam != panelTeam)
+    //    {
+    //        UpdatePanelType();//check to see if anything has changed
+    //    }
         
+
+    //}
+
+    private void OnValidate()
+    {
+        UpdatePanelType();//check to see if anything has changed
 
     }
 
     private void UpdatePanelType()
     {
         SetPanelImage(panelType, panelTeam);
-        lastUpdatePanelType = panelType;
-        lastUpdatePanelTeam = panelTeam;
         panelTypeImage.transform.position = panelImage.transform.position + panelImageOffset;
         
     }//end UpdatePanelType()
