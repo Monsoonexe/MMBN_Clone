@@ -37,9 +37,7 @@ public class NaviController_Battle : MonoBehaviour
     /// The next time that this is able to make an attack.
     /// </summary>
     private float nextAttackTime = 0.0f;
-
-    //throw stuff
-
+    
     //Attacks
     private BaseAttack busterAttack;
     private BaseAttack chargedBusterAttack;
