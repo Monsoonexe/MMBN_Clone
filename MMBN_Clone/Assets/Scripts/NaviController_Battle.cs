@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
@@ -7,44 +6,39 @@ using UnityEngine.Audio;
 public class NaviController_Battle : MonoBehaviour
 {
     private static PanelArray panelArray;
-    public NaviAsset naviAsset;
-    public HealthColors healthColorsAsset;
-    public Animator bodyAnim;
-    public Animator chargeAuraAnim;
+    [SerializeField]
+    private NaviAsset naviAsset;
+    [SerializeField]
+    private HealthColors healthColorsAsset;
+    [SerializeField]
+    private Animator bodyAnim;
+    [SerializeField]
+    private Animator chargeAuraAnim;
 
     //health and element stuff
     private Element element = Element.NONE;
     private int maxHealth = 9999;//arbitrary defaults
+    [SerializeField]
     private int currentHealth = 4444;//arbitrary default
     private bool healthFlashing = false;
 
     //buster stuff
     private bool busterIsCharging = false;
-    private float busterDelay = 0.25f;
-    private float busterDelayTimeSince;
-    private float busterChargeRate = 1.0f;//multiplier
-    private float busterChargeMax = 3.0f;//max power needed before charge shot
-    private float busterChargeAmount = 0.0f;
-    private float busterCooldownRate = 1.0f;
-    private float busterDamageMod = 1.0f;
-    private float busterChargeDamageMod = 1.0f;
-    private float busterDefenseMod = 1.0f;
+    [SerializeField]
+    private float busterChargePercent = 0.0f;
 
     //sword stuff
     private bool swordIsCharging = false;
-    private float swordDelay = 0.45f;
-    private float swordDelayTimeSince;
-    private float swordChargeRate = 0.5f;
-    private float swordChargeMax = 3.0f;
-    private float swordChargeAmount = 0.0f;
-    private float swordCooldownRate = 1.0f;
-    private float swordDamageMod = 1.0f;
-    private float swordChargeDamageMod = 1.0f;
-    private float swordDefenseMod = 1.0f;
+    [SerializeField]
+    private float swordChargePercent = 0.0f;
 
-    //Chip Stuff
-    private float chipDelay = 1.0f;
-    private float chipDelayTimeSince;
+    //attack stuff
+    /// <summary>
+    /// The next time that this is able to make an attack.
+    /// </summary>
+    private float nextAttackTime = 0.0f;
+
+    //throw stuff
 
     //Attacks
     private BaseAttack busterAttack;
@@ -53,9 +47,6 @@ public class NaviController_Battle : MonoBehaviour
     private BaseAttack chargedSwordAttack;
     private BaseAttack throwAttack;
     private BaseAttack specialAttack;
-
-    private bool isMoving = false;
-    private bool flipSpriteX = true;
 
     //current coordinates on board
     private int currentPanelX = -1; //init coordinates of current panel to invalid panel
@@ -66,12 +57,15 @@ public class NaviController_Battle : MonoBehaviour
 
     private int orientation = 0;// +1 for facing right, -1 for facing left -- used for attacks
 
-    //hide these values when properly set up
+    //movement delay stuff
     private const float movementDelay = 0.15f;//.15f seems good
     private float movementDelayTimeSince;
     private bool movementDelayCoolingDown = false;
+    private bool isMoving = false;
 
+    //sprite stuff
     private Vector3 spriteOffset;
+    private bool flipSpriteX = true;
 
     private float naviMoveSpeed = 1.0f;//can increase rate of move cooldown -- speed < 1 (.95) is faster than 1.05
 
@@ -140,9 +134,7 @@ public class NaviController_Battle : MonoBehaviour
     private void InitializeDelays()//this function sets the delays
     {
         movementDelayTimeSince = movementDelay;//player should be able to move right away
-        busterDelayTimeSince = 0.0f; //buster should not be used right away
-        swordDelayTimeSince = 0.0f; //sword should not be usuable immediately
-        chipDelayTimeSince = 0.0f; //chips unavailable for a time
+        nextAttackTime = 0.0f;
     }
 
     private void InitializeHealth()
@@ -180,22 +172,7 @@ public class NaviController_Battle : MonoBehaviour
         this.naviMoveSpeed = naviAsset.naviMoveSpeed;
         this.element = naviAsset.element;
 
-        this.busterDelay = naviAsset.busterDelay;
-        this.busterChargeRate = naviAsset.busterChargeRate;
-        this.busterChargeMax = naviAsset.busterChargeMax;
-        this.busterCooldownRate = naviAsset.busterCooldownRate;
-        this.busterDamageMod = naviAsset.busterDamageMod;
-        this.busterChargeDamageMod = naviAsset.busterChargeDamageMod;
-        this.busterDefenseMod = naviAsset.busterDefenseMod;
-
-        this.swordDelay = naviAsset.swordDelay;
-        this.swordChargeRate = naviAsset.swordChargeRate;
-        this.swordChargeMax = naviAsset.swordChargeMax;
-        this.swordCooldownRate = naviAsset.swordCooldownRate;
-        this.swordDamageMod = naviAsset.swordDamageMod;
-        this.swordChargeDamageMod = naviAsset.swordChargeDamageMod; 
-        this.swordDefenseMod = naviAsset.swordDefenseMod;
-
+        //load scriptable object abilities
         this.busterAttack = naviAsset.busterAttack;
         this.chargedBusterAttack = naviAsset.chargedBusterAttack;
         this.swordAttack = naviAsset.swordAttack;
@@ -357,16 +334,22 @@ public class NaviController_Battle : MonoBehaviour
         Debug.Log("AIMovement not yet set up.");
     }//end HandleMovement_AIPlayer()
 
-    private void HandleBuster()
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="nowTime">Current time is used to determine cooldown.</param>
+    private void HandleBuster(float nowTime)
     {
         var fireBuster = false;
+        var busterCooledDown = nowTime > nextAttackTime;
+
         //get buster input for player1
         if(owningPlayer == 1)
             //TODO controls are SO with easy-to-change variables
         {
             if (Input.GetKeyDown(KeyCode.Space))//was buster button pressed down?
             {
-                if (busterDelayTimeSince >= busterDelay)
+                if (busterCooledDown)
                 {
                     fireBuster = true;
                 }
@@ -394,7 +377,7 @@ public class NaviController_Battle : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.RightArrow))//was buster button pressed down?
             {
-                if (busterDelayTimeSince >= busterDelay)
+                if (busterCooledDown)
                 {
                     fireBuster = true;
                 }
@@ -418,9 +401,10 @@ public class NaviController_Battle : MonoBehaviour
             }
         }
 
-        if (fireBuster && busterDelayTimeSince >= busterDelay)//FIRE! regular buster
+        if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
-            if (busterChargeAmount >= busterChargeMax)//if fully charged
+
+            if (busterChargePercent >= 100)//if fully charged
             {
                 bodyAnim.SetTrigger("ChargeShot");//show animation
                 //specialAttack.DoAttack();
@@ -436,22 +420,16 @@ public class NaviController_Battle : MonoBehaviour
                 busterAttack.TriggerAttack(this);
 
             }
-            //reset values
-            busterChargeAmount = 0.0f;//reset charge amount when button is released
-            busterDelayTimeSince = 0.0f;//reset time since last buster shot
-            swordDelayTimeSince = 0.0f;//reset time since last sword shot
+            //reset values after shot
+            busterChargePercent = 0;//reset charge amount when button is released
+            nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
-        }
-
-        else
-        {
-            busterDelayTimeSince += Time.deltaTime * busterCooldownRate;//buster cooldown
         }
 
         if (busterIsCharging)//charge up buster numbers
         {
-            busterChargeAmount += Time.deltaTime * busterChargeRate;//begin adding to charge
-            chargeAuraAnim.SetFloat("BusterCharge", busterChargeAmount / busterChargeMax);//play charging animation
+            busterChargePercent += Time.deltaTime;
+            chargeAuraAnim.SetFloat("BusterCharge", busterChargePercent);//play charging animation
             //swordChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
 
         }
@@ -462,16 +440,20 @@ public class NaviController_Battle : MonoBehaviour
         }
     }//end HandleBuster()
 
-    private void HandleSword()
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="nowTime">Current time is used to determine cooldown.</param>
+    private void HandleSword(float nowTime)
     {
         var fireSword = false;
+        var swordCooledDown = nowTime > nextAttackTime;
 
-
-        if(owningPlayer == 1)
+        if (owningPlayer == 1)
         {
             if (Input.GetKeyDown(KeyCode.C))//was sword button pressed down?
             {
-                if (swordDelayTimeSince >= swordDelay)
+                if (swordCooledDown)
                 {
                     fireSword = true;
                 }
@@ -487,7 +469,6 @@ public class NaviController_Battle : MonoBehaviour
                 if (!busterIsCharging)
                 {
                     swordIsCharging = true;
-
                 }
             }
             else
@@ -499,7 +480,7 @@ public class NaviController_Battle : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Keypad0))//was sword button pressed down?
             {
-                if (swordDelayTimeSince >= swordDelay)
+                if (swordCooledDown)
                 {
                     fireSword = true;
                 }
@@ -515,7 +496,6 @@ public class NaviController_Battle : MonoBehaviour
                 if (!busterIsCharging)
                 {
                     swordIsCharging = true;
-
                 }
             }
             else
@@ -524,9 +504,9 @@ public class NaviController_Battle : MonoBehaviour
             }
         }
 
-        if (fireSword && swordDelayTimeSince >= swordDelay)//FIRE!
+        if (fireSword && swordCooledDown)//FIRE!
         {
-            if (swordChargeAmount >= swordChargeMax)//if fully charged
+            if (swordChargePercent >= 100)//if fully charged
             {
                 bodyAnim.SetTrigger("ChargeSword");//show animation
                 //TODO play sound
@@ -541,35 +521,34 @@ public class NaviController_Battle : MonoBehaviour
                 swordAttack.TriggerAttack(this);
 
             }
-            //reset values
-            swordChargeAmount = 0.0f;//reset charge amount when button is released
-            swordDelayTimeSince = 0.0f;//reset time since last sword shot
-            busterDelayTimeSince = 0.0f;//reset buster attack as well
+            //reset values after shot
+            swordChargePercent = 0;//reset charge amount when button is released
+            nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
 
         }
 
-        else
-        {
-            swordDelayTimeSince += Time.deltaTime * swordCooldownRate;//buster cooldown
-        }
-
         if (swordIsCharging)//charge up buster numbers
         {
-            swordChargeAmount += Time.deltaTime * swordChargeRate;//begin adding to charge
-            chargeAuraAnim.SetFloat("SwordCharge", swordChargeAmount / swordChargeMax);//play animation, sending charge percent
+            swordChargePercent += Time.deltaTime;
+            chargeAuraAnim.SetFloat("SwordCharge", swordChargePercent);//play animation, sending charge percent
             //busterChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
         }
         else
         {
             chargeAuraAnim.SetFloat("SwordCharge", 0.0f);
-            //chargeAuraAnim.SetTrigger("ResetCharge"); //reset animation
         }
     }//end HandleSword_Letters()
 
-    private void HandleChip()
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="nowTime">Current time is used to determine cooldown.</param>
+    private void HandleChip(float nowTime)
     {
         var chipAttack = false;
+        var attackCooledDown = Time.time > nextAttackTime;
+
         if (owningPlayer == 1)
         {
             if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -587,22 +566,27 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //TODO check if has a chip available
-        if (chipAttack && chipDelayTimeSince >= chipDelay)
+        if (chipAttack && attackCooledDown)
         {
             bodyAnim.SetTrigger("Special");
             movementDelayTimeSince = -1.0f;//reset movement
-            swordDelayTimeSince = -1.0f;
-            busterDelayTimeSince = -1.0f;
             
             specialAttack.TriggerAttack(this);
+
+            nextAttackTime = nowTime + specialAttack.delay;//set delay
         }
 
-        chipDelayTimeSince += Time.deltaTime;
     }
 
-    private void HandleThrow()
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="nowTime">Current time is used to determine cooldown.</param>
+    private void HandleThrow(float nowTime)
     {
         var chipAttack = false;
+        var attackCooledDown = Time.time > nextAttackTime;
+
         if (owningPlayer == 1)
         {
             if (Input.GetKeyDown(KeyCode.V))
@@ -620,40 +604,26 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //TODO check if has a chip available
-        if (chipAttack && chipDelayTimeSince >= chipDelay)
+        if (chipAttack && attackCooledDown)
         {
             bodyAnim.SetTrigger("Throw");
             movementDelayTimeSince = -1.0f;//reset movement
-            swordDelayTimeSince = -1.0f;
-            busterDelayTimeSince = -1.0f;
+
             throwAttack.TriggerAttack(this);
+            nextAttackTime = nowTime + throwAttack.delay;//set delay
         }
 
-        chipDelayTimeSince += Time.deltaTime;
     }
        
     private void HandleActionInput_HumanPlayer()
     {
-        HandleBuster();
-        HandleSword();
-        HandleChip();
-        HandleThrow();
+        //get the current time
+        var nowTime = Time.time;
 
-        //if (owningPlayer == 1)
-        //{
-        //    HandleBuster();
-        //    HandleSword();
-        //    HandleChip();
-        //    HandleThrow();
-        //    //TODO pause
-        //}
-        //else if(owningPlayer == 2)
-        //{
-        //    HandleBuster();
-        //    HandleSword();
-        //    HandleChip();
-        //    HandleThrow();
-        //}
+        HandleBuster(nowTime);
+        HandleSword(nowTime);
+        HandleChip(nowTime);
+        HandleThrow(nowTime);
 
         //check for enter custom gauge
     }//end function
