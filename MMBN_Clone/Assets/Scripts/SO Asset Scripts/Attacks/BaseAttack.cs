@@ -18,15 +18,17 @@ public abstract class BaseAttack : ScriptableObject{
     [SerializeField]
     protected GatherTargetsBehavior targetingBehavior;
     
+    [SerializeField]
     /// <summary>
     /// What trigger to send to the animator for ability
     /// </summary>
-    public string animatorMessage { get; }
+    private string animatorMessage;
     
+    [SerializeField]
     /// <summary>
     /// What trigger to send to the animator for ability
     /// </summary>
-    public string animatorMessage_charged { get; }
+    private string animatorMessage_charged;
 
     //member functions
     /// <summary>
@@ -40,5 +42,10 @@ public abstract class BaseAttack : ScriptableObject{
     /// <param name="naviController">The navi using the ability.</param>
     /// <param name="fullyCharged">Whether or not the attack has been charged all the way.</param>
     public abstract void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false);  
+
+    public string GetAnimatorMessage(bool charged = false)
+    {
+        return charged ? animatorMessage_charged : animatorMessage;
+    }
 
 }
