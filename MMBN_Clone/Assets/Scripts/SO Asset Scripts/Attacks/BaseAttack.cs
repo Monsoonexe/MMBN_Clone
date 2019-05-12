@@ -2,9 +2,17 @@
 
 public abstract class BaseAttack : ScriptableObject{
     public string attackName;
-    public AttackType attackType;
-    public int basePower; //0-255 i guess
-    public int baseCritRate; //0-100
+    /// <summary>
+    /// Time in seconds that one must wait between successive shots.
+    /// </summary>
+    [Header("---Stats---")]
+    public float delay = 0.25f;
+    /// <summary>
+    /// How many seconds it takes to fully charge.
+    /// </summary>
+    public float chargeTime = 3;//multiplier
+    public int damage = 1;
+    public int chargeDamage = 3;
 
     [SerializeField]
     protected GatherTargetsBehavior targetingBehavior;
