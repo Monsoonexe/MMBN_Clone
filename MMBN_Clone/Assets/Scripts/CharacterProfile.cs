@@ -1,24 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-[ExecuteInEditMode]
 public class CharacterProfile : MonoBehaviour {
 
     public NaviAsset naviAssetSO;
     public Text naviName;
     public Image naviPortrait;
+    
 
-    private void Start()
+    private void OnValidate()
     {
-        //TODO  
-    }
+        if (naviAssetSO)//if there's a SO loaded
+        {
+            //update visuals
+            if (naviName) naviName.text = naviAssetSO.naviName;
+            if (naviPortrait) naviPortrait.sprite = naviAssetSO.characterSelectionPortrait;
 
-    private void Update()
-    {
-        naviName.text = naviAssetSO.naviName;
-        naviPortrait.sprite = naviAssetSO.characterSelectionPortrait;
+        }
     }
-
 }
