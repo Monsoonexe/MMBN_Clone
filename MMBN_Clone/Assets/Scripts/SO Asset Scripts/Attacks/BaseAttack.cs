@@ -17,6 +17,9 @@ public abstract class BaseAttack : ScriptableObject{
 
     [SerializeField]
     protected GatherTargetsBehavior targetingBehavior;
+
+    [SerializeField]
+    protected StatusEffect statusEffect;
     
     [SerializeField]
     /// <summary>
