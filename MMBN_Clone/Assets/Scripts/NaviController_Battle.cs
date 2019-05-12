@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
@@ -651,7 +652,7 @@ public class NaviController_Battle : MonoBehaviour
         healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
 	}//end Update()
 
-    public void TakeDamage(int damageAmount, Element damageElement = Element.NONE, StatusEffect effect = null)
+    public void TakeDamage(int damageAmount, StatusEffect effect, Element damageElement = Element.NONE)
     {
         //animator
 
@@ -667,7 +668,7 @@ public class NaviController_Battle : MonoBehaviour
         currentHealth = currentHealth < 0 ? 0 : currentHealth;
 
         //handle status effect (poison, stun, pushback, etc)
-        if (effect)
+        if (effect.duration > 0)
         {
             statusAilments.Add(effect);
         }
