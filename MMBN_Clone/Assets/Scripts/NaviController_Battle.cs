@@ -25,12 +25,12 @@ public class NaviController_Battle : MonoBehaviour
     //buster stuff
     private bool busterIsCharging = false;
     [SerializeField]
-    private float busterChargePercent = 0.0f;
+    private float busterCharge = 0.0f;
 
     //sword stuff
     private bool swordIsCharging = false;
     [SerializeField]
-    private float swordChargePercent = 0.0f;
+    private float swordCharge = 0.0f;
 
     //attack stuff
     /// <summary>
@@ -404,7 +404,7 @@ public class NaviController_Battle : MonoBehaviour
         if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
 
-            if (busterChargePercent >= 100)//if fully charged
+            if (busterCharge >= busterAttack.chargeTime)//if fully charged
             {
                 bodyAnim.SetTrigger("ChargeShot");//show animation
                 //specialAttack.DoAttack();
@@ -421,15 +421,15 @@ public class NaviController_Battle : MonoBehaviour
 
             }
             //reset values after shot
-            busterChargePercent = 0;//reset charge amount when button is released
+            busterCharge = 0;//reset charge amount when button is released
             nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
         }
 
         if (busterIsCharging)//charge up buster numbers
         {
-            busterChargePercent += Time.deltaTime;
-            chargeAuraAnim.SetFloat("BusterCharge", busterChargePercent);//play charging animation
+            busterCharge += Time.deltaTime;
+            chargeAuraAnim.SetFloat("BusterCharge", busterCharge / busterAttack.chargeTime);//play charging animation
             //swordChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
 
         }
@@ -506,7 +506,7 @@ public class NaviController_Battle : MonoBehaviour
 
         if (fireSword && swordCooledDown)//FIRE!
         {
-            if (swordChargePercent >= 100)//if fully charged
+            if (swordCharge >= swordAttack.chargeTime)//if fully charged
             {
                 bodyAnim.SetTrigger("ChargeSword");//show animation
                 //TODO play sound
@@ -522,7 +522,7 @@ public class NaviController_Battle : MonoBehaviour
 
             }
             //reset values after shot
-            swordChargePercent = 0;//reset charge amount when button is released
+            swordCharge = 0;//reset charge amount when button is released
             nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
 
@@ -530,8 +530,8 @@ public class NaviController_Battle : MonoBehaviour
 
         if (swordIsCharging)//charge up buster numbers
         {
-            swordChargePercent += Time.deltaTime;
-            chargeAuraAnim.SetFloat("SwordCharge", swordChargePercent);//play animation, sending charge percent
+            swordCharge += Time.deltaTime;
+            chargeAuraAnim.SetFloat("SwordCharge", swordCharge / swordAttack.chargeTime);//play animation, sending charge percent
             //busterChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
         }
         else
