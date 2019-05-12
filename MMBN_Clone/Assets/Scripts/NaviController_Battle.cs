@@ -306,13 +306,12 @@ public class NaviController_Battle : MonoBehaviour
         if (currentPanelX + movementX >= PanelArray.GetBoardColumnsCount() || currentPanelX + movementX < 0 ||
             currentPanelY + movementY >= PanelArray.GetBoardRowsCount() || currentPanelY + movementY < 0)//test if movement is out of bounds
         {
-            Debug.Log("Move cancelled: next move would be off board. Current coords: " + currentPanelX + ", " + currentPanelY);//print test
+            //Debug.Log("Move cancelled: next move would be off board. Current coords: " + currentPanelX + ", " + currentPanelY);//print test
             skipMovement = true;
             isMoving = false;
         }
         //check status ailments or other movement restrictions here
 
-        
         //if can move, then move
         if (isMoving && !skipMovement && !movementDelayCoolingDown)
         {
@@ -407,7 +406,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger("ChargeShot");//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
-                chargedBusterAttack.TriggerAttack(this);
+                chargedBusterAttack.TriggerAttack(this, true);
             }
             else//regular buster shot
             {
@@ -509,7 +508,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger("ChargeSword");//show animation
                 //TODO play sound
                 //TODO Send damage or something combat related
-                chargedSwordAttack.TriggerAttack(this);
+                chargedSwordAttack.TriggerAttack(this, true);
             }
             else//regular sword swing
             {
