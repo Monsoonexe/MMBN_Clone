@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Cannon
   m_EditorClassIdentifier: 
   attackName: Cannon
-  attackType: 1
-  basePower: 10
-  baseCritRate: 10
+  delay: 0.25
+  chargeTime: 3
+  damage: 1
+  chargeDamage: 3
   targetingBehavior: {fileID: 11400000, guid: a98dc8e810f8cd6439b4ab438a1cb1d6, type: 2}
-  animatorMessage: '"Cannon"'
+  animatorMessage: Buster
+  animatorMessage_charged: ChargeShot
