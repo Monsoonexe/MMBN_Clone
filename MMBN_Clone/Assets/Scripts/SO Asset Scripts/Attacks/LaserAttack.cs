@@ -23,7 +23,15 @@ public class LaserAttack : BaseAttack {
         {
             //target.DealDamage();
         }
+        if (fullyCharged)
+        {
+            Debug.Log("Firing " + this.attackName + "... fully charged!");
 
-        Debug.Log("LAZERS!!! PEW PEW BANG!");
+        }
+        else
+        {
+
+            Debug.Log("Firing " + this.attackName);
+        }
     }
 }
