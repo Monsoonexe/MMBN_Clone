@@ -122,9 +122,28 @@ public class NaviController_Battle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        var stunned = false;
         isMoving = false;
 
+        //handle stun
+        foreach (var ailment in statusAilments)
+        {
+            if(Time.time < ailment.effectEndTime)
+            {
+                //effect triggers
+                if(ailment.type == StatusAilmentType.STUN)
+                {
+                    stunned = true;
+                }
+            }
+        }
+
+        if (stunned)
+        {
+            return;
+        }
+
+        //handle input
         if (isPlayer)
         {
             HandleMovement_HumanPlayer();
@@ -138,7 +157,7 @@ public class NaviController_Battle : MonoBehaviour
             HandleActionInput_AIPlayer();
         }
 
-        //update health text and color with current health
+        //remove old status ailments
     }//end Update()
 
     private void OnValidate()
@@ -158,8 +177,11 @@ public class NaviController_Battle : MonoBehaviour
 
     private void UpdateHealthVisuals()
     {
-        if(healthText) healthText.text = currentHealth.ToString();
-        if(healthColorsAsset) healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
+        if (healthText)
+        {
+            healthText.text = currentHealth.ToString();
+            if (healthColorsAsset) healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
+        }
 
     }
 
@@ -699,10 +721,10 @@ public class NaviController_Battle : MonoBehaviour
         UpdateHealthVisuals();
 
         //handle status effect (poison, stun, pushback, etc)
-        if (effect.duration > 0)
-        {
-            statusAilments.Add(effect);
-        }
+        //if (effect.duration > 0)
+        //{
+        //    statusAilments.Add(effect);
+        //}
 
     }
 
