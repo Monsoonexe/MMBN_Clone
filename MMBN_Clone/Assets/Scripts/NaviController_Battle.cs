@@ -130,6 +130,30 @@ public class NaviController_Battle : MonoBehaviour
 
     }
 
+    // Update is called once per frame
+    void Update()
+    {
+
+        isMoving = false;
+
+        if (isPlayer)
+        {
+            HandleMovement_HumanPlayer();
+            HandleActionInput_HumanPlayer();
+
+        }//end if isPlayer
+
+        else
+        {
+            HandleMovement_AIPlayer();
+            HandleActionInput_AIPlayer();
+        }
+
+        //update health text and color with current health
+        healthText.text = currentHealth.ToString();
+        healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
+    }//end Update()
+
     private void InitializeDelays()//this function sets the delays
     {
         movementDelayTimeSince = movementDelay;//player should be able to move right away
@@ -631,26 +655,6 @@ public class NaviController_Battle : MonoBehaviour
     {
         Debug.Log("AI not yet set up. Actions skipped");
     }//end function
-	
-	// Update is called once per frame
-	void Update () {
-        isMoving = false;
-        if (isPlayer)
-        {
-            HandleMovement_HumanPlayer();
-            HandleActionInput_HumanPlayer();
-
-        }//end if isPlayer
-
-        else
-        {
-            HandleMovement_AIPlayer();
-            HandleActionInput_AIPlayer();
-        }
-        //update health text and color with current health
-        healthText.text = currentHealth.ToString();
-        healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
-	}//end Update()
 
     public void TakeDamage(int damageAmount, StatusEffect effect, Element damageElement = Element.NONE)
     {
