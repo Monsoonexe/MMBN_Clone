@@ -1,11 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class StatusEffect : ScriptableObject {
+﻿[System.Serializable]
+public struct StatusEffect {
 
     public string statusName;
-    public StatusAilmentType statusType;
-    public float statusDuration;
-    public float statusTimeRemaining;
+    public StatusAilmentType type;
+    public float duration;
+    public float effectEndTime { get; }
+
+    public StatusEffect(string statusName, StatusAilmentType type, float duration, float effectEndTime)
+    {
+        this.statusName = statusName;
+        this.type = type;
+        this.duration = duration;
+        this.effectEndTime = effectEndTime;
+    }
 }
