@@ -15,3 +15,5 @@ MonoBehaviour:
   canTargetSelf: 0
   pierce: 0
   pushback: 0
+  developerDescription: 'shoot a raycast straight ahead. One single target is returned:
+    the first one hit.'
