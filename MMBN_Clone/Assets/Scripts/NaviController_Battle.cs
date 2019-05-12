@@ -25,12 +25,10 @@ public class NaviController_Battle : MonoBehaviour
 
     //buster stuff
     private bool busterIsCharging = false;
-    [SerializeField]
     private float busterCharge = 0.0f;
 
     //sword stuff
     private bool swordIsCharging = false;
-    [SerializeField]
     private float swordCharge = 0.0f;
 
     //attack stuff
@@ -147,12 +145,21 @@ public class NaviController_Battle : MonoBehaviour
     {
         UpdateHealthVisuals();
 
+        if (naviAsset)
+        {
+            this.emotionWindow.sprite = naviAsset.emotionWindow;
+            this.spriteOffset = naviAsset.spriteOffset;
+            this.orientation = naviAsset.orientation;
+
+            //TODO sprite renderer updates to idle animation
+        }
+
     }
 
     private void UpdateHealthVisuals()
     {
-        healthText.text = currentHealth.ToString();
-        healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
+        if(healthText) healthText.text = currentHealth.ToString();
+        if(healthColorsAsset) healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
 
     }
 
@@ -197,13 +204,18 @@ public class NaviController_Battle : MonoBehaviour
 
     private void InitializeNavi()
     {
+        //load animator components
         this.bodyAnim = this.GetComponent<Animator>();
         this.bodyAnim.runtimeAnimatorController = naviAsset.runtimeAnimController;
 
+        //load visuals
         this.emotionWindow.sprite = naviAsset.emotionWindow;
         this.spriteOffset = naviAsset.spriteOffset;
         this.orientation = naviAsset.orientation;
+
         ConfigureSpriteOffset();//based on battle team, fixes sprite offset
+
+        //load battle stuff
         this.naviMoveSpeed = naviAsset.naviMoveSpeed;
         this.element = naviAsset.element;
 
