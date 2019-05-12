@@ -403,14 +403,15 @@ public class NaviController_Battle : MonoBehaviour
 
             if (busterCharge >= busterAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger("ChargeShot");//show animation
+                bodyAnim.SetTrigger(busterAttack.animatorMessage_charged);//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
                 chargedBusterAttack.TriggerAttack(this, true);
+
             }
             else//regular buster shot
             {
-                bodyAnim.SetTrigger("Buster");//fire the buster
+                bodyAnim.SetTrigger(busterAttack.animatorMessage);//fire the buster
                 //busterAttack.DoAttack();
                 //TODO play sound
                 //TODO Send damage or something combat related
