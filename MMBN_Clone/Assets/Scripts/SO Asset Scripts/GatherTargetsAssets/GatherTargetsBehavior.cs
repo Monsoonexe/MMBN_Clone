@@ -7,8 +7,12 @@ public abstract class GatherTargetsBehavior : ScriptableObject
     [Range(0, 4)]
     public int pushback = 0;// 0 - none, 1 - push back 1 tile, 2 - back 2 tiles, 
 
-    private static PanelArray panelManager;
-
+    /// <summary>
+    /// Describe to the developer how the behavior works.
+    /// </summary>
+    [SerializeField]
+    protected string developerDescription;
+    
     public abstract NaviController_Battle[] GatherTargets(NaviController_Battle user);
 
 }
