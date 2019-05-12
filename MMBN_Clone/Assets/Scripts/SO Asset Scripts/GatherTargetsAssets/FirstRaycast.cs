@@ -19,13 +19,13 @@ public class FirstRaycast : GatherTargetsBehavior
 
         if (raycastHitInfo)
         {
-            Debug.Log("ZAP! I shot and hit: " + raycastHitInfo.collider.name);
+            //Debug.Log("ZAP! I shot and hit: " + raycastHitInfo.collider.name);
             targetList[0] = raycastHitInfo.collider.gameObject.GetComponent<NaviController_Battle>() as NaviController_Battle; 
         }
 
         else
         {
-            Debug.Log("ZAP! I shot but missed.");
+            //Debug.Log("ZAP! I shot but missed.");
         }
         
         return targetList;
