@@ -403,7 +403,7 @@ public class NaviController_Battle : MonoBehaviour
 
             if (busterCharge >= busterAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger(busterAttack.animatorMessage_charged);//show animation
+                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage(true));//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
                 chargedBusterAttack.TriggerAttack(this, true);
@@ -411,7 +411,7 @@ public class NaviController_Battle : MonoBehaviour
             }
             else//regular buster shot
             {
-                bodyAnim.SetTrigger(busterAttack.animatorMessage);//fire the buster
+                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
                 //busterAttack.DoAttack();
                 //TODO play sound
                 //TODO Send damage or something combat related
@@ -650,6 +650,29 @@ public class NaviController_Battle : MonoBehaviour
         healthText.text = currentHealth.ToString();
         healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
 	}//end Update()
+
+    public void TakeDamage(int damageAmount, Element damageElement = Element.NONE, StatusEffect effect = null)
+    {
+        //animator
+
+        //play sound
+
+        //modify based on elemental str and weakness
+        damageAmount = (int)(damageAmount * ElementalDamageManager.DetermineDamageModifier(damageElement, element));
+
+        //subtract damage
+        currentHealth -= damageAmount;
+
+        //keep in bounds
+        currentHealth = currentHealth < 0 ? 0 : currentHealth;
+
+        //handle status effect (poison, stun, pushback, etc)
+        if (effect)
+        {
+            statusAilments.Add(effect);
+        }
+
+    }
 
     public Vector3 GetSpriteOffset()
     {
