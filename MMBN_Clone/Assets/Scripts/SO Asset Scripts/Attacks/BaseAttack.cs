@@ -18,11 +18,15 @@ public abstract class BaseAttack : ScriptableObject{
     [SerializeField]
     protected GatherTargetsBehavior targetingBehavior;
     
-    [SerializeField]
     /// <summary>
     /// What trigger to send to the animator for ability
     /// </summary>
-    protected string animatorMessage;
+    public string animatorMessage { get; }
+    
+    /// <summary>
+    /// What trigger to send to the animator for ability
+    /// </summary>
+    public string animatorMessage_charged { get; }
 
     //member functions
     /// <summary>
