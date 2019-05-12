@@ -81,16 +81,6 @@ public class NaviController_Battle : MonoBehaviour
 
     public List<StatusEffect> statusAilments = new List<StatusEffect>();
 
-    public Panel GetDesiredStartingPanel()
-    // gives where the Navi WANTS to start when asked. GameManager / Board Manager makes the call.
-    {
-        if (!startingPanel)
-        {
-            SetStartingPanel();
-        }
-        return startingPanel;
-    }
-
     void Awake()
     {
 
@@ -127,6 +117,7 @@ public class NaviController_Battle : MonoBehaviour
         UpdateCurrentPanelCoordinates();
         InitializeDelays();
         InitializeHealth();
+        UpdateHealthVisuals();
 
     }
 
@@ -150,9 +141,20 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //update health text and color with current health
+    }//end Update()
+
+    private void OnValidate()
+    {
+        UpdateHealthVisuals();
+
+    }
+
+    private void UpdateHealthVisuals()
+    {
         healthText.text = currentHealth.ToString();
         healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
-    }//end Update()
+
+    }
 
     private void InitializeDelays()//this function sets the delays
     {
@@ -165,6 +167,16 @@ public class NaviController_Battle : MonoBehaviour
         healthText.text = currentHealth.ToString();
         //Debug.Log("CurrentHealth: " + currentHealth.ToString());//print test
         healthColorsAsset.SetHealthColor(currentHealth, maxHealth, healthText);
+    }
+
+    public Panel GetDesiredStartingPanel()
+    // gives where the Navi WANTS to start when asked. GameManager / Board Manager makes the call.
+    {
+        if (!startingPanel)
+        {
+            SetStartingPanel();
+        }
+        return startingPanel;
     }
 
     private void ConfigureSpriteOffset()
@@ -670,6 +682,9 @@ public class NaviController_Battle : MonoBehaviour
 
         //keep in bounds
         currentHealth = currentHealth < 0 ? 0 : currentHealth;
+
+        //update visuals 
+        UpdateHealthVisuals();
 
         //handle status effect (poison, stun, pushback, etc)
         if (effect.duration > 0)
