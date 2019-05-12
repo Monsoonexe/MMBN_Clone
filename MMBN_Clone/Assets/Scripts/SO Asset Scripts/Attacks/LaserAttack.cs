@@ -21,7 +21,7 @@ public class LaserAttack : BaseAttack {
 
         foreach(var target in targets)
         {
-            //target.DealDamage();
+            target.TakeDamage(damage, statusEffect, element);
         }
 
         if (fullyCharged)
