@@ -20,7 +20,9 @@ public abstract class BaseAttack : ScriptableObject{
 
     [SerializeField]
     protected StatusEffect statusEffect;
-    
+    [SerializeField]
+    protected StatusEffect statusEffect_Charged;
+
     [SerializeField]
     /// <summary>
     /// What trigger to send to the animator for ability
