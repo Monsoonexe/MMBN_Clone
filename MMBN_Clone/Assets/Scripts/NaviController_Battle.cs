@@ -166,9 +166,9 @@ public class NaviController_Battle : MonoBehaviour
 
         if (naviAsset)
         {
-            this.emotionWindow.sprite = naviAsset.emotionWindow;
-            this.spriteOffset = naviAsset.spriteOffset;
-            this.orientation = naviAsset.orientation;
+            if(emotionWindow) emotionWindow.sprite = naviAsset.emotionWindow;
+            spriteOffset = naviAsset.spriteOffset;
+            orientation = naviAsset.orientation;
 
             //TODO sprite renderer updates to idle animation
         }
