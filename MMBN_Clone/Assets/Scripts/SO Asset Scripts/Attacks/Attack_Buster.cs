@@ -15,9 +15,6 @@ public class Attack_Buster : BaseAttack
     {
         //setup attack
         attackName = "Basic Buster Attack";
-        attackType = AttackType.LASER;
-        basePower = 10; //0-255 i guess
-        baseCritRate = 1; //0-100
     }
 
     public override void TriggerAttack(NaviController_Battle naviController)
