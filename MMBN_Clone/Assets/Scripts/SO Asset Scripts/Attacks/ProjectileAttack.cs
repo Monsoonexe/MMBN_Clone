@@ -20,7 +20,7 @@ public class ProjectileAttack : BaseAttack {
         attackName = "Generic Projectile Attack";
     }
 
-    public override void TriggerAttack(NaviController_Battle naviController)
+    public override void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false)
     {
         //look at everythign in your row
         //if found something,

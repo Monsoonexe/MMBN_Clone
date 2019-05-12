@@ -7,8 +7,9 @@ public abstract class BaseAttack : ScriptableObject{
     /// </summary>
     [Header("---Stats---")]
     public float delay = 0.25f;
+    [Range(0.1f, 100)]
     /// <summary>
-    /// How many seconds it takes to fully charge.
+    /// How many seconds it takes to fully charge.  != 0
     /// </summary>
     public float chargeTime = 3;//multiplier
     public int damage = 1;
@@ -33,6 +34,6 @@ public abstract class BaseAttack : ScriptableObject{
     /// Do the things the attack does.
     /// </summary>
     /// <param name="naviController">The navi using the ability.</param>
-    public abstract void TriggerAttack(NaviController_Battle naviController);  
+    public abstract void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false);  
 
 }

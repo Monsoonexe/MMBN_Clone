@@ -14,7 +14,7 @@ public class LaserAttack : BaseAttack {
         attackName = "Generic Laser Attack";
     }
 
-    public override void TriggerAttack(NaviController_Battle naviController)
+    public override void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false)
     {
         //get targets using targeting behavior
         var targets = targetingBehavior.GatherTargets(naviController);

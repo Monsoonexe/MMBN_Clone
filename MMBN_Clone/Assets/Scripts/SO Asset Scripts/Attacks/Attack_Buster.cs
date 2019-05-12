@@ -17,7 +17,7 @@ public class Attack_Buster : BaseAttack
         attackName = "Basic Buster Attack";
     }
 
-    public override void TriggerAttack(NaviController_Battle naviController)
+    public override void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false)
     {
         //gimme every panel in my row
         //of the panels in front of me,
