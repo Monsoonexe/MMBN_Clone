@@ -30,8 +30,11 @@ public class PanelArray : MonoBehaviour {
 		
 	}//end Update()
 
-    public void InitializeBoardArrayWithPanels(){
-        //fills boardArray with Panels that can be referenced via Cartesian Points (x,y)
+    /// <summary>
+    /// fills boardArray with Panels that can be referenced via Cartesian Points (x,y)
+    /// </summary>
+    public void InitializeBoardArrayWithPanels()
+    {
         boardArray = new Panel[boardColumnsCount, boardRowsCount]; // 6 X 3
         for (int column = 0; column < boardColumnsCount; ++column)// x,y coordinates
         {
@@ -53,6 +56,19 @@ public class PanelArray : MonoBehaviour {
             return null;
         }
     }//end GetPanel
+
+    /// <summary>
+    /// Give me coordinates of a panel, and I will give you the occupant of that panel.
+    /// </summary>
+    /// <param name="x">X coord</param>
+    /// <param name="y">Y coord</param>
+    /// <returns>GO, or null, of occupant, if any.</returns>
+    public GameObject GetOccupantAtCoordinates(int x, int y)
+    {
+        var panel = GetPanel(x, y);
+        return panel.GetOccupant();
+    }
+
 
     public Panel GetOccupantsPanel(GameObject panelOccupant)
     {
