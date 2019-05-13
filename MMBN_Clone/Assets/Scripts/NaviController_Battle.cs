@@ -208,6 +208,11 @@ public class NaviController_Battle : MonoBehaviour
         return startingPanel;
     }
 
+    public Element GetElement()
+    {
+        return this.element;
+    }
+
     private void ConfigureSpriteOffset()
     {
         if(battleTeam == BattleTeam.BLUE)
@@ -702,7 +707,7 @@ public class NaviController_Battle : MonoBehaviour
         Debug.Log("AI not yet set up. Actions skipped");
     }//end function
 
-    public void TakeDamage(int damageAmount, StatusEffect effect, Element damageElement = Element.NONE)
+    public void TakeDamage(int damageAmount, Element damageElement = Element.NONE)
     {
         //animator
 
@@ -719,12 +724,6 @@ public class NaviController_Battle : MonoBehaviour
 
         //update visuals 
         UpdateHealthVisuals();
-
-        //handle status effect (poison, stun, pushback, etc)
-        //if (effect.duration > 0)
-        //{
-        //    statusAilments.Add(effect);
-        //}
 
     }
 
