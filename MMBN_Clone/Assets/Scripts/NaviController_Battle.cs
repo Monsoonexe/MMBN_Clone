@@ -477,7 +477,7 @@ public class NaviController_Battle : MonoBehaviour
         if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
             //handle charge attack if fully charged
-            if (busterCharge >= chargedBusterAttack.chargeTime)//if fully charged
+            if (busterCharge >= busterAttack.chargeTime)//if fully charged
             {
                 bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
                 //specialAttack.DoAttack();
