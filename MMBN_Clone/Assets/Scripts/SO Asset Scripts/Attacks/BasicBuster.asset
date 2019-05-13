@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: BasicBuster
   m_EditorClassIdentifier: 
   attackName: Basic Buster
-  delay: 0.25
+  element: 0
+  delay: 0.4
   chargeTime: 3
   damage: 1
   chargeDamage: 3
