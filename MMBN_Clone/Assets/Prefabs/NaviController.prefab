@@ -51,9 +51,9 @@ MonoBehaviour:
   healthColorsAsset: {fileID: 11400000, guid: 4ef84c593abb16a46b21ad296e788882, type: 2}
   bodyAnim: {fileID: 95308193376637780}
   chargeAuraAnim: {fileID: 95032798318585434}
+  currentHealth: 4444
   emotionWindow: {fileID: 0}
   healthText: {fileID: 0}
-  panelArray: {fileID: 0}
   startingPanel: {fileID: 0}
   battleTeam: 0
   isPlayer: 1
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.185, y: 0.21}
+  m_Offset: {x: 0.175, y: 0.075}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -150,7 +150,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.37, y: 0.42}
+  m_Size: {x: 0.4, y: 0.22}
   m_EdgeRadius: 0
 --- !u!1 &1832157897690876
 GameObject:
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 95032798318585434}
   - component: {fileID: 212288632316640456}
   m_Layer: 0
-  m_Name: ChargeAnimation
+  m_Name: ChargeAura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
