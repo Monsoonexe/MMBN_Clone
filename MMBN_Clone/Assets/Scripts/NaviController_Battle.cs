@@ -479,24 +479,25 @@ public class NaviController_Battle : MonoBehaviour
 
             if (busterCharge >= busterAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage(true));//show animation
+                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
                 chargedBusterAttack.TriggerAttack(this, true);
+                nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
 
             }
             else//regular buster shot
             {
-                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
+                bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//fire the buster
                 //busterAttack.DoAttack();
                 //TODO play sound
                 //TODO Send damage or something combat related
                 busterAttack.TriggerAttack(this);
+                nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
 
             }
             //reset values after shot
             busterCharge = 0;//reset charge amount when button is released
-            nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
         }
 
@@ -582,22 +583,23 @@ public class NaviController_Battle : MonoBehaviour
         {
             if (swordCharge >= swordAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger("ChargeSword");//show animation
+                bodyAnim.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
                 //TODO Send damage or something combat related
                 chargedSwordAttack.TriggerAttack(this, true);
+                nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing
             {
-                bodyAnim.SetTrigger("Sword");//swing the sword
+                bodyAnim.SetTrigger(swordAttack.GetAnimatorMessage());//swing the sword
                 //TODO play sound
                 //TODO Send damage or something combat related
                 swordAttack.TriggerAttack(this);
+                nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
 
             }
             //reset values after shot
             swordCharge = 0;//reset charge amount when button is released
-            nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
 
         }

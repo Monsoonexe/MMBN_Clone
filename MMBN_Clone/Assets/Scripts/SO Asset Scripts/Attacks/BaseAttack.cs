@@ -26,22 +26,13 @@ public abstract class BaseAttack : ScriptableObject{
 
     [SerializeField]
     protected StatusEffect statusEffect;
-
-    [SerializeField]
-    protected StatusEffect statusEffect_Charged;
-
+    
     [SerializeField]
     /// <summary>
     /// What trigger to send to the animator for ability
     /// </summary>
     private string animatorMessage;
-    
-    [SerializeField]
-    /// <summary>
-    /// What trigger to send to the animator for ability
-    /// </summary>
-    private string animatorMessage_charged;
-    
+        
     /// <summary>
     /// Do the things the attack does.
     /// </summary>
@@ -49,9 +40,9 @@ public abstract class BaseAttack : ScriptableObject{
     /// <param name="fullyCharged">Whether or not the attack has been charged all the way.</param>
     public abstract void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false);  
 
-    public string GetAnimatorMessage(bool charged = false)
+    public string GetAnimatorMessage()
     {
-        return charged ? animatorMessage_charged : animatorMessage;
+        return animatorMessage;
     }
-
+    
 }
