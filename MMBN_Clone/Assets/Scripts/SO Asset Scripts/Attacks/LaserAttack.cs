@@ -18,21 +18,23 @@ public class LaserAttack : BaseAttack {
     {
         //get targets using targeting behavior
         var targets = targetingBehavior.GatherTargets(naviController);
-
-        foreach(var target in targets)
-        {
-            target.TakeDamage(damage, statusEffect, element);
-        }
-
+        
         if (fullyCharged)
         {
-            Debug.Log("Firing " + this.attackName + "... fully charged!");
+            //Debug.Log("Firing " + this.attackName + "... fully charged!");
 
         }
         else
         {
 
-            Debug.Log("Firing " + this.attackName);
+            //Debug.Log("Firing " + this.attackName);
+        }
+
+
+        foreach (var target in targets)
+        {
+            if(target) target.TakeDamage(fullyCharged ? chargeDamage : damage, element);
+            //TODO give status ailment if you have one
         }
     }
 }
