@@ -307,7 +307,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 9516f3ffea81f934ba0f97eabc43818e, type: 3}
+  m_Sprite: {fileID: 21300108, guid: 9516f3ffea81f934ba0f97eabc43818e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1390,7 +1390,7 @@ PrefabInstance:
         type: 3}
       propertyPath: naviAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 7239a68e3a0851b42bb9226658ea0d54,
+      objectReference: {fileID: 11400000, guid: 8fa087b93743e3e40bb356bb89313711,
         type: 2}
     - target: {fileID: 114435024773837526, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
@@ -1431,7 +1431,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 030e489c33b44f648bf148ca5216a7c6, type: 2}
+      objectReference: {fileID: 9100000, guid: b11228584813d414787cc8fe65cf4f21, type: 2}
     - target: {fileID: 212900063114128182, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
       propertyPath: m_FlipX

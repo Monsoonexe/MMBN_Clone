@@ -22,4 +22,4 @@ MonoBehaviour:
     statusName: 
     type: 0
     duration: 0
-  animatorMessage: ChargeBuster
+  animatorMessage: ChargeShot
