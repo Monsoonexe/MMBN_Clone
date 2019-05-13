@@ -7,18 +7,7 @@ public class ProjectileAttack : BaseAttack {
     public int projectileSpeed;
 
     private GameObject projectileInstance;
-
-    public ProjectileAttack()
-    {
-        this.Initialize();
-    }
-
-    protected override void Initialize()
-    {
-        //setup attack
-        attackName = "Generic Projectile Attack";
-    }
-
+    
     public override void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false)
     {
         //look at everythign in your row
