@@ -24,25 +24,11 @@ MonoBehaviour:
   chargeShotAudioClip: {fileID: 0}
   naviMoveSpeed: 1
   maxHealth: 9999
-  currentHealth: 4444
   element: 0
-  busterDelay: 0.25
-  busterChargeRate: 1
-  busterChargeMax: 3
-  busterCooldownRate: 1
-  busterDamageMod: 1
-  busterChargeDamageMod: 1
-  busterDefenseMod: 1
-  swordDelay: 0.45
-  swordChargeRate: 0.5
-  swordChargeMax: 3
-  swordCooldownRate: 1
-  swordDamageMod: 1
-  swordChargeDamageMod: 1
-  swordDefenseMod: 1
-  busterAttack: {fileID: 0}
-  chargedBusterAttack: {fileID: 0}
-  swordAttack: {fileID: 0}
-  chargedSwordAttack: {fileID: 0}
+  busterAttack: {fileID: 11400000, guid: 556b2f9047fb9d0498dbab4013def8da, type: 2}
+  chargedBusterAttack: {fileID: 11400000, guid: 556b2f9047fb9d0498dbab4013def8da,
+    type: 2}
+  swordAttack: {fileID: 11400000, guid: c5beaa431632a4f4d9903629591d770a, type: 2}
+  chargedSwordAttack: {fileID: 11400000, guid: c5beaa431632a4f4d9903629591d770a, type: 2}
   throwAttack: {fileID: 0}
   specialAttack: {fileID: 0}
