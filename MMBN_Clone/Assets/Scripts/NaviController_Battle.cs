@@ -814,6 +814,12 @@ public class NaviController_Battle : MonoBehaviour
         return orientation;
     }
 
+    public void GetCurrentPanelCoordinates(out int x, out int y)
+    {
+        x = currentPanelX;
+        y = currentPanelY;
+    }
+
     /// <summary>
     /// Syncs coordinates to panel currently occupying.
     /// </summary>
