@@ -482,7 +482,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
-                chargedBusterAttack.TriggerAttack(this, true);
+                chargedBusterAttack.TriggerAttack(this);
                 nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
 
             }
@@ -586,7 +586,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
                 //TODO Send damage or something combat related
-                chargedSwordAttack.TriggerAttack(this, true);
+                chargedSwordAttack.TriggerAttack(this);
                 nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing

@@ -37,8 +37,7 @@ public abstract class BaseAttack : ScriptableObject{
     /// Do the things the attack does.
     /// </summary>
     /// <param name="naviController">The navi using the ability.</param>
-    /// <param name="fullyCharged">Whether or not the attack has been charged all the way.</param>
-    public abstract void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false);  
+    public abstract void TriggerAttack(NaviController_Battle naviController);  
 
     public string GetAnimatorMessage()
     {
