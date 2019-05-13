@@ -52,7 +52,7 @@ public class PanelArray : MonoBehaviour {
         }
         else
         {
-            Debug.Log("ERROR: Request Panel is out of range!");
+            Debug.LogError("ERROR: Request Panel is out of range!");
             return null;
         }
     }//end GetPanel
@@ -68,8 +68,7 @@ public class PanelArray : MonoBehaviour {
         var panel = GetPanel(x, y);
         return panel.GetOccupant();
     }
-
-
+    
     public Panel GetOccupantsPanel(GameObject panelOccupant)
     {
         Panel occupiedPanel = null;//this is the panel that will be returned if it is occupied by this GO
@@ -102,9 +101,9 @@ public class PanelArray : MonoBehaviour {
     public void GetPanelCoordinates(Panel panel, ref int x, ref int y)
         //if you have a panel, but need to find its coordinates
     {
-        for (int column = 0; column < boardColumnsCount; ++column)//iterate through all Panels in PanelArray
+        for (var column = 0; column < boardColumnsCount; ++column)//iterate through all Panels in PanelArray
         {
-            for (int row = 0; row < boardRowsCount; ++row)
+            for (var row = 0; row < boardRowsCount; ++row)
             {
                 if (boardArray[column, row] == panel)//if panel being searched for matches one
                 {
@@ -130,8 +129,8 @@ public class PanelArray : MonoBehaviour {
 
     public Panel[] GetRowOfPanels(int rowNum)
     {
-        Panel[] rowOfPanels = new Panel[boardColumnsCount];
-        for(int iPanel = 0; iPanel < boardColumnsCount; ++iPanel)
+        var rowOfPanels = new Panel[boardColumnsCount];
+        for(var iPanel = 0; iPanel < boardColumnsCount; ++iPanel)
         {
             rowOfPanels[iPanel] = boardArray[iPanel, rowNum];
         }
@@ -140,8 +139,8 @@ public class PanelArray : MonoBehaviour {
 
     public Panel[] GetColumnOfPanels(int colNum)
     {
-        Panel[] colOfPanels = new Panel[boardRowsCount];
-        for (int iPanel = 0; iPanel < boardRowsCount; ++iPanel)
+        var colOfPanels = new Panel[boardRowsCount];
+        for (var iPanel = 0; iPanel < boardRowsCount; ++iPanel)
         {
             colOfPanels[iPanel] = boardArray[colNum, iPanel];
         }
