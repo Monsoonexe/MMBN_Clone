@@ -1477,6 +1477,11 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 0.53
       objectReference: {fileID: 0}
+    - target: {fileID: 6962412777392939540, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.175
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2ec458eee56ecc4f9c60298ab1e9183, type: 3}
 --- !u!1001 &784323408
@@ -3194,10 +3199,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.57
-      objectReference: {fileID: 0}
-    - target: {fileID: 1832157897690876, guid: e2ec458eee56ecc4f9c60298ab1e9183, type: 3}
-      propertyPath: m_Name
-      value: ChargeAura
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2ec458eee56ecc4f9c60298ab1e9183, type: 3}
