@@ -8,8 +8,7 @@ public class ProjectileAttack : BaseAttack {
 
     private GameObject projectileInstance;
     
-    public override void TriggerAttack(NaviController_Battle naviController, bool fullyCharged = false)
-    {
+    public override void TriggerAttack(NaviController_Battle naviController) { 
         //look at everythign in your row
         //if found something,
         //do damage to it
