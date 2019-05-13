@@ -2,8 +2,8 @@
 
 public abstract class GatherTargetsBehavior : ScriptableObject
 {
-    public bool canTargetSelf = false;//can hurt self?
-    public bool pierce = false;//hit more targets after first?
+    //for getting targets coordinates
+    protected static PanelArray panelArray;
 
     /// <summary>
     /// Describe to the developer how the behavior works.
@@ -13,5 +13,13 @@ public abstract class GatherTargetsBehavior : ScriptableObject
     protected string developerDescription;
     
     public abstract NaviController_Battle[] GatherTargets(NaviController_Battle user);
+
+    protected static void FindPanelArray()
+    {
+        if (!panelArray)
+        {
+            panelArray = GameObject.FindGameObjectWithTag("PanelArray").GetComponent<PanelArray>() as PanelArray;
+        }
+    }
 
 }
