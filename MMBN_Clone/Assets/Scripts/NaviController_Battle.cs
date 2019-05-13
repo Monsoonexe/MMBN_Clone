@@ -476,24 +476,24 @@ public class NaviController_Battle : MonoBehaviour
 
         if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
-
-            if (busterCharge >= busterAttack.chargeTime)//if fully charged
+            //handle charge attack if fully charged
+            if (busterCharge >= chargedBusterAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//show animation
+                bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
                 chargedBusterAttack.TriggerAttack(this);
-                nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
+                nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
 
             }
             else//regular buster shot
             {
-                bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//fire the buster
+                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
                 //busterAttack.DoAttack();
                 //TODO play sound
                 //TODO Send damage or something combat related
                 busterAttack.TriggerAttack(this);
-                nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
+                nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
 
             }
             //reset values after shot
@@ -587,7 +587,7 @@ public class NaviController_Battle : MonoBehaviour
                 //TODO play sound
                 //TODO Send damage or something combat related
                 chargedSwordAttack.TriggerAttack(this);
-                nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
+                nextAttackTime = nowTime + chargedSwordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing
             {
