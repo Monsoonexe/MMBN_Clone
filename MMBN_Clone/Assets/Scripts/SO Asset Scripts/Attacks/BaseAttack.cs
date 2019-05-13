@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 
-public abstract class BaseAttack : ScriptableObject{
+[CreateAssetMenu(fileName = "NewAttack", menuName = "Abilities/BasicAttack")]
+public class BaseAttack : ScriptableObject{
     [SerializeField]
     protected string attackName;
 
@@ -19,8 +20,6 @@ public abstract class BaseAttack : ScriptableObject{
 
     public int damage = 1;
 
-    public int chargeDamage = 3;
-
     [SerializeField]
     protected GatherTargetsBehavior targetingBehavior;
 
@@ -37,7 +36,17 @@ public abstract class BaseAttack : ScriptableObject{
     /// Do the things the attack does.
     /// </summary>
     /// <param name="naviController">The navi using the ability.</param>
-    public abstract void TriggerAttack(NaviController_Battle naviController);  
+    public virtual void TriggerAttack(NaviController_Battle naviController)
+    {
+        //get targets using targeting behavior
+        var targets = targetingBehavior.GatherTargets(naviController);
+
+        foreach (var target in targets)
+        {
+            if (target) target.TakeDamage(damage, element);
+            //TODO give status ailment if you have one
+        }
+    }
 
     public string GetAnimatorMessage()
     {

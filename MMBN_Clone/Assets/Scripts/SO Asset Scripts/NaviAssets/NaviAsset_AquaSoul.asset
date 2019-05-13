@@ -24,10 +24,10 @@ MonoBehaviour:
   naviMoveSpeed: 1
   maxHealth: 9999
   element: 1
-  busterAttack: {fileID: 11400000, guid: 556b2f9047fb9d0498dbab4013def8da, type: 2}
-  chargedBusterAttack: {fileID: 11400000, guid: 556b2f9047fb9d0498dbab4013def8da,
+  busterAttack: {fileID: 11400000, guid: e871519890fee214b963658797243457, type: 2}
+  chargedBusterAttack: {fileID: 11400000, guid: 9739bb909079e3d49bc3ce37cd884dac,
     type: 2}
-  swordAttack: {fileID: 11400000, guid: c5beaa431632a4f4d9903629591d770a, type: 2}
-  chargedSwordAttack: {fileID: 11400000, guid: c5beaa431632a4f4d9903629591d770a, type: 2}
+  swordAttack: {fileID: 11400000, guid: 0a59b3dd0ab4bf54cb0016dfa21ca310, type: 2}
+  chargedSwordAttack: {fileID: 11400000, guid: 01a1f130f242a03439893205f80a8082, type: 2}
   throwAttack: {fileID: 0}
   specialAttack: {fileID: 0}

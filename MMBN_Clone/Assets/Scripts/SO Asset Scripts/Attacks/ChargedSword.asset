@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9eebdf180acf6a4499229c4cab1e680e, type: 3}
-  m_Name: BasicSword
+  m_Name: BasicSword 1
   m_EditorClassIdentifier: 
   attackName: Sword
   element: 0
-  delay: 0.6
-  chargeTime: 4
-  damage: 5
+  delay: 1
+  chargeTime: 8
+  damage: 15
   targetingBehavior: {fileID: 11400000, guid: 0661724d2d6032e43a9061377be1a07d, type: 2}
   statusEffect:
     statusName: 
     type: 0
     duration: 0
-  animatorMessage: Sword
+  animatorMessage: ChargeSword
