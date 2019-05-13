@@ -41,13 +41,7 @@ public abstract class BaseAttack : ScriptableObject{
     /// What trigger to send to the animator for ability
     /// </summary>
     private string animatorMessage_charged;
-
-    //member functions
-    /// <summary>
-    /// Used for initialization
-    /// </summary>
-    protected abstract void Initialize();
-
+    
     /// <summary>
     /// Do the things the attack does.
     /// </summary>
