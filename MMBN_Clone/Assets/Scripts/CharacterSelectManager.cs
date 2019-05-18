@@ -1,8 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public struct Coords
 {
@@ -43,7 +42,7 @@ public class CharacterSelectManager : MonoBehaviour
     public CharacterSelectPET redPet;
 
     public Animator screenTransitionAnimator;
-    public Text healthText;
+    public TMP_InputField healthText;
 
     private void Awake()
     {
