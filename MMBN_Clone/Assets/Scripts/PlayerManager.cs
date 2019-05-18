@@ -10,6 +10,8 @@ public class PlayerManager : MonoBehaviour {
 
     private static PlayerManager playerManagerSingleton;
 
+    private static readonly int defaultStartingHealth = 100;
+
     public void Start()
     {
         if (!playerManagerSingleton)
@@ -47,14 +49,14 @@ public class PlayerManager : MonoBehaviour {
             Debug.Log("Health Parsed successfully!");//print test
             if(health < 1)//validate
             {
-                Debug.LogError("ERROR! Health entered less than 1.  Defaulting to 100");
-                health = 100;
+                Debug.LogError("ERROR! Health entered less than 1.  Defaulting.");
+                health = defaultStartingHealth;
             }
         }
         else
         {
-            Debug.LogError("Warning: HEALTH CAN ONLY BE NUMBERS! Setting health to 9999."); // fuck all
-            health = 9999;
+            Debug.LogError("Warning: HEALTH CAN ONLY BE NUMBERS! Setting health to default."); // fuck all
+            health = defaultStartingHealth;
             //TODO input validation
         }
 
