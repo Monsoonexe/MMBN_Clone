@@ -3,7 +3,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-Assets/AssetStoreTools*
+MMBN_Clone/Assets/AssetStoreTools*
 
 # Visual Studio cache directory
 .vs/
@@ -32,6 +32,10 @@ ExportedObj/
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
+#Unity Packages
+MMBN_Clone/Assets/TextMesh Pro
+
 # Builds
 *.apk
 *.unitypackage
+MMBN_Clone/Assets/TextMesh Pro.meta
