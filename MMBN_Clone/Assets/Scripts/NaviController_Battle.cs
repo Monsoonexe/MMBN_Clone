@@ -477,7 +477,7 @@ public class NaviController_Battle : MonoBehaviour
         if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
             //handle charge attack if fully charged
-            if (busterCharge >= busterAttack.chargeTime)//if fully charged
+            if (busterCharge > chargedBusterAttack.chargeTime)//if fully charged
             {
                 bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
                 //specialAttack.DoAttack();
@@ -504,7 +504,7 @@ public class NaviController_Battle : MonoBehaviour
         if (busterIsCharging)//charge up buster numbers
         {
             busterCharge += Time.deltaTime;
-            chargeAuraAnim.SetFloat("BusterCharge", busterCharge / busterAttack.chargeTime);//play charging animation
+            chargeAuraAnim.SetFloat("BusterCharge", busterCharge / chargedBusterAttack.chargeTime);//play charging animation
             //swordChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
 
         }
@@ -581,7 +581,7 @@ public class NaviController_Battle : MonoBehaviour
 
         if (fireSword && swordCooledDown)//FIRE!
         {
-            if (swordCharge >= swordAttack.chargeTime)//if fully charged
+            if (swordCharge > chargedSwordAttack.chargeTime)//if fully charged
             {
                 bodyAnim.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
@@ -607,7 +607,7 @@ public class NaviController_Battle : MonoBehaviour
         if (swordIsCharging)//charge up buster numbers
         {
             swordCharge += Time.deltaTime;
-            chargeAuraAnim.SetFloat("SwordCharge", swordCharge / swordAttack.chargeTime);//play animation, sending charge percent
+            chargeAuraAnim.SetFloat("SwordCharge", swordCharge / chargedSwordAttack.chargeTime);//play animation, sending charge percent
             //busterChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
         }
         else
