@@ -45,6 +45,11 @@ public class PlayerManager : MonoBehaviour {
         if(int.TryParse(healthForThisMatch, out int health))
         {
             Debug.Log("Health Parsed successfully!");//print test
+            if(health < 1)//validate
+            {
+                Debug.LogError("ERROR! Health entered less than 1.  Defaulting to 100");
+                health = 100;
+            }
         }
         else
         {
