@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class HealthColors : ScriptableObject {
     [Header("Colors")]
@@ -13,10 +13,9 @@ public class HealthColors : ScriptableObject {
     public float limit_HealthLow = .25f;
     public float limit_HealthDanger = .10f;
 
-    public void SetHealthColor(float currentHealth, float maxHealth, Text healthText)
+    public void SetHealthColor(float currentHealth, float maxHealth, TextMeshProUGUI healthText)
     {
-        float healthPercent = 1.0f; //default at 100% health (white) 
-        healthPercent = currentHealth / maxHealth; //get percent
+        var healthPercent = currentHealth / maxHealth; //get percent
         //Debug.Log("healthPercent: " + healthPercent.ToString());//print test
         if (healthPercent <= limit_HealthDanger)
         {
@@ -36,7 +35,5 @@ public class HealthColors : ScriptableObject {
             healthText.text = currentHealth.ToString();
             //TODO get a color between white and yellow this percent
         }
-
     }
-
 }

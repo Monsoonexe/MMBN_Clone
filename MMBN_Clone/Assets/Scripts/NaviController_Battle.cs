@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using UnityEngine.Audio;
 
 public class NaviController_Battle : MonoBehaviour
@@ -69,7 +69,7 @@ public class NaviController_Battle : MonoBehaviour
     private Panel currentPanel = null;
 
     public Image emotionWindow;
-    public Text healthText;
+    public TextMeshProUGUI healthText;
 
     public Panel startingPanel; //panel that the Player WANTS to start at.  GameManager or BoardManager will actually determine where to start
 
