@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
     private NaviAsset blueNavi;
@@ -14,7 +12,7 @@ public class PlayerManager : MonoBehaviour {
 
     public void Start()
     {
-        if (playerManagerSingleton == null)
+        if (!playerManagerSingleton)
         {
             playerManagerSingleton = this;
         }
@@ -44,8 +42,7 @@ public class PlayerManager : MonoBehaviour {
 
     public void SetNaviHealthForMatch(string healthForThisMatch)
     {
-        int health = 9999;
-        if(int.TryParse(healthForThisMatch, out health))
+        if(int.TryParse(healthForThisMatch, out int health))
         {
             Debug.Log("Health Parsed successfully!");//print test
         }
