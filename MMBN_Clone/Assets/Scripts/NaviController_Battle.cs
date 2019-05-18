@@ -764,8 +764,12 @@ public class NaviController_Battle : MonoBehaviour
         Debug.LogError("ERROR: This panel could not be found. WTF???");
     }//end SetStartingPanel()
 
+    /// <summary>
+    /// hard start point select.  DOES NOT TAKE INTO ACCOUNT BATTLE TEAM
+    /// </summary>
+    /// <param name="x">X-coord of panel</param>
+    /// <param name="y">Y-coord of panel</param>
     public void SetStartingPanel(int x, int y)
-        //hard start point select.  DOES NOT TAKE INTO ACCOUNT BATTLE TEAM
     {
         startingPanel = panelArray.GetPanel(x, y);
     }
