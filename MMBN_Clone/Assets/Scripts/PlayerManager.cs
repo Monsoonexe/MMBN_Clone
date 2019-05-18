@@ -48,9 +48,8 @@ public class PlayerManager : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Warning: HEALTH CAN ONLY BE NUMBERS! Setting health to 9999.");
-           
-            //fuck all
+            Debug.LogError("Warning: HEALTH CAN ONLY BE NUMBERS! Setting health to 9999."); // fuck all
+            health = 9999;
             //TODO input validation
         }
 
