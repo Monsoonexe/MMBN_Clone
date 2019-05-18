@@ -23,11 +23,11 @@ public class BattleManager : MonoBehaviour {
 	void Start () {
         if (panelArray == null)
         {
-            panelArray = GameObject.FindGameObjectWithTag("PanelArray").GetComponent<PanelArray>();
+            panelArray = GameObject.FindGameObjectWithTag("PanelArray").GetComponent<PanelArray>() as PanelArray;
         }
         if (customGaugeManager == null)
         {
-            customGaugeManager = GameObject.FindGameObjectWithTag("CustomGauge").GetComponent<CustomGaugeManager>();
+            customGaugeManager = GameObject.FindGameObjectWithTag("CustomGauge").GetComponent<CustomGaugeManager>() as CustomGaugeManager;
         }
 
 
@@ -55,10 +55,10 @@ public class BattleManager : MonoBehaviour {
     public static void PlaceCombatants(GameObject[] combatants_List)
     {
         NaviController_Battle naviController;
-        foreach (GameObject combatant in combatants_List)
+        foreach (var combatant in combatants_List)
         {
-            naviController = combatant.GetComponent<NaviController_Battle>();// get the naviController
-            Panel targetPanel = naviController.GetDesiredStartingPanel();//target the panel the navi wants to start at
+            naviController = combatant.GetComponent<NaviController_Battle>() as NaviController_Battle;// get the naviController
+            var targetPanel = naviController.GetDesiredStartingPanel();//target the panel the navi wants to start at
             naviController.transform.position = targetPanel.GetPosition() + naviController.GetSpriteOffset();//move sprite to new location, offset the sprite to be at center of board
             targetPanel.OccupyPanel(naviController.gameObject);//target Panel now has this object as an occupant
             naviController.UpdateCurrentPanelCoordinates();//update coordinates of current panel
