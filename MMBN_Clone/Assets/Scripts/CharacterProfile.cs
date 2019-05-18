@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CharacterProfile : MonoBehaviour {
 
     public NaviAsset naviAssetSO;
-    public Text naviName;
+    public TextMeshProUGUI naviName;
     public Image naviPortrait;
     
 
