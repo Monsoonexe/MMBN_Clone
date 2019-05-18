@@ -761,7 +761,7 @@ public class NaviController_Battle : MonoBehaviour
                 }//end if 
             }//end for rows
         }//end for columns
-        Debug.Log("ERROR: This panel could not be found. WTF???");
+        Debug.LogError("ERROR: This panel could not be found. WTF???");
     }//end SetStartingPanel()
 
     public void SetStartingPanel(int x, int y)
