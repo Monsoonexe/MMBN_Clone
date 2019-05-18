@@ -770,6 +770,11 @@ public class NaviController_Battle : MonoBehaviour
         startingPanel = panelArray.GetPanel(x, y);
     }
 
+    /// <summary>
+    /// Determine if the navi is able to move to the desired panel.  It may be occupied, on a different team, or the move may be off the board.
+    /// </summary>
+    /// <param name="desiredPanel"></param>
+    /// <returns></returns>
     public bool CanMoveToPanel(Panel desiredPanel)
     {
         var canMove = true;
@@ -793,6 +798,9 @@ public class NaviController_Battle : MonoBehaviour
         return canMove;
     }//end NaviCanMoveToPanel()
 
+    /// <summary>
+    /// Set navi's forward direction.  Used to determine attack direction.
+    /// </summary>
     public void SetOrientation(){
         //sets NaviFacing left or right
         switch(battleTeam){
@@ -816,6 +824,11 @@ public class NaviController_Battle : MonoBehaviour
         return orientation;
     }
 
+    /// <summary>
+    /// Get the coordinates of the panel that this navi is currently occupying.
+    /// </summary>
+    /// <param name="x"></param>
+    /// <param name="y"></param>
     public void GetCurrentPanelCoordinates(out int x, out int y)
     {
         x = currentPanelX;
