@@ -1,18 +1,22 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using UnityEngine.Audio;
 
 public class NaviController_Battle : MonoBehaviour
 {
     private static PanelArray panelArray;
+
     [SerializeField]
     private NaviAsset naviAsset;
+
     [SerializeField]
     private HealthColors healthColorsAsset;
+
     [SerializeField]
     private Animator bodyAnim;
+
     [SerializeField]
     private Animator chargeAuraAnim;
 
@@ -55,7 +59,7 @@ public class NaviController_Battle : MonoBehaviour
     private int orientation = 0;// +1 for facing right, -1 for facing left -- used for attacks
 
     //movement delay stuff
-    private const float movementDelay = 0.15f;//.15f seems good
+    private readonly float movementDelay = 0.15f;//.15f seems good
     private float movementDelayTimeSince;
     private bool movementDelayCoolingDown = false;
     private bool isMoving = false;
@@ -81,7 +85,6 @@ public class NaviController_Battle : MonoBehaviour
 
     void Awake()
     {
-
         if (GameObject.Find("PlayerManager") != null)//look for naviAssets from previous scenes
         {
             Debug.Log("PlayerManager found. Navi Assets loaded from previous scene.");
@@ -482,7 +485,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
                 //specialAttack.DoAttack();
                 //TODO play sound
-                chargedBusterAttack.TriggerAttack(this);
+                StartCoroutine(chargedBusterAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
 
             }
@@ -492,7 +495,7 @@ public class NaviController_Battle : MonoBehaviour
                 //busterAttack.DoAttack();
                 //TODO play sound
                 //TODO Send damage or something combat related
-                busterAttack.TriggerAttack(this);
+                StartCoroutine(busterAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
 
             }
@@ -586,7 +589,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
                 //TODO Send damage or something combat related
-                chargedSwordAttack.TriggerAttack(this);
+                StartCoroutine(chargedSwordAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + chargedSwordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing
@@ -594,7 +597,7 @@ public class NaviController_Battle : MonoBehaviour
                 bodyAnim.SetTrigger(swordAttack.GetAnimatorMessage());//swing the sword
                 //TODO play sound
                 //TODO Send damage or something combat related
-                swordAttack.TriggerAttack(this);
+                StartCoroutine(swordAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
 
             }
