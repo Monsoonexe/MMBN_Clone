@@ -73,27 +73,27 @@ public class PanelArray : MonoBehaviour {
     public Panel GetOccupantsPanel(GameObject panelOccupant)
     {
         Panel occupiedPanel = null;//this is the panel that will be returned if it is occupied by this GO
-        for (int column = 0; column < boardColumnsCount; ++column)//iterate through all Panels in PanelArray
+        for (var column = 0; column < boardColumnsCount; ++column)//iterate through all Panels in PanelArray
         {
-            for (int row = 0; row < boardRowsCount; ++row)
+            for (var row = 0; row < boardRowsCount; ++row)
             {
                 if (boardArray[column, row].GetOccupant() == panelOccupant)//if panel being searched for matches one
                 {
-                    if(occupiedPanel == null)
+                    if(!occupiedPanel)
                     {
                         occupiedPanel = boardArray[column, row];
                     }
                     else
                     {
-                        Debug.Log("ERROR: This GO occupies multiple panels! " + panelOccupant.name);
+                        Debug.LogError("ERROR: This GO occupies multiple panels! " + panelOccupant.name);
                     }
                 }//end if 
             }//end for rows
         }//end for columns
 
-        if(occupiedPanel == null)
+        if(!occupiedPanel)
         {
-            Debug.Log("ERROR: panel not found -- this object does not belong to a panel!: " + panelOccupant.name);
+            Debug.LogError("ERROR: panel not found -- this object does not belong to a panel!: " + panelOccupant.name);
         }
 
         return occupiedPanel; //did not find a panel
