@@ -94,7 +94,7 @@ public class NaviController_Battle : MonoBehaviour
         }
         else
         {
-            Debug.Log("PlayerManager not found. Using default navi Assets and Inspector values.");
+            Debug.LogWarning("PlayerManager not found. Using default navi Assets and Inspector values.");
             //uses default health values or values set in Inspector
         }
 
