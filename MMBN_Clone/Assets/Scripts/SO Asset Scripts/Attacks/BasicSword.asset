@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackName: Sword
   animatorMessage: Sword
-  element: 0
+  element: 10
   delay: 0.6
   drawDelay: 0.1
-  chargeTime: 4
+  chargeTime: 2
   damage: 5
   targetingBehavior: {fileID: 11400000, guid: 0661724d2d6032e43a9061377be1a07d, type: 2}
   statusEffect:
