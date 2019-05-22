@@ -264,8 +264,8 @@ public class NaviController_Battle : MonoBehaviour
         {
             //Debug.Log(currentPanel.panelOccupant.name);//print test
             this.transform.position = targetPanel.GetPosition() + spriteOffset;//move sprite to new location, offset the sprite to be at center of board
-            currentPanel.LeavePanel(this.gameObject);//clear current Panel's of any occupants // THIS LINE CAUSES NULLREFERENCEEXCEPTION!
-            targetPanel.OccupyPanel(this.gameObject);//target Panel now has this object as an occupant
+            currentPanel.LeavePanel();//clear current Panel's of any occupants
+            targetPanel.OccupyPanel(this);//target Panel now has this object as an occupant
             currentPanel = targetPanel; //this object now knows which Panel it is on
             UpdateCurrentPanelCoordinates();//update coordinates of current panel
             movementDelayTimeSince = 0.0f;//reset movement delay
