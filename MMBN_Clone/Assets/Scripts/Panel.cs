@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class Panel : MonoBehaviour
 {
     //private PanelType lastUpdatePanelType;
-    private GameObject panelOccupant;
+    private NaviController_Battle panelOccupant;
     //private BattleTeam lastUpdatePanelTeam;
 
     public PanelType panelType = PanelType.NULL;
@@ -37,26 +37,6 @@ public class Panel : MonoBehaviour
     public Sprite sea;
     public Sprite warning;
     public Sprite noType;
-
-
-    // Use this for initialization
-    //void Start()
-    //{
-    //    lastUpdatePanelType = panelType;
-    //    lastUpdatePanelTeam = panelTeam;
-    //    UpdatePanelType();
-    //}
-
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    if (lastUpdatePanelType != panelType || lastUpdatePanelTeam != panelTeam)
-    //    {
-    //        UpdatePanelType();//check to see if anything has changed
-    //    }
-        
-
-    //}
 
     private void OnValidate()
     {
@@ -223,9 +203,9 @@ public class Panel : MonoBehaviour
         }
     }
 
-    public GameObject GetOccupant()
+    public NaviController_Battle GetOccupant()
     {
-        return this.panelOccupant;
+        return panelOccupant;
     }
 
     public BattleTeam GetPanelTeam()
@@ -245,17 +225,17 @@ public class Panel : MonoBehaviour
 
     public Vector3 GetPosition()
     {
-        return this.transform.position;
+        return transform.position;
     }
 
-    public void OccupyPanel(GameObject occupant)
+    public void OccupyPanel(NaviController_Battle occupant)
     {
-        this.panelOccupant = occupant;
+        panelOccupant = occupant;
     }
 
-    public void LeavePanel(GameObject occupant)
+    public void LeavePanel()
     {
-        this.panelOccupant = null;
+        panelOccupant = null;
     }
 
 
