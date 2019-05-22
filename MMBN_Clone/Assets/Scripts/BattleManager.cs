@@ -17,6 +17,7 @@ public class BattleManager : MonoBehaviour {
     void Awake()
     {
         ;
+        GatherTargetsBehavior.InitStaticReferences();
     }
 
 	// Use this for initialization
