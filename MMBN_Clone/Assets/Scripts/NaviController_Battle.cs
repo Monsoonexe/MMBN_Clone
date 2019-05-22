@@ -20,6 +20,8 @@ public class NaviController_Battle : MonoBehaviour
     [SerializeField]
     private Animator chargeAuraAnim;
 
+    private Transform cachedTransform;
+
     //health and element stuff
     private Element element = Element.NONE;
     private int maxHealth = 9999;//arbitrary defaults
@@ -70,12 +72,11 @@ public class NaviController_Battle : MonoBehaviour
 
     private float naviMoveSpeed = 1.0f;//can increase rate of move cooldown -- speed < 1 (.95) is faster than 1.05
 
-    private Panel currentPanel = null;
-
     public Image emotionWindow;
     public TextMeshProUGUI healthText;
 
     public Panel startingPanel; //panel that the Player WANTS to start at.  GameManager or BoardManager will actually determine where to start
+    private Panel currentPanel = null;
 
     public BattleTeam battleTeam = BattleTeam.BLUE;//default
     public bool isPlayer = false;
@@ -85,10 +86,11 @@ public class NaviController_Battle : MonoBehaviour
 
     void Awake()
     {
-        if (GameObject.Find("PlayerManager") != null)//look for naviAssets from previous scenes
+        var playerManager = GameObject.Find("PlayerManager");
+        if (playerManager)//look for naviAssets from previous scenes
         {
             Debug.Log("PlayerManager found. Navi Assets loaded from previous scene.");
-            var pm = GameObject.Find("PlayerManager").GetComponent<PlayerManager>() as PlayerManager;
+            var pm = playerManager.GetComponent<PlayerManager>() as PlayerManager;
             pm.GetNaviStats(ref this.battleTeam, ref this.naviAsset, ref this.maxHealth, ref this.currentHealth);
 
         }
@@ -113,6 +115,8 @@ public class NaviController_Battle : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
+
+        cachedTransform = transform;//cache for performance
         SetOrientation();
         currentPanel = startingPanel;
         UpdateCurrentPanelCoordinates();
@@ -258,12 +262,34 @@ public class NaviController_Battle : MonoBehaviour
         this.specialAttack = naviAsset.specialAttack;
     }
 
-    public void MoveNavi(Panel targetPanel)
+    /// <summary>
+    /// Safe way of moving navi to a new panel.
+    /// </summary>
+    /// <param name="targetPanel">Panel that this navi desireth to move to.</param>
+    /// <param name="allowTresspass">Is this navi allowed to move onto a panel that does not belong to the same team?</param>
+    public void MoveNavi(Panel targetPanel, bool allowTresspass = false)
     {
-        if(this.CanMoveToPanel(targetPanel))
+        var canMoveToPanel = true;
+
+        //if missing or broken, need to fly or float over holes.
+        if(!(targetPanel.panelType == PanelType.MISSING || targetPanel.panelType == PanelType.BROKEN))
+        {
+            if (!allowTresspass)
+            {
+                //check for team
+                canMoveToPanel = targetPanel.GetPanelTeam() == battleTeam;
+            }
+        }
+        else
+        {
+            //can step on hole panels if element is wind
+            canMoveToPanel = element == Element.WIND;
+        }
+
+        if(canMoveToPanel)
         {
             //Debug.Log(currentPanel.panelOccupant.name);//print test
-            this.transform.position = targetPanel.GetPosition() + spriteOffset;//move sprite to new location, offset the sprite to be at center of board
+            cachedTransform.position = targetPanel.GetPosition() + spriteOffset;//move sprite to new location, offset the sprite to be at center of board
             currentPanel.LeavePanel();//clear current Panel's of any occupants
             targetPanel.OccupyPanel(this);//target Panel now has this object as an occupant
             currentPanel = targetPanel; //this object now knows which Panel it is on
@@ -280,7 +306,7 @@ public class NaviController_Battle : MonoBehaviour
         }
         
     }//end MoveNavi()
-
+    
     private void GetMovement(){
         if (owningPlayer == 1 && isPlayer == true)
         {
@@ -776,39 +802,11 @@ public class NaviController_Battle : MonoBehaviour
     {
         startingPanel = panelArray.GetPanel(x, y);
     }
-
-    /// <summary>
-    /// Determine if the navi is able to move to the desired panel.  It may be occupied, on a different team, or the move may be off the board.
-    /// </summary>
-    /// <param name="desiredPanel"></param>
-    /// <returns></returns>
-    public bool CanMoveToPanel(Panel desiredPanel)
-    {
-        var canMove = true;
-
-        //these conditions cause check to fail
-        if (desiredPanel.GetPanelTeam() != battleTeam)//if panel is not on same team
-        {
-            canMove = false;
-        }
-        else if (desiredPanel.GetPanelType() == PanelType.BROKEN)//if panel is BROKEN
-        {
-            //TODO check if Navi can fly or float
-            canMove = false;
-        }
-        else if (desiredPanel.GetPanelType() == PanelType.MISSING)// if panel is MISSING
-        {
-            //TODO check if Navi can fly or float
-            canMove = false;
-        }
-
-        return canMove;
-    }//end NaviCanMoveToPanel()
-
+    
     /// <summary>
     /// Set navi's forward direction.  Used to determine attack direction.
     /// </summary>
-    public void SetOrientation(){
+    private void SetOrientation(){
         //sets NaviFacing left or right
         switch(battleTeam){
             case BattleTeam.BLUE:
@@ -840,6 +838,11 @@ public class NaviController_Battle : MonoBehaviour
     {
         x = currentPanelX;
         y = currentPanelY;
+    }
+
+    public Panel GetCurrentPanel()
+    {
+        return currentPanel;
     }
 
     /// <summary>
