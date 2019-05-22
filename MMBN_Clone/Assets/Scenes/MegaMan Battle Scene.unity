@@ -1154,7 +1154,7 @@ PrefabInstance:
         type: 3}
       propertyPath: naviAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 8fa087b93743e3e40bb356bb89313711,
+      objectReference: {fileID: 11400000, guid: 6fa3c3204ba7e764a834b1dc3d3cf02b,
         type: 2}
     - target: {fileID: 114435024773837526, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
