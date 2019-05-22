@@ -60,7 +60,7 @@ public class BattleManager : MonoBehaviour {
             naviController = combatant.GetComponent<NaviController_Battle>() as NaviController_Battle;// get the naviController
             var targetPanel = naviController.GetDesiredStartingPanel();//target the panel the navi wants to start at
             naviController.transform.position = targetPanel.GetPosition() + naviController.GetSpriteOffset();//move sprite to new location, offset the sprite to be at center of board
-            targetPanel.OccupyPanel(naviController.gameObject);//target Panel now has this object as an occupant
+            targetPanel.OccupyPanel(naviController);//target Panel now has this object as an occupant
             naviController.UpdateCurrentPanelCoordinates();//update coordinates of current panel
         }
     }
