@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Basic Raycast Target", menuName = "Targeting Behaviors / RaycastTarget")]
+[CreateAssetMenu(fileName = "FirstRaycast_Behavior", menuName = "Targeting Behaviors / RaycastTarget")]
 public class FirstRaycast : GatherTargetsBehavior
 {
     public override NaviController_Battle[] GatherTargets(NaviController_Battle user)

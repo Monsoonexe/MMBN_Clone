@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Basic Raycast Target", menuName = "Targeting Behaviors / Immediately in Front")]
+[CreateAssetMenu(fileName = "ImmediatelyInFront_Behavior", menuName = "Targeting Behaviors / Immediately in Front")]
 public class ImmediatelyInFront : GatherTargetsBehavior
 {
 
