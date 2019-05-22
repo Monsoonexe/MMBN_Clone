@@ -5,11 +5,11 @@ public class FirstRaycast : GatherTargetsBehavior
 {
     public override NaviController_Battle[] GatherTargets(NaviController_Battle user)
     {
-        NaviController_Battle[] targetList = new NaviController_Battle[1];//this type of attack can only ever hit one target
+        var targetList = new NaviController_Battle[1];//this type of attack can only ever hit one target
         
-        Transform userXform = user.transform;
+        var userXform = user.transform;
 
-        RaycastHit2D raycastHitInfo = Physics2D.Raycast(user.transform.position, user.transform.right * user.GetOrientation(), PanelArray.globalScale);
+        var raycastHitInfo = Physics2D.Raycast(user.transform.position, user.transform.right * user.GetOrientation(), PanelArray.globalScale);
 
         if (raycastHitInfo)
         {
