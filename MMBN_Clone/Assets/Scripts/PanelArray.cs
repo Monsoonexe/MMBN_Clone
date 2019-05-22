@@ -46,13 +46,13 @@ public class PanelArray : MonoBehaviour {
 
     public Panel GetPanel(int x, int y){
         //find which Panel is at coordinates (x, y)
-        if (x <= boardColumnsCount && x >= 0 && y <= boardRowsCount && y >= 0)//if x and y are valid points on a 6,3 sized plane
+        if (x < boardColumnsCount && x >= 0 && y < boardRowsCount && y >= 0)//if x and y are valid points on a 6,3 sized plane
         {        
             return boardArray[x, y];
         }
         else
         {
-            Debug.LogError("ERROR: Request Panel is out of range!");
+            //Debug.LogError("ERROR: Requested Panel is out of range!");// should be handled -- no longer an error
             return null;
         }
     }//end GetPanel
@@ -63,10 +63,11 @@ public class PanelArray : MonoBehaviour {
     /// <param name="x">X coord</param>
     /// <param name="y">Y coord</param>
     /// <returns>GO, or null, of occupant, if any.</returns>
-    public GameObject GetOccupantAtCoordinates(int x, int y)
+    public NaviController_Battle GetOccupantAtCoordinates(int x, int y)
     {
-        var panel = GetPanel(x, y);
-        return panel.GetOccupant();
+        var panel = GetPanel(x, y);//get the panel at these coordinates
+        
+        return panel ? panel.GetOccupant() : null;//return a panel's occupant, if it exists, otherwise return null.
     }
     
     public Panel GetOccupantsPanel(GameObject panelOccupant)
