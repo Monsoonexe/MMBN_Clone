@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: ChargedBuster
   m_EditorClassIdentifier: 
   attackName: Buster
+  animatorMessage: ChargeShot
   element: 0
   delay: 0.6
+  drawDelay: 0.2
   chargeTime: 9
   damage: 3
   targetingBehavior: {fileID: 11400000, guid: a98dc8e810f8cd6439b4ab438a1cb1d6, type: 2}
@@ -22,4 +24,3 @@ MonoBehaviour:
     statusName: 
     type: 0
     duration: 0
-  animatorMessage: ChargeShot

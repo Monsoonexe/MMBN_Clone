@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: BasicBuster
   m_EditorClassIdentifier: 
   attackName: Buster
+  animatorMessage: Buster
   element: 0
   delay: 0.4
+  drawDelay: 0.2
   chargeTime: 3
   damage: 1
-  chargeDamage: 3
   targetingBehavior: {fileID: 11400000, guid: a98dc8e810f8cd6439b4ab438a1cb1d6, type: 2}
   statusEffect:
     statusName: 
     type: 0
     duration: 0
-  animatorMessage: Buster
