@@ -128,6 +128,11 @@ public class PanelArray : MonoBehaviour {
         return boardRowsCount;
     }//how many rows in this array?
 
+    /// <summary>
+    /// Return the panels in a given row.
+    /// </summary>
+    /// <param name="rowNum"></param>
+    /// <returns></returns>
     public Panel[] GetRowOfPanels(int rowNum)
     {
         var rowOfPanels = new Panel[boardColumnsCount];
@@ -138,6 +143,11 @@ public class PanelArray : MonoBehaviour {
         return rowOfPanels;
     }//gimme this whole row
 
+    /// <summary>
+    /// return the panels in a given column
+    /// </summary>
+    /// <param name="colNum"></param>
+    /// <returns></returns>
     public Panel[] GetColumnOfPanels(int colNum)
     {
         var colOfPanels = new Panel[boardRowsCount];
