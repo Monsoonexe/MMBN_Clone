@@ -777,22 +777,6 @@ public class NaviController_Battle : MonoBehaviour
         }
     }//end SetStartingPanel()
 
-    public void SetStartingPanel(Panel desiredPanelToStartOn)
-    {
-        for (var column = 0; column < PanelArray.GetBoardColumnsCount(); ++column)//iterate through all Panels in PanelArray
-        {
-            for (var row = 0; row < PanelArray.GetBoardRowsCount(); ++row)
-            {
-                if (panelArray.GetPanel(column, row) == desiredPanelToStartOn)//if panel being searched for matches one
-                {
-                    startingPanel = desiredPanelToStartOn;//make this the panel to start on
-                    return;
-                }//end if 
-            }//end for rows
-        }//end for columns
-        Debug.LogError("ERROR: This panel could not be found. WTF???");
-    }//end SetStartingPanel()
-
     /// <summary>
     /// hard start point select.  DOES NOT TAKE INTO ACCOUNT BATTLE TEAM
     /// </summary>
