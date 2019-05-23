@@ -66,23 +66,38 @@ public class NaviController_Battle : MonoBehaviour
     private bool movementDelayCoolingDown = false;
     private bool isMoving = false;
 
+    //disable controls stuff
+    private bool controlsDisabled = false;
+    private Coroutine coroutine_controlsDisabled;
+
     //sprite stuff
     private Vector3 spriteOffset;
     private bool flipSpriteX = true;
 
     private float naviMoveSpeed = 1.0f;//can increase rate of move cooldown -- speed < 1 (.95) is faster than 1.05
 
-    public Image emotionWindow;
-    public TextMeshProUGUI healthText;
+    [SerializeField]
+    private Image emotionWindow;
 
-    public Panel startingPanel; //panel that the Player WANTS to start at.  GameManager or BoardManager will actually determine where to start
+    [SerializeField]
+    private TextMeshProUGUI healthText;
+
+    [SerializeField]
+    private Panel startingPanel; //panel that the Player WANTS to start at.  GameManager or BoardManager will actually determine where to start
+
     private Panel currentPanel = null;
 
-    public BattleTeam battleTeam = BattleTeam.BLUE;//default
-    public bool isPlayer = false;
-    public int owningPlayer = 0;
+    [SerializeField]
+    private BattleTeam battleTeam = BattleTeam.BLUE;//default
 
-    public List<StatusEffect> statusAilments = new List<StatusEffect>();
+    [SerializeField]
+    private bool isPlayer = false;
+
+    [SerializeField]
+    private int owningPlayer = 0;
+
+    [SerializeField]
+    private List<StatusEffect> statusAilments = new List<StatusEffect>();
 
     void Awake()
     {
@@ -114,41 +129,27 @@ public class NaviController_Battle : MonoBehaviour
     }
 
 	// Use this for initialization
-	void Start () {
-
+	void Start ()
+    {
+        //init components
         cachedTransform = transform;//cache for performance
+        bodyAnim = this.GetComponent<Animator>();
+
+        ConfigureSpriteOffset();//based on battle team, fixes sprite offset
         SetOrientation();
-        currentPanel = startingPanel;
         UpdateCurrentPanelCoordinates();
         InitializeDelays();
         InitializeHealth();
         UpdateHealthVisuals();
-
+        //set starting values
+        controlsDisabled = false;
+        currentPanel = startingPanel;
     }
 
     // Update is called once per frame
     void Update()
     {
-        var stunned = false;
         isMoving = false;
-
-        //handle stun
-        foreach (var ailment in statusAilments)
-        {
-            if(Time.time < ailment.effectEndTime)
-            {
-                //effect triggers
-                if(ailment.type == StatusAilmentType.STUN)
-                {
-                    stunned = true;
-                }
-            }
-        }
-
-        if (stunned)
-        {
-            return;
-        }
 
         //handle input
         if (isPlayer)
@@ -220,6 +221,21 @@ public class NaviController_Battle : MonoBehaviour
         return this.element;
     }
 
+    /// <summary>
+    /// After waiting the given time, controls will no longer be disabled.  coroutine ensures only 1 running at a time.
+    /// </summary>
+    /// <param name="disableTime"></param>
+    /// <returns></returns>
+    private IEnumerator DisableControls(float disableTime)
+    {
+        yield return new WaitForSeconds(disableTime);
+
+        controlsDisabled = false;
+    }
+
+    /// <summary>
+    /// Make the sprite face left or right depending on team and original orientation.
+    /// </summary>
     private void ConfigureSpriteOffset()
     {
         if(battleTeam == BattleTeam.BLUE)
@@ -238,17 +254,14 @@ public class NaviController_Battle : MonoBehaviour
 
     private void InitializeNavi()
     {
-        //load animator components
-        this.bodyAnim = this.GetComponent<Animator>();
+        //load animator
         this.bodyAnim.runtimeAnimatorController = naviAsset.runtimeAnimController;
 
         //load visuals
         this.emotionWindow.sprite = naviAsset.emotionWindow;
         this.spriteOffset = naviAsset.spriteOffset;
         this.orientation = naviAsset.orientation;
-
-        ConfigureSpriteOffset();//based on battle team, fixes sprite offset
-
+    
         //load battle stuff
         this.naviMoveSpeed = naviAsset.naviMoveSpeed;
         this.element = naviAsset.element;
@@ -269,8 +282,10 @@ public class NaviController_Battle : MonoBehaviour
     /// <param name="allowTresspass">Is this navi allowed to move onto a panel that does not belong to the same team?</param>
     public void MoveNavi(Panel targetPanel, bool allowTresspass = false)
     {
-        var canMoveToPanel = true;
+        if (targetPanel.GetOccupant()) return;//can't enter occupied panels
 
+        var canMoveToPanel = true;
+        
         //if missing or broken, need to fly or float over holes.
         if(!(targetPanel.panelType == PanelType.MISSING || targetPanel.panelType == PanelType.BROKEN))
         {
@@ -315,7 +330,7 @@ public class NaviController_Battle : MonoBehaviour
 
         else if (owningPlayer == 2 && isPlayer == true)
         {
-            GetMoveInput_Numbers();
+            GetMoveInput_Keypad();
         }//end if
 
         else
@@ -348,7 +363,7 @@ public class NaviController_Battle : MonoBehaviour
         }
     }//end GetMoveInput_Letters()
 
-    private void GetMoveInput_Numbers()
+    private void GetMoveInput_Keypad()
     {
         if (Input.GetKeyDown(KeyCode.Keypad8))//move up
         {
@@ -368,7 +383,7 @@ public class NaviController_Battle : MonoBehaviour
         }
     }//end GetMoveInput_Numbers()
 
-    [System.Obsolete("I don't know why this doesn't work as well.  Use GetMoveInput_Numbers()")]
+    [System.Obsolete("I don't know why this doesn't work as well.  Use GetMoveInput_Keypad()")]
     /// <summary>
     /// 
     /// </summary>
@@ -738,6 +753,13 @@ public class NaviController_Battle : MonoBehaviour
         Debug.Log("AI not yet set up. Actions skipped");
     }//end function
 
+    private void StartDeath()
+    {
+        //play death sound
+        //disable controls
+
+    }
+
     public void TakeDamage(int damageAmount, Element damageElement = Element.NONE)
     {
         //animator
@@ -749,9 +771,13 @@ public class NaviController_Battle : MonoBehaviour
 
         //subtract damage
         currentHealth -= damageAmount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);//prevent damage falling below 0 and healing raising above max
 
         //keep in bounds
-        currentHealth = currentHealth < 0 ? 0 : currentHealth;
+        if(currentHealth == 0)
+        {
+            StartDeath();//you have died
+        }
 
         //update visuals 
         UpdateHealthVisuals();
