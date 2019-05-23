@@ -7,6 +7,13 @@ public class BaseAttack : ScriptableObject
     [SerializeField]
     protected string attackName;
 
+    /// <summary>
+    /// Describe to the developer how the behavior works.
+    /// </summary>
+    [SerializeField]
+    [TextArea]
+    protected string developerDescription;
+
     [SerializeField]
     /// <summary>
     /// What trigger to send to the animator for ability animation
