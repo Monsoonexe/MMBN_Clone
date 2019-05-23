@@ -756,21 +756,21 @@ public class NaviController_Battle : MonoBehaviour
         controlsDisabled = true;
         bodyAnimator.SetTrigger("Death");
         //chargeAuraAnim.SetTrigger("DeathExplosion");//trigger explosion effect
+        StartCoroutine(FadeToNothing());
 
     }
 
     private IEnumerator FadeToNothing()
     {
         var spriteRenderer = GetComponent<SpriteRenderer>() as SpriteRenderer;
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         var color = spriteRenderer.color;
-        var alpha = color.a;
-        var fadeRate = 1.0f;
-        while(alpha > 0)
+        var fadeRate = .06f;
+        while(color.a > 0)
         {
-            alpha -= (int)(1 * fadeRate);
-            color.a = alpha;
+            color.a /= 2.0f;
             spriteRenderer.color = color;
+            yield return new WaitForSeconds(fadeRate);
         }
     }
 
