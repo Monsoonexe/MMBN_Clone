@@ -15,7 +15,7 @@ public class NaviController_Battle : MonoBehaviour
     private HealthColors healthColorsAsset;
 
     [SerializeField]
-    private Animator bodyAnim;
+    private Animator bodyAnimator;
 
     [SerializeField]
     private Animator chargeAuraAnim;
@@ -115,7 +115,10 @@ public class NaviController_Battle : MonoBehaviour
             //uses default health values or values set in Inspector
         }
 
-        InitializeNavi();//initializes from naviAsset
+        //init components
+        cachedTransform = transform;//cache for performance
+
+        InitializeNaviFromSO(naviAsset);//initializes from naviAsset
 
         if (!panelArray)
         {
@@ -131,10 +134,6 @@ public class NaviController_Battle : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        //init components
-        cachedTransform = transform;//cache for performance
-        bodyAnim = this.GetComponent<Animator>();
-
         ConfigureSpriteOffset();//based on battle team, fixes sprite offset
         SetOrientation();
         UpdateCurrentPanelCoordinates();
@@ -252,10 +251,15 @@ public class NaviController_Battle : MonoBehaviour
         }
     }
 
-    private void InitializeNavi()
+    /// <summary>
+    /// Read data from Scriptable Object
+    /// </summary>
+    /// <param name="naviAsset"></param>
+    private void InitializeNaviFromSO(NaviAsset naviAsset)
     {
         //load animator
-        this.bodyAnim.runtimeAnimatorController = naviAsset.runtimeAnimController;
+        this.bodyAnimator = this.GetComponent<Animator>();
+        this.bodyAnimator.runtimeAnimatorController = naviAsset.runtimeAnimController;
 
         //load visuals
         this.emotionWindow.sprite = naviAsset.emotionWindow;
@@ -311,7 +315,7 @@ public class NaviController_Battle : MonoBehaviour
             UpdateCurrentPanelCoordinates();//update coordinates of current panel
             movementDelayTimeSince = 0.0f;//reset movement delay
             
-            bodyAnim.SetTrigger("Move");//trigger animation
+            bodyAnimator.SetTrigger("Move");//trigger animation
             //Debug.Log("Move Completed!");//print test
             //TODO
             //OnPanelEnter(); //activate panel effects
@@ -523,7 +527,7 @@ public class NaviController_Battle : MonoBehaviour
             //handle charge attack if fully charged
             if (busterCharge > chargedBusterAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
+                bodyAnimator.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
                 StartCoroutine(chargedBusterAttack.TriggerAttack(this));//do attack logic
                 nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
@@ -531,7 +535,7 @@ public class NaviController_Battle : MonoBehaviour
             }
             else//regular buster shot
             {
-                bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
+                bodyAnimator.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
                 //TODO play sound
                 StartCoroutine(busterAttack.TriggerAttack(this));//do attack logic
                 nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
@@ -623,14 +627,14 @@ public class NaviController_Battle : MonoBehaviour
         {
             if (swordCharge > chargedSwordAttack.chargeTime)//if fully charged
             {
-                bodyAnim.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
+                bodyAnimator.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
                 StartCoroutine(chargedSwordAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + chargedSwordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing
             {
-                bodyAnim.SetTrigger(swordAttack.GetAnimatorMessage());//swing the sword
+                bodyAnimator.SetTrigger(swordAttack.GetAnimatorMessage());//swing the sword
                 //TODO play sound
                 StartCoroutine(swordAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
@@ -680,7 +684,7 @@ public class NaviController_Battle : MonoBehaviour
         //TODO check if has a chip available
         if (chipAttack && attackCooledDown)
         {
-            bodyAnim.SetTrigger("Special");
+            bodyAnimator.SetTrigger("Special");
             movementDelayTimeSince = -1.0f;//reset movement
             
             specialAttack.TriggerAttack(this);
@@ -718,7 +722,7 @@ public class NaviController_Battle : MonoBehaviour
         //TODO check if has a chip available
         if (chipAttack && attackCooledDown)
         {
-            bodyAnim.SetTrigger("Throw");
+            bodyAnimator.SetTrigger("Throw");
             movementDelayTimeSince = -1.0f;//reset movement
 
             throwAttack.TriggerAttack(this);
@@ -749,7 +753,25 @@ public class NaviController_Battle : MonoBehaviour
     {
         //play death sound
         //disable controls
+        controlsDisabled = true;
+        bodyAnimator.SetTrigger("Death");
+        //chargeAuraAnim.SetTrigger("DeathExplosion");//trigger explosion effect
 
+    }
+
+    private IEnumerator FadeToNothing()
+    {
+        var spriteRenderer = GetComponent<SpriteRenderer>() as SpriteRenderer;
+        yield return new WaitForSeconds(1.5f);
+        var color = spriteRenderer.color;
+        var alpha = color.a;
+        var fadeRate = 1.0f;
+        while(alpha > 0)
+        {
+            alpha -= (int)(1 * fadeRate);
+            color.a = alpha;
+            spriteRenderer.color = color;
+        }
     }
 
     public void TakeDamage(int damageAmount, Element damageElement = Element.NONE)
@@ -817,7 +839,6 @@ public class NaviController_Battle : MonoBehaviour
 
             case BattleTeam.RED:
                 orientation = -1;
-                //this.gameObject.GetComponent<SpriteRenderer>().flipX = flipSpriteX;
                 break;
         }//end switch
     }//end SetOrientation()
