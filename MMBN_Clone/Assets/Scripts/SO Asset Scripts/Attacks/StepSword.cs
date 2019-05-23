@@ -15,10 +15,7 @@ public class StepSword : BaseAttack
     {        
         //immediately check to see if you can step
         var targetPanels = stepTargetingBehavior.GatherTargetPanels(naviController);
-        if (targetPanels.Length == 0) //if there panel is occupied...
-        {
-            yield break;//do nothing else
-        }//otherwise....
+        if (!targetPanels[0]) yield break;//if there's nothing, do nothing
 
         var currentPanel = naviController.GetCurrentPanel();//cache current panel to return to it after attack
         //step, can even go into enemy territory
