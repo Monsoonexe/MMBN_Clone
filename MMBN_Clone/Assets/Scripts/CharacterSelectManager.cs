@@ -27,22 +27,31 @@ public class CharacterSelectManager : MonoBehaviour
 
     private CharacterProfile[,] characterProfiles;
 
-    public CharacterProfile[] listOfCharacterProfiles;
+    [SerializeField]
+    private CharacterProfile[] listOfCharacterProfiles;
 
-    public PlayerManager playerManager;//singleton'd and loads between scenes, hopefully
+    [SerializeField]
+    private PlayerManager playerManager;//singleton'd and loads between scenes, hopefully
 
-    public CharacterProfile[] charListRow0;
-    public CharacterProfile[] charListRow1;
+    [SerializeField]
+    private CharacterProfile[] charListRow0;
+    [SerializeField]
+    private CharacterProfile[] charListRow1;
 
+    [SerializeField]
+    private GameObject blueCursor;
+    [SerializeField]
+    private GameObject redCursor;
 
-    public GameObject blueCursor;
-    public GameObject redCursor;
+    [SerializeField]
+    private CharacterSelectPET bluePet;
+    [SerializeField]
+    private CharacterSelectPET redPet;
 
-    public CharacterSelectPET bluePet;
-    public CharacterSelectPET redPet;
-
-    public Animator screenTransitionAnimator;
-    public TMP_InputField healthText;
+    [SerializeField]
+    private Animator screenTransitionAnimator;
+    [SerializeField]
+    private TMP_InputField healthText;
 
     private void Awake()
     {
