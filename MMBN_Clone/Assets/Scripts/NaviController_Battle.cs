@@ -524,19 +524,16 @@ public class NaviController_Battle : MonoBehaviour
             if (busterCharge > chargedBusterAttack.chargeTime)//if fully charged
             {
                 bodyAnim.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
-                //specialAttack.DoAttack();
                 //TODO play sound
-                StartCoroutine(chargedBusterAttack.TriggerAttack(this));
+                StartCoroutine(chargedBusterAttack.TriggerAttack(this));//do attack logic
                 nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
 
             }
             else//regular buster shot
             {
                 bodyAnim.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
-                //busterAttack.DoAttack();
                 //TODO play sound
-                //TODO Send damage or something combat related
-                StartCoroutine(busterAttack.TriggerAttack(this));
+                StartCoroutine(busterAttack.TriggerAttack(this));//do attack logic
                 nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
 
             }
@@ -555,12 +552,11 @@ public class NaviController_Battle : MonoBehaviour
         else
         {
             chargeAuraAnim.SetFloat("BusterCharge", 0.0f);//no charge
-            //chargeAuraAnim.SetTrigger("ResetCharge"); //reset animation
         }
     }//end HandleBuster()
 
     /// <summary>
-    /// 
+    /// Handle Input and logic of sword attack.
     /// </summary>
     /// <param name="nowTime">Current time is used to determine cooldown.</param>
     private void HandleSword(float nowTime)
@@ -629,7 +625,6 @@ public class NaviController_Battle : MonoBehaviour
             {
                 bodyAnim.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
                 //TODO play sound
-                //TODO Send damage or something combat related
                 StartCoroutine(chargedSwordAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + chargedSwordAttack.delay;//reset time since last sword shot
             }
@@ -637,7 +632,6 @@ public class NaviController_Battle : MonoBehaviour
             {
                 bodyAnim.SetTrigger(swordAttack.GetAnimatorMessage());//swing the sword
                 //TODO play sound
-                //TODO Send damage or something combat related
                 StartCoroutine(swordAttack.TriggerAttack(this));
                 nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
 
@@ -645,14 +639,12 @@ public class NaviController_Battle : MonoBehaviour
             //reset values after shot
             swordCharge = 0;//reset charge amount when button is released
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
-
         }
 
         if (swordIsCharging)//charge up buster numbers
         {
             swordCharge += Time.deltaTime;
             chargeAuraAnim.SetFloat("SwordCharge", swordCharge / chargedSwordAttack.chargeTime);//play animation, sending charge percent
-            //busterChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
         }
         else
         {
@@ -661,7 +653,7 @@ public class NaviController_Battle : MonoBehaviour
     }//end HandleSword_Letters()
 
     /// <summary>
-    /// 
+    /// Handle Input and Logic of Chip Attack.
     /// </summary>
     /// <param name="nowTime">Current time is used to determine cooldown.</param>
     private void HandleChip(float nowTime)
