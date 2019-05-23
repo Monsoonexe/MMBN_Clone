@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+[SelectionBase]
 public class Panel : MonoBehaviour
 {
     //private PanelType lastUpdatePanelType;
