@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6259b3c3d28a50499a6acdf163682c7, type: 3}
   m_Name: ImmediatelyInFront3
   m_EditorClassIdentifier: 
-  developerDescription: Get panel 3 squares away in front of me
+  developerDescription: 'Get panel 3 squares away in front of me
+
+    [x][][][x]'
   squaresAhead: 3

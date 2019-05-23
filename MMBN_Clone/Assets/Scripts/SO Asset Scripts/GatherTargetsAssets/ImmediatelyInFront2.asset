@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ImmediatelyInFront2
   m_EditorClassIdentifier: 
   developerDescription: "Skip 1 panel in front, get next panel.  \nGet 2nd panel away
-    in front."
+    in front.\n[x][][x]"
   squaresAhead: 2

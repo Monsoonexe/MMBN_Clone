@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6259b3c3d28a50499a6acdf163682c7, type: 3}
   m_Name: ImmediatelyInFront
   m_EditorClassIdentifier: 
-  developerDescription: Hits the occupant of the panel immediately in front of it.
+  developerDescription: 'Hits the occupant of the panel immediately in front of it.
     i.e. Short Sword
+
+    [x][x][]'
+  squaresAhead: 1
