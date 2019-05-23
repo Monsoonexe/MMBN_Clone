@@ -1189,7 +1189,7 @@ PrefabInstance:
     - target: {fileID: 114435024773837526, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
       propertyPath: currentHealth
-      value: 4444
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 95308193376637780, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
@@ -2795,6 +2795,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 4cc8d7f5a9fd73e41a94f986637b246b,
         type: 2}
+    - target: {fileID: 114435024773837526, guid: e2ec458eee56ecc4f9c60298ab1e9183,
+        type: 3}
+      propertyPath: currentHealth
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 95308193376637780, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
       propertyPath: m_Controller

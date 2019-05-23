@@ -757,6 +757,7 @@ public class NaviController_Battle : MonoBehaviour
         bodyAnimator.SetTrigger("Death");
         //chargeAuraAnim.SetTrigger("DeathExplosion");//trigger explosion effect
         StartCoroutine(FadeToNothing());
+        BattleManager.OnCombatantDeath(this);
 
     }
 

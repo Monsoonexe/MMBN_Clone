@@ -1,5 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BattleManager : MonoBehaviour {
     private bool atCustomScreen = false;
@@ -13,11 +15,13 @@ public class BattleManager : MonoBehaviour {
     public PanelArray panelArray;
 
     private PlayerManager playerManager;
+    [SerializeField]
+    private static int secondsToWaitAfterGameEnds = 5;
+    private static readonly string characterSelectionSceneNameString = "Navi Select Screen";
 
     void Awake()
     {
-        ;
-        GatherTargetsBehavior.InitStaticReferences();
+         GatherTargetsBehavior.InitStaticReferences();
     }
 
 	// Use this for initialization
@@ -31,13 +35,6 @@ public class BattleManager : MonoBehaviour {
             customGaugeManager = GameObject.FindGameObjectWithTag("CustomGauge").GetComponent<CustomGaugeManager>() as CustomGaugeManager;
         }
 
-
-        //TODO
-        // gather combatants if not set in inspector
-        // Configure Panels
-        // place objects / hazards on field
-        // handle battle music
-        // handle background
         PlaceCombatants(combatants);
 
 	}
@@ -50,21 +47,38 @@ public class BattleManager : MonoBehaviour {
         }
         //stop time if needs be
         //
-		
-	}//end Update()
 
+    }//end Update()
+
+    private static IEnumerator ReturnToCharacterSelectionScreen()
+    {
+        yield return new WaitForSeconds(secondsToWaitAfterGameEnds);
+
+        SceneManager.LoadScene(characterSelectionSceneNameString);
+    }
+
+    public static void OnCombatantDeath(NaviController_Battle deadNavi)
+    {
+        //Display win Text
+
+        deadNavi.StartCoroutine(ReturnToCharacterSelectionScreen());//WHY USE DEADNAVI AS OBJECT REFERENCE TO START COROUTINE? why not?
+    }
+
+    /// <summary>
+    /// Find where the combatants wish to be place and place them there.
+    /// </summary>
+    /// <param name="combatants_List"></param>
     public static void PlaceCombatants(GameObject[] combatants_List)
     {
         NaviController_Battle naviController;
+        Panel targetPanel; 
         foreach (var combatant in combatants_List)
         {
             naviController = combatant.GetComponent<NaviController_Battle>() as NaviController_Battle;// get the naviController
-            var targetPanel = naviController.GetDesiredStartingPanel();//target the panel the navi wants to start at
+            targetPanel = naviController.GetDesiredStartingPanel();//target the panel the navi wants to start at
             naviController.transform.position = targetPanel.GetPosition() + naviController.GetSpriteOffset();//move sprite to new location, offset the sprite to be at center of board
             targetPanel.OccupyPanel(naviController);//target Panel now has this object as an occupant
             naviController.UpdateCurrentPanelCoordinates();//update coordinates of current panel
         }
     }
-
-
 }    
