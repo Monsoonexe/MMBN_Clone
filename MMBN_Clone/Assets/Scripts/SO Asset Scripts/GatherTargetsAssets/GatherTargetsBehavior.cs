@@ -21,19 +21,7 @@ public abstract class GatherTargetsBehavior : ScriptableObject
     /// </summary>
     /// <param name="user"></param>
     /// <returns></returns>
-    public Panel[] GatherTargetPanels(NaviController_Battle user)
-    {
-        var targets = GatherTargets(user);
-
-        var targetPanels = new Panel[targets.Length];
-
-        for (var i = 0; i < targets.Length; ++i)
-        {
-            targetPanels[i] = targets[i].GetCurrentPanel();
-        }
-
-        return targetPanels;
-    }
+    public abstract Panel[] GatherTargetPanels(NaviController_Battle user);
 
     /// <summary>
     /// Fills static references for this class needed by all instances.
