@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,9 +13,31 @@ public class CharacterSelectPET : MonoBehaviour {
     private Color naviSelectedScreenColor = new Color(81 / 255, 2255 / 255, 89 / 255, .4f);
     private Color invalidNaviScreenColor = new Color(255 / 255, 90 / 255, 40 / 255, .3f);
 
+    private Coroutine coroutine_randomAnimator;
+
+    private readonly string[] animatorTriggerStrings = {"Buster", "ChargeShot", "ChargeSword", "Special", "Sword", "Throw"};
+    
     private void Start()
     {
         screenImage.color = grayScreenColor;
+        coroutine_randomAnimator = StartCoroutine(RandomlyAnimate());
+    }
+
+    private void Update()
+    {
+        
+    }
+
+    private IEnumerator RandomlyAnimate()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(2.0f, 5));
+
+            var randomIndex = Random.Range(0, animatorTriggerStrings.Length);//get a random index of triggers
+            naviPreviewAnim.SetTrigger(animatorTriggerStrings[randomIndex]);//send trigger to animator
+            //pick a random trigger
+        }
     }
 
     public void SetNaviPreview(RuntimeAnimatorController newController, int orientation, bool readyToPlay)
