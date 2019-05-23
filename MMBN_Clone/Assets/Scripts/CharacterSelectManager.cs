@@ -23,7 +23,7 @@ public class CharacterSelectManager : MonoBehaviour
     private bool redSelectionConfirmed = false;
     private bool sceneIsLoading = false;
 
-    private string battleSceneName = "MegaMan Battle Scene";//name of battle scene.unity
+    private readonly string battleSceneName = "MegaMan Battle Scene";//name of battle scene.unity
 
     private CharacterProfile[,] characterProfiles;
 
