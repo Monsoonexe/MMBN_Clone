@@ -34,8 +34,8 @@ sysinfo.txt
 
 #Unity Packages
 MMBN_Clone/Assets/TextMesh Pro
+MMBN_Clone/Assets/TextMesh Pro.meta
 
 # Builds
 *.apk
 *.unitypackage
-MMBN_Clone/Assets/TextMesh Pro.meta
