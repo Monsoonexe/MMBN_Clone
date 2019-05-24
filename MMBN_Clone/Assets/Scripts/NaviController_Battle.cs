@@ -148,6 +148,7 @@ public class NaviController_Battle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (controlsDisabled) return;
         isMoving = false;
 
         //handle input
@@ -230,6 +231,7 @@ public class NaviController_Battle : MonoBehaviour
         yield return new WaitForSeconds(disableTime);
 
         controlsDisabled = false;
+        bodyAnimator.SetBool("Damaged", false);
     }
 
     /// <summary>
@@ -785,6 +787,13 @@ public class NaviController_Battle : MonoBehaviour
 
         //update visuals 
         UpdateHealthVisuals();
+
+        if(damageAmount >=5)
+        {
+            bodyAnimator.SetBool("Damaged", true);
+            controlsDisabled = true;
+            coroutine_controlsDisabled = StartCoroutine(DisableControls(1.0f));//this will re-enable controls after time passes
+        }
 
     }
 
