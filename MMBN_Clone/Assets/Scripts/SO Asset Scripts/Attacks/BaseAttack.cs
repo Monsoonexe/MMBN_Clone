@@ -18,7 +18,7 @@ public class BaseAttack : ScriptableObject
     /// <summary>
     /// What trigger to send to the animator for ability animation
     /// </summary>
-    private string animatorMessage;
+    protected string animatorMessage;
 
     /// <summary>
     /// The elemental type of the damage that is dealt by this attack.
@@ -63,8 +63,9 @@ public class BaseAttack : ScriptableObject
     /// Do the things the attack does.
     /// </summary>
     /// <param name="naviController">The navi using the ability.</param>
-    public virtual IEnumerator TriggerAttack(NaviController_Battle naviController)
+    public virtual IEnumerator TriggerAttack(NaviController_Battle naviController, Animator naviAnimator)
     {
+        naviAnimator.SetTrigger(animatorMessage);
         yield return new WaitForSeconds(drawDelay);
 
         //get targets using targeting behavior
@@ -80,10 +81,5 @@ public class BaseAttack : ScriptableObject
             }
         }
     }
-
-    public string GetAnimatorMessage()
-    {
-        return animatorMessage;
-    }
-    
+        
 }

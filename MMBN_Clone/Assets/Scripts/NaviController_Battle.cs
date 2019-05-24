@@ -527,17 +527,13 @@ public class NaviController_Battle : MonoBehaviour
             //handle charge attack if fully charged
             if (busterCharge > chargedBusterAttack.chargeTime)//if fully charged
             {
-                bodyAnimator.SetTrigger(chargedBusterAttack.GetAnimatorMessage());//show animation
-                //TODO play sound
-                StartCoroutine(chargedBusterAttack.TriggerAttack(this));//do attack logic
+                StartCoroutine(chargedBusterAttack.TriggerAttack(this, bodyAnimator));//do attack logic
                 nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
 
             }
             else//regular buster shot
             {
-                bodyAnimator.SetTrigger(busterAttack.GetAnimatorMessage());//fire the buster
-                //TODO play sound
-                StartCoroutine(busterAttack.TriggerAttack(this));//do attack logic
+                StartCoroutine(busterAttack.TriggerAttack(this, bodyAnimator));//do attack logic
                 nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
 
             }
@@ -550,7 +546,6 @@ public class NaviController_Battle : MonoBehaviour
         {
             busterCharge += Time.deltaTime;
             chargeAuraAnim.SetFloat("BusterCharge", busterCharge / chargedBusterAttack.chargeTime);//play charging animation
-            //swordChargeAmount = 0.0f; //TODO Buster and Sword cannot charge simultaneously
 
         }
         else
@@ -627,16 +622,12 @@ public class NaviController_Battle : MonoBehaviour
         {
             if (swordCharge > chargedSwordAttack.chargeTime)//if fully charged
             {
-                bodyAnimator.SetTrigger(chargedSwordAttack.GetAnimatorMessage());//show animation
-                //TODO play sound
-                StartCoroutine(chargedSwordAttack.TriggerAttack(this));
+                StartCoroutine(chargedSwordAttack.TriggerAttack(this, bodyAnimator));
                 nextAttackTime = nowTime + chargedSwordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing
             {
-                bodyAnimator.SetTrigger(swordAttack.GetAnimatorMessage());//swing the sword
-                //TODO play sound
-                StartCoroutine(swordAttack.TriggerAttack(this));
+                StartCoroutine(swordAttack.TriggerAttack(this, bodyAnimator));
                 nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
 
             }
@@ -684,10 +675,9 @@ public class NaviController_Battle : MonoBehaviour
         //TODO check if has a chip available
         if (chipAttack && attackCooledDown)
         {
-            bodyAnimator.SetTrigger("Special");
             movementDelayTimeSince = -1.0f;//reset movement
             
-            specialAttack.TriggerAttack(this);
+            specialAttack.TriggerAttack(this, bodyAnimator);
 
             nextAttackTime = nowTime + specialAttack.delay;//set delay
         }
@@ -722,10 +712,9 @@ public class NaviController_Battle : MonoBehaviour
         //TODO check if has a chip available
         if (chipAttack && attackCooledDown)
         {
-            bodyAnimator.SetTrigger("Throw");
             movementDelayTimeSince = -1.0f;//reset movement
 
-            throwAttack.TriggerAttack(this);
+            throwAttack.TriggerAttack(this, bodyAnimator);
             nextAttackTime = nowTime + throwAttack.delay;//set delay
         }
 

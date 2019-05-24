@@ -11,7 +11,7 @@ public class StepSword : BaseAttack
     [SerializeField]
     protected float attackWaitTime = 1.5f;
 
-    public override IEnumerator TriggerAttack(NaviController_Battle naviController)
+    public override IEnumerator TriggerAttack(NaviController_Battle naviController, Animator naviAnimator)
     {        
         //immediately check to see if you can step
         var targetPanels = stepTargetingBehavior.GatherTargetPanels(naviController);
@@ -23,6 +23,7 @@ public class StepSword : BaseAttack
 
         //wait to draw
         yield return new WaitForSeconds(drawDelay);
+        naviAnimator.SetTrigger(animatorMessage);
 
         //get targets using targeting behavior (ie wide sword, short sword, long sword)
         var targets = targetingBehavior.GatherTargets(naviController);
