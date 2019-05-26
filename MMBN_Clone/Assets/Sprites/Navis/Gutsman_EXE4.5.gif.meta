@@ -1,11 +1,288 @@
 fileFormatVersion: 2
 guid: d07fe63e501fd5247b48a457953219ea
-timeCreated: 1535926116
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable:
+  - first:
+      213: 819479772997097269
+    second: Gutsman_EXE4.5_0
+  - first:
+      213: -4862077588043135153
+    second: Gutsman_EXE4.5_1
+  - first:
+      213: 2362238070532745716
+    second: Gutsman_EXE4.5_2
+  - first:
+      213: 5912761612632893295
+    second: Gutsman_EXE4.5_3
+  - first:
+      213: -5553573601308909223
+    second: Gutsman_EXE4.5_4
+  - first:
+      213: -603962877594485002
+    second: Gutsman_EXE4.5_5
+  - first:
+      213: 4210089126382354480
+    second: Gutsman_EXE4.5_6
+  - first:
+      213: 7221526600926879881
+    second: Gutsman_EXE4.5_7
+  - first:
+      213: -3313491655396170229
+    second: Gutsman_EXE4.5_8
+  - first:
+      213: 7091698408986235743
+    second: Gutsman_EXE4.5_9
+  - first:
+      213: 3997476712186942984
+    second: Gutsman_EXE4.5_10
+  - first:
+      213: 8494178640142246933
+    second: Gutsman_EXE4.5_11
+  - first:
+      213: 1845413158213395203
+    second: Gutsman_EXE4.5_12
+  - first:
+      213: 2394465934697299143
+    second: Gutsman_EXE4.5_13
+  - first:
+      213: 5993102849811413191
+    second: Gutsman_EXE4.5_14
+  - first:
+      213: 8898148163732642643
+    second: Gutsman_EXE4.5_15
+  - first:
+      213: 6698376142921577970
+    second: Gutsman_EXE4.5_16
+  - first:
+      213: -5503541800099319793
+    second: Gutsman_EXE4.5_17
+  - first:
+      213: -6860264575015489368
+    second: Gutsman_EXE4.5_18
+  - first:
+      213: -3142628320396478492
+    second: Gutsman_EXE4.5_19
+  - first:
+      213: 4563052715076180043
+    second: Gutsman_EXE4.5_20
+  - first:
+      213: 2543010817025962256
+    second: Gutsman_EXE4.5_21
+  - first:
+      213: 62342343622149798
+    second: Gutsman_EXE4.5_22
+  - first:
+      213: -6291670640486543081
+    second: Gutsman_EXE4.5_23
+  - first:
+      213: 733546493085992064
+    second: Gutsman_EXE4.5_24
+  - first:
+      213: 6321713923943258620
+    second: Gutsman_EXE4.5_25
+  - first:
+      213: -5841677451879859472
+    second: Gutsman_EXE4.5_26
+  - first:
+      213: 4676059125768746265
+    second: Gutsman_EXE4.5_27
+  - first:
+      213: 7268403320104194493
+    second: Gutsman_EXE4.5_28
+  - first:
+      213: -7793977010835912346
+    second: Gutsman_EXE4.5_29
+  - first:
+      213: -6888935818032383861
+    second: Gutsman_EXE4.5_30
+  - first:
+      213: -7462723667044359533
+    second: Gutsman_EXE4.5_31
+  - first:
+      213: 3412203717600074948
+    second: Gutsman_EXE4.5_32
+  - first:
+      213: -1889804762100788320
+    second: Gutsman_EXE4.5_33
+  - first:
+      213: 3122721913372444744
+    second: Gutsman_EXE4.5_34
+  - first:
+      213: -4042132913402352302
+    second: Gutsman_EXE4.5_35
+  - first:
+      213: 1259233004505148748
+    second: Gutsman_EXE4.5_36
+  - first:
+      213: 2236721665456369045
+    second: Gutsman_EXE4.5_37
+  - first:
+      213: -6773614793891578939
+    second: Gutsman_EXE4.5_38
+  - first:
+      213: 4419104141245394132
+    second: Gutsman_EXE4.5_39
+  - first:
+      213: 5953520248228062135
+    second: Gutsman_EXE4.5_40
+  - first:
+      213: 2079365704603148229
+    second: Gutsman_EXE4.5_42
+  - first:
+      213: 4317665830249697668
+    second: Gutsman_EXE4.5_43
+  - first:
+      213: 3480350008250176910
+    second: Gutsman_EXE4.5_44
+  - first:
+      213: -2610567041290255027
+    second: Gutsman_EXE4.5_45
+  - first:
+      213: 4294059081992425434
+    second: Gutsman_EXE4.5_47
+  - first:
+      213: -9037766090539573982
+    second: Gutsman_EXE4.5_48
+  - first:
+      213: -6578217420705661882
+    second: Gutsman_EXE4.5_49
+  - first:
+      213: -4756161188483799147
+    second: Gutsman_EXE4.5_50
+  - first:
+      213: -5177090608003742095
+    second: Gutsman_EXE4.5_51
+  - first:
+      213: -2150207505629824394
+    second: Gutsman_EXE4.5_52
+  - first:
+      213: -3049508371154048072
+    second: Gutsman_EXE4.5_53
+  - first:
+      213: 455836360242631848
+    second: Gutsman_EXE4.5_54
+  - first:
+      213: 2270749011768159242
+    second: Gutsman_EXE4.5_55
+  - first:
+      213: 1745745103058267089
+    second: Gutsman_EXE4.5_56
+  - first:
+      213: 1687566601946853459
+    second: Gutsman_EXE4.5_57
+  - first:
+      213: 8038119641195660266
+    second: Gutsman_EXE4.5_58
+  - first:
+      213: -2426624389083526695
+    second: Gutsman_EXE4.5_59
+  - first:
+      213: -2208548711869826399
+    second: Gutsman_EXE4.5_60
+  - first:
+      213: -66872923844544879
+    second: Gutsman_EXE4.5_61
+  - first:
+      213: 2569156002766098324
+    second: Gutsman_EXE4.5_62
+  - first:
+      213: 4460925044315991353
+    second: Gutsman_EXE4.5_63
+  - first:
+      213: -3067268746497596811
+    second: Gutsman_EXE4.5_64
+  - first:
+      213: 8288575141648510123
+    second: Gutsman_EXE4.5_65
+  - first:
+      213: 5740311134679173554
+    second: Gutsman_EXE4.5_66
+  - first:
+      213: -4677479693004228421
+    second: Gutsman_EXE4.5_67
+  - first:
+      213: -5507714839614449423
+    second: Gutsman_EXE4.5_68
+  - first:
+      213: -5330880140021761877
+    second: Gutsman_EXE4.5_69
+  - first:
+      213: -6794603393566404038
+    second: Gutsman_EXE4.5_70
+  - first:
+      213: 4784548017176621869
+    second: Gutsman_EXE4.5_71
+  - first:
+      213: -6438281207083401659
+    second: Gutsman_EXE4.5_72
+  - first:
+      213: 3852373059066168995
+    second: Gutsman_EXE4.5_73
+  - first:
+      213: 5697915726354475831
+    second: Gutsman_EXE4.5_74
+  - first:
+      213: -5673008150911623179
+    second: Gutsman_EXE4.5_75
+  - first:
+      213: 6584370618143772100
+    second: Gutsman_EXE4.5_76
+  - first:
+      213: 2895401597032150339
+    second: Gutsman_EXE4.5_77
+  - first:
+      213: -322025597568283311
+    second: Gutsman_EXE4.5_78
+  - first:
+      213: 3327494439763276104
+    second: Gutsman_EXE4.5_79
+  - first:
+      213: 4661787219749484350
+    second: Gutsman_EXE4.5_80
+  - first:
+      213: -3613285695765879918
+    second: Gutsman_EXE4.5_81
+  - first:
+      213: -3906506254152026295
+    second: Gutsman_EXE4.5_82
+  - first:
+      213: 4784059670976007776
+    second: Gutsman_EXE4.5_83
+  - first:
+      213: -83545386360071548
+    second: Gutsman_EXE4.5_84
+  - first:
+      213: 5364822331121893145
+    second: Gutsman_EXE4.5_85
+  - first:
+      213: 6842297700184880558
+    second: Gutsman_EXE4.5_86
+  - first:
+      213: -7980876611744441688
+    second: Gutsman_EXE4.5_87
+  - first:
+      213: -1033026700680006353
+    second: Gutsman_EXE4.5_88
+  - first:
+      213: 7208134989570246600
+    second: Gutsman_EXE4.5_89
+  - first:
+      213: 7731454812288826842
+    second: Gutsman_EXE4.5_90
+  - first:
+      213: 8384348502584224587
+    second: Gutsman_EXE4.5_91
+  - first:
+      213: -2691082992176468100
+    second: Gutsman_EXE4.5_92
+  - first:
+      213: -6353324619853479609
+    second: Gutsman_EXE4.5_93
+  - first:
+      213: -3295482276335300990
+    second: Gutsman_EXE4.5_94
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +300,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,7 +312,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -53,11 +332,13 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -67,7 +348,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -77,7 +359,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -89,10 +372,1973 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_0
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 858
+        width: 4
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1a69eadbf103948810648eafd3c46e
+      internalID: 819479772997097269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 858
+        width: 8
+        height: 82
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfc3573465215e4c89356a6fbf1c934
+      internalID: -4862077588043135153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 858
+        width: 8
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc627c567e64ba745aae8993ee0ad190
+      internalID: 2362238070532745716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 858
+        width: 4
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f8fd743f481c4985a486db76bab9b
+      internalID: 5912761612632893295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_4
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 858
+        width: 32
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6399e670c17d8ef439e9119c53df1cf9
+      internalID: -5553573601308909223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 813
+        width: 32
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f40101865796bd47820581bb5e3bb06
+      internalID: -603962877594485002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 813
+        width: 36
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1730d76c2b335a44f976d2940c986b9c
+      internalID: 4210089126382354480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 813
+        width: 37
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf795465099c2ff4888f81fcfbc43a5a
+      internalID: 7221526600926879881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 813
+        width: 37
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d56df31b6a37a44be149b2cee9b196
+      internalID: -3313491655396170229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 813
+        width: 36
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f947db2c906eca4389fb2abfaa661ca
+      internalID: 7091698408986235743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 813
+        width: 37
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e46be7a612c6514fbbfd8e7e3f0d379
+      internalID: 3997476712186942984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 813
+        width: 37
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b543dfb08f33f17469a470cb57a4726c
+      internalID: 8494178640142246933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_12
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 766
+        width: 29
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977523bc41200a4aaa31b4d1da2fdbc
+      internalID: 1845413158213395203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 47
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6656520a557ee345925c6a42b7a9c6c
+      internalID: 2394465934697299143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 765
+        width: 37
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1ec6e733204504189d562b14eb50b2
+      internalID: 5993102849811413191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 766
+        width: 25
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5032e5f4bf73544aa750d453c541b6
+      internalID: 8898148163732642643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 768
+        width: 35
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b693b51b9a82edc4faee8a2af27c797f
+      internalID: 6698376142921577970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 767
+        width: 32
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60178f3a0d473fc46b0af4b32fa18a73
+      internalID: -5503541800099319793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_18
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 767
+        width: 36
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10cbbd110b403e42910c894226f835b
+      internalID: -6860264575015489368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 719
+        width: 24
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da42cb9148310147b39072fde9c5d0f
+      internalID: -3142628320396478492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_20
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 720
+        width: 48
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a64f32b0065bd3418ece9696f6f47e6
+      internalID: 4563052715076180043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 719
+        width: 39
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93decf9df4e0b59449b991a0b1210469
+      internalID: 2543010817025962256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 719
+        width: 36
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02856dad87f4315449f05f7955cc3f65
+      internalID: 62342343622149798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_23
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 720
+        width: 45
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593a0947485abce4d845ced832302b80
+      internalID: -6291670640486543081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 720
+        width: 38
+        height: 34
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bc22e523c250848ab015ddc83e9f9f
+      internalID: 733546493085992064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 720
+        width: 30
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0471275e60fe3945854707ff1f63124
+      internalID: 6321713923943258620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 669
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316cc7ad3bb2a849ba44b038af6541f
+      internalID: -5841677451879859472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 671
+        width: 48
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1624cad0268d04e834adc174d44081
+      internalID: 4676059125768746265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 671
+        width: 39
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6b3c83ad68b89459b9c998eb455cc3
+      internalID: 7268403320104194493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_29
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 671
+        width: 29
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126a5f59cba1e0e489581512e5e4fca3
+      internalID: -7793977010835912346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_30
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 671
+        width: 38
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c6764881bcbe34c83894c03c60e19b
+      internalID: -6888935818032383861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_31
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 671
+        width: 36
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4374690e252a5a84c910d55fa214e6d5
+      internalID: -7462723667044359533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_32
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 670
+        width: 42
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfbe4c44719f3946be5208156d537a2
+      internalID: 3412203717600074948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 626
+        width: 32
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ac4c35d02ac214dba4ba2478a2b2b9
+      internalID: -1889804762100788320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_34
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 624
+        width: 37
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955610cbd404a2649ae8139eb12c922c
+      internalID: 3122721913372444744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_35
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 625
+        width: 41
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53731d16d68b14040a88549b15a91936
+      internalID: -4042132913402352302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_36
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 625
+        width: 42
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e3b296b526e82458373a1181dc2f86
+      internalID: 1259233004505148748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_37
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 624
+        width: 37
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f58668779a4074ea05657851c5ee84
+      internalID: 2236721665456369045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 625
+        width: 41
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4293fb23868b3d448be2dff4f78f8d2c
+      internalID: -6773614793891578939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_39
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 625
+        width: 42
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c5459e3d183ef419039d64443d2802
+      internalID: 4419104141245394132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 582
+        width: 39
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8e273378d980848b30c5df4ee8de26
+      internalID: 5953520248228062135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_42
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 582
+        width: 39
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a8273d94164d64b89b332778e5490a
+      internalID: 2079365704603148229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_43
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 580
+        width: 39
+        height: 35
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d47df319959c2e4280654b83e365c50
+      internalID: 4317665830249697668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 512
+        width: 59
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d026b46f107c64992f090617208207
+      internalID: 3480350008250176910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_45
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 511
+        width: 56
+        height: 60
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9457105bdee23254aa0bd01a835773ae
+      internalID: -2610567041290255027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_47
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 513
+        width: 54
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9851f4a45abe574cbb3ee30675f0872
+      internalID: 4294059081992425434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_48
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 515
+        width: 65
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fe27692bc5e7c4289ea0661a3944c2
+      internalID: -9037766090539573982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_49
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 515
+        width: 63
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557a6717e26b88a40861d674aa28644f
+      internalID: -6578217420705661882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_50
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 515
+        width: 64
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfa870996596834f90703e9c97dd383
+      internalID: -4756161188483799147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_51
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 446
+        width: 64
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcda52985128154a82c3b57ddee730e
+      internalID: -5177090608003742095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 446
+        width: 61
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef48f0edc70878429fcc4994bda6f8a
+      internalID: -2150207505629824394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_53
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 446
+        width: 55
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8aec3ba6c475a4fb779f7b11d10f95
+      internalID: -3049508371154048072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_54
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 446
+        width: 78
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801f3a017d6751245a8c386f654e676d
+      internalID: 455836360242631848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_55
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 446
+        width: 80
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdf9e8f6721ed24ab4e7f891a1d9565
+      internalID: 2270749011768159242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_56
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 366
+        width: 53
+        height: 74
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428730f234183254dbe4994a73f32c6d
+      internalID: 1745745103058267089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_57
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 366
+        width: 64
+        height: 63
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c0df8aae4de0d409f2c21717b09f37
+      internalID: 1687566601946853459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_58
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 366
+        width: 60
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7ef8fc26f6ab74284d75445f15c0b7
+      internalID: 8038119641195660266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_59
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 361
+        width: 73
+        height: 45
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa32f67d5578074abfcea30db8b74dc
+      internalID: -2426624389083526695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_60
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 359
+        width: 73
+        height: 47
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3bebf2d84bda747b630000301dbed3
+      internalID: -2208548711869826399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 300
+        width: 65
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f25139c8b1fac54a88103d80282aa52
+      internalID: -66872923844544879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_62
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 300
+        width: 63
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccf15eacc7a7d542a0e2cb1ae0a19cb
+      internalID: 2569156002766098324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_63
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 300
+        width: 87
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b5fb524b470624882bf19e1fa7cfd1
+      internalID: 4460925044315991353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_64
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 300
+        width: 87
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8905e5dd710b25a4ebeb286b9f995e67
+      internalID: -3067268746497596811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_65
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 300
+        width: 80
+        height: 48
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29860781d820b88429430aaedf35bd9b
+      internalID: 8288575141648510123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 213
+        width: 84
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b80e54b5dd84bf4ca9a4e9744fb6740
+      internalID: 5740311134679173554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_67
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 213
+        width: 75
+        height: 61
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b6a0e9d28c368479a4006618b2a2f3
+      internalID: -4677479693004228421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_68
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 213
+        width: 69
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b055ca32614d8647bc12b0596be7b23
+      internalID: -5507714839614449423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_69
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 213
+        width: 70
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cae208d9da68c48834834ce11fb8c8
+      internalID: -5330880140021761877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_70
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 212
+        width: 70
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efef6a61304a61a448e0cdd84902caeb
+      internalID: -6794603393566404038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_71
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 212
+        width: 69
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4f01c409f31ab4f894ff7bc7b37914
+      internalID: 4784548017176621869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_72
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 137
+        width: 61
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ac99764750d1d40997883df2663b02
+      internalID: -6438281207083401659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_73
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 137
+        width: 63
+        height: 53
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821812e346f1bab43b80afe66ce7e327
+      internalID: 3852373059066168995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_74
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 137
+        width: 48
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57de4e3c10a63943b8bbdd6dc797779
+      internalID: 5697915726354475831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_75
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 137
+        width: 68
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e767cb8bb8640e458474254d81a8d21
+      internalID: -5673008150911623179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_76
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 136
+        width: 69
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa9f56e05cf678419f01c05da2034e2
+      internalID: 6584370618143772100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_77
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 133
+        width: 58
+        height: 52
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676a2e34323a4a049a61d6baddb6c2c4
+      internalID: 2895401597032150339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_78
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 54
+        width: 56
+        height: 50
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1c0bd6fe6e9214bbd36a2508d24c12
+      internalID: -322025597568283311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_79
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 54
+        width: 76
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551d16ebd98f60840b9c8a370aa848fd
+      internalID: 3327494439763276104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_80
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 54
+        width: 55
+        height: 62
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77c2c406109c0345989b9ef1451126a
+      internalID: 4661787219749484350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_81
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 54
+        width: 67
+        height: 74
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aa766c0fae02549aa7041511ad17e8
+      internalID: -3613285695765879918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_82
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 53
+        width: 48
+        height: 64
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe60c2115cc6804280c7ef9397c217e
+      internalID: -3906506254152026295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_83
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 22
+        width: 32
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82fb4ef4fe0ceb4ba6e7851014a1620
+      internalID: 4784059670976007776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_84
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 24
+        width: 19
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df58a25f881dd954db51e6da5e1b28a7
+      internalID: -83545386360071548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_85
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 20
+        width: 16
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbcc1d059f245741b2a40ce7c4a83d3
+      internalID: 5364822331121893145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_86
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 15
+        width: 20
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e086b49b41c78c44485b3a9aa13427c3
+      internalID: 6842297700184880558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_87
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 15
+        width: 20
+        height: 20
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb566725ddcdf5f45956eae76bde708e
+      internalID: -7980876611744441688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_88
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 14
+        width: 22
+        height: 22
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3cdb69a7d80f747b93e8f69e4f5265
+      internalID: -1033026700680006353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_89
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 21
+        width: 10
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691c9daba4949ff4cb854ee07fc80d44
+      internalID: 7208134989570246600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_90
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 26
+        width: 11
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db178b533e1ff3b4985c7a53660d9f4e
+      internalID: 7731454812288826842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_91
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 4
+        width: 32
+        height: 13
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44536fe81a0d7f54ca4861181abb2ba8
+      internalID: 8384348502584224587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_92
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 13
+        width: 11
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30222c2a011185d49becaa7d7796ae59
+      internalID: -2691082992176468100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_93
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 14
+        width: 10
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f81552425255ec42ae9a633d0e851f3
+      internalID: -6353324619853479609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gutsman_EXE4.5_94
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 20
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633ef333c4ae7d042a9eecc935be4895
+      internalID: -3295482276335300990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 5cd63374362c7054cad0cc549dafe238
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
