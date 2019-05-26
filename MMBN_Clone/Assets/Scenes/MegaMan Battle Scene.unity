@@ -1195,7 +1195,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: b11228584813d414787cc8fe65cf4f21, type: 2}
+      objectReference: {fileID: 9100000, guid: aa3c292b7f659dc409415f845b15dddb, type: 2}
     - target: {fileID: 212900063114128182, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
       propertyPath: m_FlipX
@@ -2804,7 +2804,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: b11228584813d414787cc8fe65cf4f21, type: 2}
+      objectReference: {fileID: 9100000, guid: aa3c292b7f659dc409415f845b15dddb, type: 2}
     - target: {fileID: 212900063114128182, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
       propertyPath: m_Sprite
