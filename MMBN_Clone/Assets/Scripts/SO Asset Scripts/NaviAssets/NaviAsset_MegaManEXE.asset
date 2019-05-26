@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d28f7d78fb0168f4ab53097b7fe7a46d, type: 3}
   m_Name: NaviAsset_MegaManEXE
   m_EditorClassIdentifier: 
-  naviName: MegaMan
+  naviName: MegaManEXE
   READY: 1
   emotionWindow: {fileID: 21300000, guid: 9516f3ffea81f934ba0f97eabc43818e, type: 3}
   characterSelectionPortrait: {fileID: 21300000, guid: 1892e49c2132c804b977f57fb2b42e8c,
     type: 3}
-  runtimeAnimController: {fileID: 9100000, guid: baf0c39c93e64c843aa90f29d37b3bad,
+  animatorOverrideController: {fileID: 22100000, guid: ae197d4d1883e284e832f87200c2f5be,
     type: 2}
   spriteOffset: {x: 35, y: -15, z: 0}
   orientation: 1

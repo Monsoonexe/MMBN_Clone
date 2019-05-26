@@ -8,7 +8,7 @@ public class NaviAsset : ScriptableObject {
     [Header("Visual Stuff")]
     public Sprite emotionWindow;
     public Sprite characterSelectionPortrait;
-    public RuntimeAnimatorController runtimeAnimController;
+    public AnimatorOverrideController animatorOverrideController;
     public Vector3 spriteOffset;
     public int orientation;//+1 for facing right -1 for facing left
 

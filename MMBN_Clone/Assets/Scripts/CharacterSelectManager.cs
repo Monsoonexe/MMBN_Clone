@@ -72,11 +72,11 @@ public class CharacterSelectManager : MonoBehaviour
 
         MoveCursor(blueCursor, blueCursorCurrentPosition);
         blueSelectedNaviAsset = listOfCharacterProfiles[blueCursorCurrentPosition.x].naviAssetSO;
-        bluePet.SetNaviPreview(blueSelectedNaviAsset.runtimeAnimController, blueSelectedNaviAsset.orientation, blueSelectedNaviAsset.READY);
+        bluePet.SetNaviPreview(blueSelectedNaviAsset.animatorOverrideController, blueSelectedNaviAsset.orientation, blueSelectedNaviAsset.READY);
 
         MoveCursor(redCursor, redCursorCurrentPosition);
         redSelectedNaviAsset = listOfCharacterProfiles[redCursorCurrentPosition.x].naviAssetSO;
-        redPet.SetNaviPreview(redSelectedNaviAsset.runtimeAnimController, redSelectedNaviAsset.orientation, redSelectedNaviAsset.READY);
+        redPet.SetNaviPreview(redSelectedNaviAsset.animatorOverrideController, redSelectedNaviAsset.orientation, redSelectedNaviAsset.READY);
 
         if (playerManager == null)
         {
@@ -196,7 +196,7 @@ public class CharacterSelectManager : MonoBehaviour
             if (!redSelectionConfirmed)
             {
                 redSelectedNaviAsset = listOfCharacterProfiles[redCursorCurrentPosition.x].naviAssetSO;
-                redPet.SetNaviPreview(redSelectedNaviAsset.runtimeAnimController, redSelectedNaviAsset.orientation, redSelectedNaviAsset.READY);
+                redPet.SetNaviPreview(redSelectedNaviAsset.animatorOverrideController, redSelectedNaviAsset.orientation, redSelectedNaviAsset.READY);
             }
 
 
@@ -207,7 +207,7 @@ public class CharacterSelectManager : MonoBehaviour
             if (!blueSelectionConfirmed)
             {
                 blueSelectedNaviAsset = listOfCharacterProfiles[blueCursorCurrentPosition.x].naviAssetSO;
-                bluePet.SetNaviPreview(blueSelectedNaviAsset.runtimeAnimController, blueSelectedNaviAsset.orientation, blueSelectedNaviAsset.READY);
+                bluePet.SetNaviPreview(blueSelectedNaviAsset.animatorOverrideController, blueSelectedNaviAsset.orientation, blueSelectedNaviAsset.READY);
 
             }
 

@@ -16,7 +16,7 @@ MonoBehaviour:
   READY: 0
   emotionWindow: {fileID: 21300030, guid: 1916580f06cb3e246a98388d6586e9d9, type: 3}
   characterSelectionPortrait: {fileID: 0}
-  runtimeAnimController: {fileID: 9100000, guid: e4ff6c5b96cb3844eacf7ffde74c897e,
+  animatorOverrideController: {fileID: 22100000, guid: ae197d4d1883e284e832f87200c2f5be,
     type: 2}
   spriteOffset: {x: 35, y: -15, z: 0}
   orientation: 1

@@ -261,7 +261,7 @@ public class NaviController_Battle : MonoBehaviour
     {
         //load animator
         this.bodyAnimator = this.GetComponent<Animator>();
-        this.bodyAnimator.runtimeAnimatorController = naviAsset.runtimeAnimController;
+        this.bodyAnimator.runtimeAnimatorController = naviAsset.animatorOverrideController;
 
         //load visuals
         this.emotionWindow.sprite = naviAsset.emotionWindow;
