@@ -175,6 +175,7 @@ public class NaviController_Battle : MonoBehaviour
         if (naviAsset)
         {
             if(emotionWindow) emotionWindow.sprite = naviAsset.emotionWindow;
+            //GetComponent<Animator>().SetTrigger("Idle");//set starting sprite
             spriteOffset = naviAsset.spriteOffset;
             orientation = naviAsset.orientation;
 
