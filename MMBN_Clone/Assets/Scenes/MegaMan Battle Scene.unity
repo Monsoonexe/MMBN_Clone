@@ -2787,7 +2787,7 @@ PrefabInstance:
         type: 3}
       propertyPath: naviAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 7239a68e3a0851b42bb9226658ea0d54,
+      objectReference: {fileID: 11400000, guid: 8fa087b93743e3e40bb356bb89313711,
         type: 2}
     - target: {fileID: 114435024773837526, guid: e2ec458eee56ecc4f9c60298ab1e9183,
         type: 3}
@@ -2921,7 +2921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2090718227
 Animator:
   serializedVersion: 3
@@ -2983,7 +2983,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.76, y: 0.49}
+  m_Size: {x: 0.56, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
