@@ -1,40 +1,96 @@
 fileFormatVersion: 2
 guid: e76309d19ae07324a84b8ad57dc7b9dc
-timeCreated: 1534924083
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: MM_EXE4_b_reg_0
-    21300002: MM_EXE4_b_reg_1
-    21300004: MM_EXE4_b_reg_2
-    21300006: MM_EXE4_b_reg_4
-    21300008: MM_EXE4_b_reg_5
-    21300010: MM_EXE4_b_reg_6
-    21300012: MM_EXE4_b_reg_7
-    21300014: MM_EXE4_b_reg_9
-    21300016: MM_EXE4_b_reg_11
-    21300018: MM_EXE4_b_reg_12
-    21300020: MM_EXE4_b_reg_13
-    21300022: MM_EXE4_b_reg_14
-    21300024: MM_EXE4_b_reg_15
-    21300026: MM_EXE4_b_reg_16
-    21300028: MM_EXE4_b_reg_17
-    21300030: MM_EXE4_b_reg_18
-    21300032: MM_EXE4_b_reg_19
-    21300034: MM_EXE4_b_reg_20
-    21300036: MM_EXE4_b_reg_21
-    21300038: MM_EXE4_b_reg_22
-    21300040: MM_EXE4_b_reg_23
-    21300042: MM_EXE4_b_reg_24
-    21300044: MM_EXE4_b_reg_25
-    21300046: MM_EXE4_b_reg_26
-    21300048: MM_EXE4_b_reg_27
-    21300050: MM_EXE4_b_reg_28
-    21300052: MM_EXE4_b_reg_29
-    21300054: MM_EXE4_b_reg_30
-    21300056: MM_EXE4_b_reg_31
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: MM_EXE4_b_reg_0
+  - first:
+      213: 21300002
+    second: MM_EXE4_b_reg_1
+  - first:
+      213: 21300004
+    second: MM_EXE4_b_reg_2
+  - first:
+      213: 21300006
+    second: MM_EXE4_b_reg_4
+  - first:
+      213: 21300008
+    second: MM_EXE4_b_reg_5
+  - first:
+      213: 21300010
+    second: MM_EXE4_b_reg_6
+  - first:
+      213: 21300012
+    second: MM_EXE4_b_reg_7
+  - first:
+      213: 21300014
+    second: MM_EXE4_b_reg_9
+  - first:
+      213: 21300016
+    second: MM_EXE4_b_reg_11
+  - first:
+      213: 21300018
+    second: MM_EXE4_b_reg_12
+  - first:
+      213: 21300020
+    second: MM_EXE4_b_reg_13
+  - first:
+      213: 21300022
+    second: MM_EXE4_b_reg_14
+  - first:
+      213: 21300024
+    second: MM_EXE4_b_reg_15
+  - first:
+      213: 21300026
+    second: MM_EXE4_b_reg_16
+  - first:
+      213: 21300028
+    second: MM_EXE4_b_reg_17
+  - first:
+      213: 21300030
+    second: MM_EXE4_b_reg_18
+  - first:
+      213: 21300032
+    second: MM_EXE4_b_reg_19
+  - first:
+      213: 21300034
+    second: MM_EXE4_b_reg_20
+  - first:
+      213: 21300036
+    second: MM_EXE4_b_reg_21
+  - first:
+      213: 21300038
+    second: MM_EXE4_b_reg_22
+  - first:
+      213: 21300040
+    second: MM_EXE4_b_reg_23
+  - first:
+      213: 21300042
+    second: MM_EXE4_b_reg_24
+  - first:
+      213: 21300044
+    second: MM_EXE4_b_reg_25
+  - first:
+      213: 21300046
+    second: MM_EXE4_b_reg_26
+  - first:
+      213: 21300048
+    second: MM_EXE4_b_reg_27
+  - first:
+      213: 21300050
+    second: MM_EXE4_b_reg_28
+  - first:
+      213: 21300052
+    second: MM_EXE4_b_reg_29
+  - first:
+      213: 21300054
+    second: MM_EXE4_b_reg_30
+  - first:
+      213: 21300056
+    second: MM_EXE4_b_reg_31
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -52,6 +108,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -62,7 +120,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -82,11 +140,13 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +156,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -106,7 +167,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -133,6 +195,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 15a86b90fe2e54f49a95d0bda49ea4cb
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_1
       rect:
@@ -147,6 +216,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 792f6549e26fdff48aa4e0b9b241bbd0
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_2
       rect:
@@ -161,6 +237,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: df74c9f19831f594f8feb9327304efaa
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_4
       rect:
@@ -175,6 +258,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7e5e655dcc7a3e8498817f1a8f406f82
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_5
       rect:
@@ -189,6 +279,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29c6ee6bb4c1c994a961b8bc54fa0c2a
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_6
       rect:
@@ -203,6 +300,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b1fbebc96d830c74782dfaf377f5bf2a
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_7
       rect:
@@ -217,6 +321,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5ac32d2fee294f641a9180eccdfd273f
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_9
       rect:
@@ -231,6 +342,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d9cca6229dffa9f428b619ed88a0f36d
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_11
       rect:
@@ -245,6 +363,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a580628658209e241a98f66934a6299c
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_12
       rect:
@@ -259,6 +384,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 854e1155ee428d140872537b88f1241d
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_13
       rect:
@@ -273,6 +405,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c61c7c35da00e274193ab4f51dbfb026
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_14
       rect:
@@ -287,6 +426,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 35327b39a27946a4f85324016f1d0d5f
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_15
       rect:
@@ -295,12 +441,19 @@ TextureImporter:
         y: 145
         width: 64
         height: 56
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ba718819f1f57b84d8efbdaa7de0b16a
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_16
       rect:
@@ -309,12 +462,19 @@ TextureImporter:
         y: 144
         width: 47
         height: 56
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dcdfcefc003b59846abcef5c610eaf85
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_17
       rect:
@@ -323,12 +483,19 @@ TextureImporter:
         y: 144
         width: 42
         height: 56
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 91744aee57263dc4c96c168c9a73aab6
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_18
       rect:
@@ -337,12 +504,19 @@ TextureImporter:
         y: 146
         width: 42
         height: 56
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b1a7e057b6bb76a4aa7194d9fee011c8
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_19
       rect:
@@ -351,12 +525,19 @@ TextureImporter:
         y: 76
         width: 38
         height: 49
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.16, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5ad51e4f8da6644286ef1c35059dd97
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_20
       rect:
@@ -365,12 +546,19 @@ TextureImporter:
         y: 76
         width: 42
         height: 49
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 98d5bb7f4507e6f4dae7fcad83d775d4
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_21
       rect:
@@ -385,6 +573,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5c1b4a319f9e4ea199197d14fbb14
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_22
       rect:
@@ -399,6 +594,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5c28ec44b28f3c640a2dcd81855a7196
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_23
       rect:
@@ -413,6 +615,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64b0a870a3fdb1241b7cf1538ebc9d54
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_24
       rect:
@@ -427,6 +636,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4680e6c8a18443d4db62bd396aaf8105
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_25
       rect:
@@ -435,12 +651,19 @@ TextureImporter:
         y: 11
         width: 25
         height: 47
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6bdcc01e937a9a144a1e9ee5e8767c22
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_26
       rect:
@@ -455,6 +678,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7ef07da32b2717945a9d31b89801bad2
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_27
       rect:
@@ -469,6 +699,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 20382a5029ac2ab4d884ecff01512a88
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_28
       rect:
@@ -483,6 +720,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d236039ed9327254eb1f0128b78f627a
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_29
       rect:
@@ -497,6 +741,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7dfc45b450329fb479fb50457ffe56f0
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_30
       rect:
@@ -511,6 +762,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b21155091294334ca136b382bcbfb19
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MM_EXE4_b_reg_31
       rect:
@@ -525,9 +783,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: db3a2ebc27b6cef4d96d3cd7408dc95d
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: d27cbf2ec3ae12348a2aeb8d687f21eb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
