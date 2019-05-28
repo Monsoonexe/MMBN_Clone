@@ -1,184 +1,528 @@
 fileFormatVersion: 2
 guid: a122c7fa1a6deb24f8badb5385058938
-timeCreated: 1533785640
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Searchman_exe5_0
-    21300002: Searchman_exe5_1
-    21300004: Searchman_exe5_2
-    21300006: Searchman_exe5_3
-    21300008: Searchman_exe5_4
-    21300010: Searchman_exe5_5
-    21300012: Searchman_exe5_6
-    21300014: Searchman_exe5_7
-    21300016: Searchman_exe5_8
-    21300018: Searchman_exe5_9
-    21300020: Searchman_exe5_10
-    21300022: Searchman_exe5_11
-    21300024: Searchman_exe5_12
-    21300026: Searchman_exe5_13
-    21300028: Searchman_exe5_14
-    21300030: Searchman_exe5_15
-    21300032: Searchman_exe5_16
-    21300034: Searchman_exe5_17
-    21300036: Searchman_exe5_18
-    21300038: Searchman_exe5_19
-    21300040: Searchman_exe5_20
-    21300042: Searchman_exe5_21
-    21300044: Searchman_exe5_22
-    21300046: Searchman_exe5_23
-    21300048: Searchman_exe5_24
-    21300050: Searchman_exe5_25
-    21300052: Searchman_exe5_26
-    21300054: Searchman_exe5_27
-    21300056: Searchman_exe5_28
-    21300058: Searchman_exe5_29
-    21300060: Searchman_exe5_30
-    21300062: Searchman_exe5_31
-    21300064: Searchman_exe5_32
-    21300066: Searchman_exe5_33
-    21300068: Searchman_exe5_34
-    21300070: Searchman_exe5_35
-    21300072: Searchman_exe5_36
-    21300074: Searchman_exe5_37
-    21300076: Searchman_exe5_38
-    21300078: Searchman_exe5_39
-    21300080: Searchman_exe5_40
-    21300082: Searchman_exe5_41
-    21300084: Searchman_exe5_42
-    21300086: Searchman_exe5_43
-    21300088: Searchman_exe5_44
-    21300090: Searchman_exe5_45
-    21300092: Searchman_exe5_46
-    21300094: Searchman_exe5_47
-    21300096: Searchman_exe5_48
-    21300098: Searchman_exe5_49
-    21300100: Searchman_exe5_50
-    21300102: Searchman_exe5_51
-    21300104: Searchman_exe5_52
-    21300106: Searchman_exe5_53
-    21300108: Searchman_exe5_54
-    21300110: Searchman_exe5_55
-    21300112: Searchman_exe5_56
-    21300114: Searchman_exe5_57
-    21300116: Searchman_exe5_58
-    21300118: Searchman_exe5_59
-    21300120: Searchman_exe5_60
-    21300122: Searchman_exe5_61
-    21300124: Searchman_exe5_62
-    21300126: Searchman_exe5_63
-    21300128: Searchman_exe5_64
-    21300130: Searchman_exe5_65
-    21300132: Searchman_exe5_66
-    21300134: Searchman_exe5_67
-    21300136: Searchman_exe5_68
-    21300138: Searchman_exe5_69
-    21300140: Searchman_exe5_70
-    21300142: Searchman_exe5_71
-    21300144: Searchman_exe5_72
-    21300146: Searchman_exe5_73
-    21300148: Searchman_exe5_74
-    21300150: Searchman_exe5_75
-    21300152: Searchman_exe5_76
-    21300154: Searchman_exe5_77
-    21300156: Searchman_exe5_78
-    21300158: Searchman_exe5_79
-    21300160: Searchman_exe5_80
-    21300162: Searchman_exe5_81
-    21300164: Searchman_exe5_82
-    21300166: Searchman_exe5_83
-    21300168: Searchman_exe5_84
-    21300170: Searchman_exe5_85
-    21300172: Searchman_exe5_86
-    21300174: Searchman_exe5_87
-    21300176: Searchman_exe5_88
-    21300178: Searchman_exe5_89
-    21300180: Searchman_exe5_90
-    21300182: Searchman_exe5_91
-    21300184: Searchman_exe5_92
-    21300186: Searchman_exe5_93
-    21300188: Searchman_exe5_94
-    21300190: Searchman_exe5_95
-    21300192: Searchman_exe5_96
-    21300194: Searchman_exe5_97
-    21300196: Searchman_exe5_98
-    21300198: Searchman_exe5_99
-    21300200: Searchman_exe5_100
-    21300202: Searchman_exe5_101
-    21300204: Searchman_exe5_102
-    21300206: Searchman_exe5_103
-    21300208: Searchman_exe5_104
-    21300210: Searchman_exe5_105
-    21300212: Searchman_exe5_106
-    21300214: Searchman_exe5_107
-    21300216: Searchman_exe5_108
-    21300218: Searchman_exe5_109
-    21300220: Searchman_exe5_110
-    21300222: Searchman_exe5_111
-    21300224: Searchman_exe5_112
-    21300226: Searchman_exe5_113
-    21300228: Searchman_exe5_114
-    21300230: Searchman_exe5_115
-    21300232: Searchman_exe5_116
-    21300234: Searchman_exe5_117
-    21300236: Searchman_exe5_118
-    21300238: Searchman_exe5_119
-    21300240: Searchman_exe5_120
-    21300242: Searchman_exe5_121
-    21300244: Searchman_exe5_122
-    21300246: Searchman_exe5_123
-    21300248: Searchman_exe5_124
-    21300250: Searchman_exe5_125
-    21300252: Searchman_exe5_126
-    21300254: Searchman_exe5_127
-    21300256: Searchman_exe5_128
-    21300258: Searchman_exe5_129
-    21300260: Searchman_exe5_130
-    21300262: Searchman_exe5_131
-    21300264: Searchman_exe5_132
-    21300266: Searchman_exe5_133
-    21300268: Searchman_exe5_134
-    21300270: Searchman_exe5_135
-    21300272: Searchman_exe5_136
-    21300274: Searchman_exe5_137
-    21300276: Searchman_exe5_138
-    21300278: Searchman_exe5_139
-    21300280: Searchman_exe5_140
-    21300282: Searchman_exe5_141
-    21300284: Searchman_exe5_142
-    21300286: Searchman_exe5_143
-    21300288: Searchman_exe5_144
-    21300290: Searchman_exe5_145
-    21300292: Searchman_exe5_146
-    21300294: Searchman_exe5_147
-    21300296: Searchman_exe5_148
-    21300298: Searchman_exe5_149
-    21300300: Searchman_exe5_150
-    21300302: Searchman_exe5_151
-    21300304: Searchman_exe5_152
-    21300306: Searchman_exe5_153
-    21300308: Searchman_exe5_154
-    21300310: Searchman_exe5_155
-    21300312: Searchman_exe5_156
-    21300314: Searchman_exe5_157
-    21300316: Searchman_exe5_158
-    21300318: Searchman_exe5_159
-    21300320: Searchman_exe5_160
-    21300322: Searchman_exe5_161
-    21300324: Searchman_exe5_162
-    21300326: Searchman_exe5_163
-    21300328: Searchman_exe5_164
-    21300330: Searchman_exe5_165
-    21300332: Searchman_exe5_166
-    21300334: Searchman_exe5_167
-    21300336: Searchman_exe5_168
-    21300338: Searchman_exe5_169
-    21300340: Searchman_exe5_170
-    21300342: Searchman_exe5_171
-    21300344: Searchman_exe5_172
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Searchman_exe5_0
+  - first:
+      213: 21300002
+    second: Searchman_exe5_1
+  - first:
+      213: 21300004
+    second: Searchman_exe5_2
+  - first:
+      213: 21300006
+    second: Searchman_exe5_3
+  - first:
+      213: 21300008
+    second: Searchman_exe5_4
+  - first:
+      213: 21300010
+    second: Searchman_exe5_5
+  - first:
+      213: 21300012
+    second: Searchman_exe5_6
+  - first:
+      213: 21300014
+    second: Searchman_exe5_7
+  - first:
+      213: 21300016
+    second: Searchman_exe5_8
+  - first:
+      213: 21300018
+    second: Searchman_exe5_9
+  - first:
+      213: 21300020
+    second: Searchman_exe5_10
+  - first:
+      213: 21300022
+    second: Searchman_exe5_11
+  - first:
+      213: 21300024
+    second: Searchman_exe5_12
+  - first:
+      213: 21300026
+    second: Searchman_exe5_13
+  - first:
+      213: 21300028
+    second: Searchman_exe5_14
+  - first:
+      213: 21300030
+    second: Searchman_exe5_15
+  - first:
+      213: 21300032
+    second: Searchman_exe5_16
+  - first:
+      213: 21300034
+    second: Searchman_exe5_17
+  - first:
+      213: 21300036
+    second: Searchman_exe5_18
+  - first:
+      213: 21300038
+    second: Searchman_exe5_19
+  - first:
+      213: 21300040
+    second: Searchman_exe5_20
+  - first:
+      213: 21300042
+    second: Searchman_exe5_21
+  - first:
+      213: 21300044
+    second: Searchman_exe5_22
+  - first:
+      213: 21300046
+    second: Searchman_exe5_23
+  - first:
+      213: 21300048
+    second: Searchman_exe5_24
+  - first:
+      213: 21300050
+    second: Searchman_exe5_25
+  - first:
+      213: 21300052
+    second: Searchman_exe5_26
+  - first:
+      213: 21300054
+    second: Searchman_exe5_27
+  - first:
+      213: 21300056
+    second: Searchman_exe5_28
+  - first:
+      213: 21300058
+    second: Searchman_exe5_29
+  - first:
+      213: 21300060
+    second: Searchman_exe5_30
+  - first:
+      213: 21300062
+    second: Searchman_exe5_31
+  - first:
+      213: 21300064
+    second: Searchman_exe5_32
+  - first:
+      213: 21300066
+    second: Searchman_exe5_33
+  - first:
+      213: 21300068
+    second: Searchman_exe5_34
+  - first:
+      213: 21300070
+    second: Searchman_exe5_35
+  - first:
+      213: 21300072
+    second: Searchman_exe5_36
+  - first:
+      213: 21300074
+    second: Searchman_exe5_37
+  - first:
+      213: 21300076
+    second: Searchman_exe5_38
+  - first:
+      213: 21300078
+    second: Searchman_exe5_39
+  - first:
+      213: 21300080
+    second: Searchman_exe5_40
+  - first:
+      213: 21300082
+    second: Searchman_exe5_41
+  - first:
+      213: 21300084
+    second: Searchman_exe5_42
+  - first:
+      213: 21300086
+    second: Searchman_exe5_43
+  - first:
+      213: 21300088
+    second: Searchman_exe5_44
+  - first:
+      213: 21300090
+    second: Searchman_exe5_45
+  - first:
+      213: 21300092
+    second: Searchman_exe5_46
+  - first:
+      213: 21300094
+    second: Searchman_exe5_47
+  - first:
+      213: 21300096
+    second: Searchman_exe5_48
+  - first:
+      213: 21300098
+    second: Searchman_exe5_49
+  - first:
+      213: 21300100
+    second: Searchman_exe5_50
+  - first:
+      213: 21300102
+    second: Searchman_exe5_51
+  - first:
+      213: 21300104
+    second: Searchman_exe5_52
+  - first:
+      213: 21300106
+    second: Searchman_exe5_53
+  - first:
+      213: 21300108
+    second: Searchman_exe5_54
+  - first:
+      213: 21300110
+    second: Searchman_exe5_55
+  - first:
+      213: 21300112
+    second: Searchman_exe5_56
+  - first:
+      213: 21300114
+    second: Searchman_exe5_57
+  - first:
+      213: 21300116
+    second: Searchman_exe5_58
+  - first:
+      213: 21300118
+    second: Searchman_exe5_59
+  - first:
+      213: 21300120
+    second: Searchman_exe5_60
+  - first:
+      213: 21300122
+    second: Searchman_exe5_61
+  - first:
+      213: 21300124
+    second: Searchman_exe5_62
+  - first:
+      213: 21300126
+    second: Searchman_exe5_63
+  - first:
+      213: 21300128
+    second: Searchman_exe5_64
+  - first:
+      213: 21300130
+    second: Searchman_exe5_65
+  - first:
+      213: 21300132
+    second: Searchman_exe5_66
+  - first:
+      213: 21300134
+    second: Searchman_exe5_67
+  - first:
+      213: 21300136
+    second: Searchman_exe5_68
+  - first:
+      213: 21300138
+    second: Searchman_exe5_69
+  - first:
+      213: 21300140
+    second: Searchman_exe5_70
+  - first:
+      213: 21300142
+    second: Searchman_exe5_71
+  - first:
+      213: 21300144
+    second: Searchman_exe5_72
+  - first:
+      213: 21300146
+    second: Searchman_exe5_73
+  - first:
+      213: 21300148
+    second: Searchman_exe5_74
+  - first:
+      213: 21300150
+    second: Searchman_exe5_75
+  - first:
+      213: 21300152
+    second: Searchman_exe5_76
+  - first:
+      213: 21300154
+    second: Searchman_exe5_77
+  - first:
+      213: 21300156
+    second: Searchman_exe5_78
+  - first:
+      213: 21300158
+    second: Searchman_exe5_79
+  - first:
+      213: 21300160
+    second: Searchman_exe5_80
+  - first:
+      213: 21300162
+    second: Searchman_exe5_81
+  - first:
+      213: 21300164
+    second: Searchman_exe5_82
+  - first:
+      213: 21300166
+    second: Searchman_exe5_83
+  - first:
+      213: 21300168
+    second: Searchman_exe5_84
+  - first:
+      213: 21300170
+    second: Searchman_exe5_85
+  - first:
+      213: 21300172
+    second: Searchman_exe5_86
+  - first:
+      213: 21300174
+    second: Searchman_exe5_87
+  - first:
+      213: 21300176
+    second: Searchman_exe5_88
+  - first:
+      213: 21300178
+    second: Searchman_exe5_89
+  - first:
+      213: 21300180
+    second: Searchman_exe5_90
+  - first:
+      213: 21300182
+    second: Searchman_exe5_91
+  - first:
+      213: 21300184
+    second: Searchman_exe5_92
+  - first:
+      213: 21300186
+    second: Searchman_exe5_93
+  - first:
+      213: 21300188
+    second: Searchman_exe5_94
+  - first:
+      213: 21300190
+    second: Searchman_exe5_95
+  - first:
+      213: 21300192
+    second: Searchman_exe5_96
+  - first:
+      213: 21300194
+    second: Searchman_exe5_97
+  - first:
+      213: 21300196
+    second: Searchman_exe5_98
+  - first:
+      213: 21300198
+    second: Searchman_exe5_99
+  - first:
+      213: 21300200
+    second: Searchman_exe5_100
+  - first:
+      213: 21300202
+    second: Searchman_exe5_101
+  - first:
+      213: 21300204
+    second: Searchman_exe5_102
+  - first:
+      213: 21300206
+    second: Searchman_exe5_103
+  - first:
+      213: 21300208
+    second: Searchman_exe5_104
+  - first:
+      213: 21300210
+    second: Searchman_exe5_105
+  - first:
+      213: 21300212
+    second: Searchman_exe5_106
+  - first:
+      213: 21300214
+    second: Searchman_exe5_107
+  - first:
+      213: 21300216
+    second: Searchman_exe5_108
+  - first:
+      213: 21300218
+    second: Searchman_exe5_109
+  - first:
+      213: 21300220
+    second: Searchman_exe5_110
+  - first:
+      213: 21300222
+    second: Searchman_exe5_111
+  - first:
+      213: 21300224
+    second: Searchman_exe5_112
+  - first:
+      213: 21300226
+    second: Searchman_exe5_113
+  - first:
+      213: 21300228
+    second: Searchman_exe5_114
+  - first:
+      213: 21300230
+    second: Searchman_exe5_115
+  - first:
+      213: 21300232
+    second: Searchman_exe5_116
+  - first:
+      213: 21300234
+    second: Searchman_exe5_117
+  - first:
+      213: 21300236
+    second: Searchman_exe5_118
+  - first:
+      213: 21300238
+    second: Searchman_exe5_119
+  - first:
+      213: 21300240
+    second: Searchman_exe5_120
+  - first:
+      213: 21300242
+    second: Searchman_exe5_121
+  - first:
+      213: 21300244
+    second: Searchman_exe5_122
+  - first:
+      213: 21300246
+    second: Searchman_exe5_123
+  - first:
+      213: 21300248
+    second: Searchman_exe5_124
+  - first:
+      213: 21300250
+    second: Searchman_exe5_125
+  - first:
+      213: 21300252
+    second: Searchman_exe5_126
+  - first:
+      213: 21300254
+    second: Searchman_exe5_127
+  - first:
+      213: 21300256
+    second: Searchman_exe5_128
+  - first:
+      213: 21300258
+    second: Searchman_exe5_129
+  - first:
+      213: 21300260
+    second: Searchman_exe5_130
+  - first:
+      213: 21300262
+    second: Searchman_exe5_131
+  - first:
+      213: 21300264
+    second: Searchman_exe5_132
+  - first:
+      213: 21300266
+    second: Searchman_exe5_133
+  - first:
+      213: 21300268
+    second: Searchman_exe5_134
+  - first:
+      213: 21300270
+    second: Searchman_exe5_135
+  - first:
+      213: 21300272
+    second: Searchman_exe5_136
+  - first:
+      213: 21300274
+    second: Searchman_exe5_137
+  - first:
+      213: 21300276
+    second: Searchman_exe5_138
+  - first:
+      213: 21300278
+    second: Searchman_exe5_139
+  - first:
+      213: 21300280
+    second: Searchman_exe5_140
+  - first:
+      213: 21300282
+    second: Searchman_exe5_141
+  - first:
+      213: 21300284
+    second: Searchman_exe5_142
+  - first:
+      213: 21300286
+    second: Searchman_exe5_143
+  - first:
+      213: 21300288
+    second: Searchman_exe5_144
+  - first:
+      213: 21300290
+    second: Searchman_exe5_145
+  - first:
+      213: 21300292
+    second: Searchman_exe5_146
+  - first:
+      213: 21300294
+    second: Searchman_exe5_147
+  - first:
+      213: 21300296
+    second: Searchman_exe5_148
+  - first:
+      213: 21300298
+    second: Searchman_exe5_149
+  - first:
+      213: 21300300
+    second: Searchman_exe5_150
+  - first:
+      213: 21300302
+    second: Searchman_exe5_151
+  - first:
+      213: 21300304
+    second: Searchman_exe5_152
+  - first:
+      213: 21300306
+    second: Searchman_exe5_153
+  - first:
+      213: 21300308
+    second: Searchman_exe5_154
+  - first:
+      213: 21300310
+    second: Searchman_exe5_155
+  - first:
+      213: 21300312
+    second: Searchman_exe5_156
+  - first:
+      213: 21300314
+    second: Searchman_exe5_157
+  - first:
+      213: 21300316
+    second: Searchman_exe5_158
+  - first:
+      213: 21300318
+    second: Searchman_exe5_159
+  - first:
+      213: 21300320
+    second: Searchman_exe5_160
+  - first:
+      213: 21300322
+    second: Searchman_exe5_161
+  - first:
+      213: 21300324
+    second: Searchman_exe5_162
+  - first:
+      213: 21300326
+    second: Searchman_exe5_163
+  - first:
+      213: 21300328
+    second: Searchman_exe5_164
+  - first:
+      213: 21300330
+    second: Searchman_exe5_165
+  - first:
+      213: 21300332
+    second: Searchman_exe5_166
+  - first:
+      213: 21300334
+    second: Searchman_exe5_167
+  - first:
+      213: 21300336
+    second: Searchman_exe5_168
+  - first:
+      213: 21300338
+    second: Searchman_exe5_169
+  - first:
+      213: 21300340
+    second: Searchman_exe5_170
+  - first:
+      213: 21300342
+    second: Searchman_exe5_171
+  - first:
+      213: 21300344
+    second: Searchman_exe5_172
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -196,6 +540,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -206,7 +552,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -226,11 +572,13 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -240,7 +588,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -267,6 +616,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46750d8f21c8a384ab617bfd732f538b
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_1
       rect:
@@ -281,6 +637,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f91a475e537ebd94384306e4124d90b3
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_2
       rect:
@@ -295,6 +658,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9297e80f634bab4599ac1ab74bc72ae
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_3
       rect:
@@ -309,6 +679,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3fd3052225ce2fb4da34ef02e090b540
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_4
       rect:
@@ -323,6 +700,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22b5078004ecbfe42be98647055dfbc9
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_5
       rect:
@@ -337,6 +721,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b4747047d6368ab4b826797341183979
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_6
       rect:
@@ -351,6 +742,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5005bbeed51f1c64cadb1a82013f9e27
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_7
       rect:
@@ -365,6 +763,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: af555af31b103c44fa10377e1342fa22
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_8
       rect:
@@ -379,6 +784,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 35af7c9c63d0f554fb7b5e7fe330b5ff
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_9
       rect:
@@ -393,6 +805,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a4a8c9d2aa8f12499b73d92408af67c
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_10
       rect:
@@ -407,6 +826,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 817df507437a2404fbb854a1c6665d46
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_11
       rect:
@@ -421,6 +847,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d532a647fa354994b8ada62eab224e9e
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_12
       rect:
@@ -435,6 +868,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 701192d9664d76f47bdc4e44058a3ade
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_13
       rect:
@@ -449,6 +889,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81870d0ad5a682141b8a08a863de4295
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_14
       rect:
@@ -463,6 +910,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ce8f9bdebbd14ca9239a3b050a1ab
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_15
       rect:
@@ -477,6 +931,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bccb8983115ff29489fa5a4cba4fe2ba
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_16
       rect:
@@ -491,6 +952,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03696c59125e3114cb230950a163006d
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_17
       rect:
@@ -505,6 +973,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a236acadb87097f41bbe43aa37d913ef
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_18
       rect:
@@ -519,6 +994,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b6c432af0e745844abf75002ed150d5
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_19
       rect:
@@ -533,6 +1015,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 929719327d5785b4b9232f05808c76f3
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_20
       rect:
@@ -547,6 +1036,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b2f0dc9da3516c04491b8ffc86a7b639
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_21
       rect:
@@ -561,6 +1057,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5cef2572db389149a5102ec6c668b3f
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_22
       rect:
@@ -575,6 +1078,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 035da705cb5d3df469ac7e8c3ef12293
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_23
       rect:
@@ -589,6 +1099,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e1326f34046366e4f86c536996d0be1d
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_24
       rect:
@@ -603,6 +1120,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 72add9ab6fa75d247aa237ea3247f8b3
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_25
       rect:
@@ -617,6 +1141,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 01432f065f8ec7d4e9f9222da0aefbe6
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_26
       rect:
@@ -631,6 +1162,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 38a1c7ce68a8d214985e8cdc9b4c88b7
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_27
       rect:
@@ -645,6 +1183,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8a325197d2d6c34c9af3ad8c331e8f9
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_28
       rect:
@@ -659,6 +1204,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6795bd0d0a940304a8317329ae7a7de8
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_29
       rect:
@@ -673,6 +1225,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 035a9389f1259a143aa9651eeae93824
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_30
       rect:
@@ -687,6 +1246,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 453633bd8c7c77f45b70d4e22e1e79b2
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_31
       rect:
@@ -701,6 +1267,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2e4b3a171895ed418476ca07972393d
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_32
       rect:
@@ -715,6 +1288,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d389cbfb43bba704195fe58e2d9d6769
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_33
       rect:
@@ -729,6 +1309,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8a1b84d358808843a7f608b16840413
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_34
       rect:
@@ -743,6 +1330,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 599fcc1fb609e91489a19831059b568b
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_35
       rect:
@@ -757,6 +1351,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b284bb8676f01e84bb2dd342ce0de141
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_36
       rect:
@@ -771,6 +1372,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 570bc905bf14f3f4a8ffde19af3d9c92
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_37
       rect:
@@ -785,6 +1393,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: df2c5333304e74e4f9a543f2cbb76e2d
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_38
       rect:
@@ -799,6 +1414,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 783c105bbe80e9443a092d6197ebec98
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_39
       rect:
@@ -813,6 +1435,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 331f97c83c5eb5643a068e812689cc10
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_40
       rect:
@@ -827,6 +1456,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fb00b4fdeb6c07940990a8ff2d06b5dd
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_41
       rect:
@@ -841,6 +1477,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e849f531170c7a948b1d110c4b65168e
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_42
       rect:
@@ -855,6 +1498,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ae5471120138b6c498f27c354003a631
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_43
       rect:
@@ -869,6 +1519,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3501ffca28d73b749a5dc9b67e73a8df
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_44
       rect:
@@ -883,6 +1540,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 77a996cad95877246a53ce9fc4d4f47f
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_45
       rect:
@@ -897,6 +1561,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0916ca97e2847f04c84bba641de2dc8b
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_46
       rect:
@@ -911,6 +1582,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec49b134246a5a44fa0f01ec3decfc08
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_47
       rect:
@@ -925,6 +1603,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65a67c63e27658a489edd4c1795a20e9
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_48
       rect:
@@ -939,6 +1624,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1fd33006e235b8040a3cc5f5c4536498
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_49
       rect:
@@ -953,6 +1645,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f742cc744283f4e4e889b43f60ee4203
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_50
       rect:
@@ -967,6 +1666,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 17189b6180cd7254a82140f9ad93cde5
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_51
       rect:
@@ -981,6 +1687,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f2dbf433f007160499bbf98b058f66bc
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_52
       rect:
@@ -995,6 +1708,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cedb44416fe2e78448e332eea16ba63c
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_53
       rect:
@@ -1009,6 +1729,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a0e0c397211b7944b42261b30acdbec
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_54
       rect:
@@ -1023,6 +1750,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6389fd5ac8b16674ba9f2a4eb5d5be54
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_55
       rect:
@@ -1037,6 +1771,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 055b116d04dc03e4cac87bb0d21418d0
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_56
       rect:
@@ -1051,6 +1792,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6f26570f8bf22dd40baedb8c51068e89
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_57
       rect:
@@ -1065,6 +1813,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fd0a93e9560815e40bff35eaf773a079
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_58
       rect:
@@ -1079,6 +1834,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 37bf148d0ba0fd24e8af01b22388e59d
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_59
       rect:
@@ -1093,6 +1855,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8ed5445b5cea5c6429cfa07581a2110e
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_61
       rect:
@@ -1107,6 +1876,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bf39fc2d65f2c9a40a6ab6e805751776
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_63
       rect:
@@ -1121,6 +1897,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8499f3e3616469948a2f95c68e524320
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_64
       rect:
@@ -1135,6 +1918,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9512c4ff33616154691b03a202dd48d6
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_65
       rect:
@@ -1149,6 +1939,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b3a61ff0566156d49b83a9fc6424356c
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_66
       rect:
@@ -1163,6 +1960,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5ed909d3551183843af68d403e401174
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_67
       rect:
@@ -1177,6 +1981,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea9ea3ed260b6d84fb2c6f8182bd31cf
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_68
       rect:
@@ -1191,6 +2002,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5c91158b35e19ea40a393f0e3c774643
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_70
       rect:
@@ -1205,6 +2023,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa42b035e21ef484facae6aa1d260a81
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_71
       rect:
@@ -1219,6 +2044,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 90dcf1c9fb93dc449b2b8c6817437c83
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_72
       rect:
@@ -1233,6 +2065,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7cc69785be965fd4eb35fa7254acf559
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_73
       rect:
@@ -1247,6 +2086,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4854de09b3fde84ea30f44c619cc504
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_74
       rect:
@@ -1255,12 +2101,19 @@ TextureImporter:
         y: 543
         width: 52
         height: 56
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.19, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5e89367144aaf0748b7872de3e786ddd
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_75
       rect:
@@ -1275,6 +2128,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1844673a714d6934491444db9e051da1
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_76
       rect:
@@ -1289,6 +2149,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4062df5bd34bd984c8b433ae3473f3f1
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_77
       rect:
@@ -1303,6 +2170,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2ad66f028ce26324ea2332a288948838
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_82
       rect:
@@ -1317,6 +2191,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22a1d5d94a62f044d89741b526926f47
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_83
       rect:
@@ -1325,12 +2206,19 @@ TextureImporter:
         y: 469
         width: 48
         height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.14, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d8fde030d2fb5dc488cb50bf4d8c1ee2
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_84
       rect:
@@ -1339,12 +2227,19 @@ TextureImporter:
         y: 469
         width: 54
         height: 61
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.11, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d49fee2feeaae764ab92d00c08f4883c
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_85
       rect:
@@ -1359,6 +2254,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b285c0e13de15fc4090cafb027eb5083
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_86
       rect:
@@ -1373,6 +2275,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fa93c9dc13e13cc45bd1736cec69f6cb
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_87
       rect:
@@ -1381,12 +2290,19 @@ TextureImporter:
         y: 468
         width: 54
         height: 50
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.05, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45ba2de6d998b364a827522e8cf43c03
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_88
       rect:
@@ -1401,6 +2317,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1b95c3931b83893469e35eaf99205401
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_89
       rect:
@@ -1415,6 +2338,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 902fd68b05485c4449728166871601d1
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_90
       rect:
@@ -1429,6 +2359,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b25b59d7e292a104d8983ad77efec5b9
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_91
       rect:
@@ -1437,12 +2374,19 @@ TextureImporter:
         y: 392
         width: 68
         height: 67
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.03, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2bd8640557729eb49af4e5766be891eb
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_92
       rect:
@@ -1451,12 +2395,19 @@ TextureImporter:
         y: 392
         width: 67
         height: 67
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.01, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 35d348f1d5e1f8a46b27820c73251992
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_93
       rect:
@@ -1465,12 +2416,19 @@ TextureImporter:
         y: 392
         width: 67
         height: 67
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.01, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6f1313f5b7996f44ab58ead66f4504ba
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_94
       rect:
@@ -1485,6 +2443,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ed473426d0a604844a9dea631c7a5732
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_95
       rect:
@@ -1493,12 +2458,19 @@ TextureImporter:
         y: 325
         width: 56
         height: 58
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.11, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5125606dc313c946bf11679d62d9ffb
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_96
       rect:
@@ -1513,6 +2485,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 293bbac283e17c04c9f65816d9e851d8
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_97
       rect:
@@ -1527,6 +2506,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 745eb0a0c628e3f4cbde5ead1e32cba1
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_98
       rect:
@@ -1541,6 +2527,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8624e1bba82a2f041943fe8bea94ad65
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_99
       rect:
@@ -1555,6 +2548,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64e3cc6cca3982345854935bba68a499
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_100
       rect:
@@ -1569,6 +2569,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 96441237e088e034a8e62b2d2e36a597
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_101
       rect:
@@ -1583,6 +2590,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49d6b6b14605f314292b350ad49b4ae8
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_102
       rect:
@@ -1597,6 +2611,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4f459187b92192d428317a352af7a57c
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_103
       rect:
@@ -1611,6 +2632,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d3f4dc0281adf874e9ffc57eec536359
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_104
       rect:
@@ -1625,6 +2653,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86957f9bc8879d44296f6ce52798655c
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_105
       rect:
@@ -1639,6 +2674,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 34cfa58d818a2844fb459fc87048e5cc
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_106
       rect:
@@ -1653,6 +2695,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 71bfbaef951c94449a19b0bb35c595eb
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_107
       rect:
@@ -1667,6 +2716,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb1cc9cb405999a4682d03f72b8e49bd
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_108
       rect:
@@ -1681,6 +2737,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d0664e674fb96a6488c443b0a71290fd
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_109
       rect:
@@ -1695,6 +2758,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 53517bcf097127f40a37ee2c1940186d
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_110
       rect:
@@ -1709,6 +2779,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3dbeb4017d654da4da855d8f4acdcd18
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_111
       rect:
@@ -1723,6 +2800,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bde7dc01383211e4ea489710c753fef8
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_112
       rect:
@@ -1737,6 +2821,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3cb36481f7d19a549895a69b5d4ea3d4
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_113
       rect:
@@ -1751,6 +2842,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a213e9f89ba4cd24dbbe1bcd49b2c0e1
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_114
       rect:
@@ -1765,6 +2863,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1e1755e1487d94741a3072fff2e97c40
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_115
       rect:
@@ -1779,6 +2884,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6edc9ab7ada6d1a4ea03a7f3dc97afe0
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_116
       rect:
@@ -1793,6 +2905,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 33e2b1c55de087b4fa622dea0ee9ca9a
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_117
       rect:
@@ -1807,6 +2926,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f223eabec919454fbf0661e0181d320
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_118
       rect:
@@ -1821,6 +2947,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09c32c4775cbb20449d5c8a0ee7fc6cf
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_119
       rect:
@@ -1835,6 +2968,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2790e1efac813242b6a7427c132cf72
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_120
       rect:
@@ -1849,6 +2989,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6ad5d088f899ea4caea800c11b69ab6
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_121
       rect:
@@ -1863,6 +3010,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dc80120a9419ac34297c07a67f4653d0
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_122
       rect:
@@ -1877,6 +3031,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fbcb0a3b413d7fb4c83cb50604ec1471
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_123
       rect:
@@ -1891,6 +3052,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9a5fbc89e2743a64ca6c333a5d3f49c3
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_124
       rect:
@@ -1905,6 +3073,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5d7aaa3b12e7aed4fa5a7a20ef6aa0fd
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_125
       rect:
@@ -1919,6 +3094,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cacaec1db8af20148b30cd9cb3d73543
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_126
       rect:
@@ -1933,6 +3115,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a309df6971675fc43ac9f7de2426ae9e
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_127
       rect:
@@ -1947,6 +3136,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b6034405c674d945a6c49767bbe7a41
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_128
       rect:
@@ -1961,6 +3157,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b404ad155d146024da7def02080ee7b9
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_129
       rect:
@@ -1975,6 +3178,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c339016924b5ad43bd2f79727513470
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_130
       rect:
@@ -1989,6 +3199,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5a56618edf04817499466cd547d9b226
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_131
       rect:
@@ -2003,6 +3220,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8cd656255986a146b8dcc5aefcf6948
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_132
       rect:
@@ -2017,6 +3241,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6be6774c03e004344afbab8bf8ca81ac
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_133
       rect:
@@ -2031,6 +3262,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 73d967c29144ba848adb30002da64e8e
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_134
       rect:
@@ -2045,6 +3283,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 20ffa6b34014beb4d9121d45928945f0
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_135
       rect:
@@ -2059,6 +3304,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f0444c8b0d8d00048b2d45c81906b084
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_136
       rect:
@@ -2073,6 +3325,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7e3843697d8594246b7b6ae4a06dd365
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_137
       rect:
@@ -2087,6 +3346,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 989f21dbf8f598b43904f8f79feefc29
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_138
       rect:
@@ -2101,6 +3367,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aae90a96304c79e43bfad9d1131a849a
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_139
       rect:
@@ -2115,6 +3388,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f956e1ff262c6e443b5edb63fa377a86
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_140
       rect:
@@ -2129,6 +3409,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4811a21811599f742babbcc251df5810
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_141
       rect:
@@ -2143,6 +3430,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab7d237454014f449afc2cb7f93340d3
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_142
       rect:
@@ -2157,6 +3451,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4033dff5b6e7a14586569d4626c1f50
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_143
       rect:
@@ -2171,6 +3472,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e54546ac7feb2d54286dce87892234a7
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_144
       rect:
@@ -2185,6 +3493,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0b5a0a57f44ebd42a60a421f5d7646c
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_145
       rect:
@@ -2199,6 +3514,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c92b99a29f897ba408f1f89fd5376323
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_146
       rect:
@@ -2213,6 +3535,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d09eefe4a9bfa01449588e6dffecea2a
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_147
       rect:
@@ -2227,6 +3556,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 12abd430e77921b4382c421185b4f712
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_148
       rect:
@@ -2241,6 +3577,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa0d9633cfc38d84d94324e47c6edf51
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_149
       rect:
@@ -2255,6 +3598,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 693f6b45c0a65144a96e7e15f2f3c1fb
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_150
       rect:
@@ -2269,6 +3619,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 51ea65af91acce94687a2b6b97710e09
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_151
       rect:
@@ -2283,6 +3640,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 431bd1f3084b1864e942a7be174add1d
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_152
       rect:
@@ -2297,6 +3661,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1fe915b21dde17e48885b2863fef458e
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_153
       rect:
@@ -2311,6 +3682,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3716c3a7eab8e5c49a3ca3e676de2069
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_154
       rect:
@@ -2325,6 +3703,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: de37e54b278c99a41bfc65222aa285f2
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_155
       rect:
@@ -2339,6 +3724,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c6720343ad9ae4429aa82958b61f471
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_156
       rect:
@@ -2353,6 +3745,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f071f8b42bea9074baa48655fbb43380
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_157
       rect:
@@ -2367,6 +3766,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 190aa1e22106a764d8e02860ad2f967b
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_158
       rect:
@@ -2381,6 +3787,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3c4208bcff3180c4b9a30919dbe1324d
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_159
       rect:
@@ -2395,6 +3808,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ddbccd8fa2cbb3d42a641328c2f978f3
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_160
       rect:
@@ -2409,6 +3829,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 21d9c8571676a4e478f002ddd3d0413a
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_161
       rect:
@@ -2423,6 +3850,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d373036ed88cc2749b03b94b2d9a55af
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_162
       rect:
@@ -2437,6 +3871,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1d5573d65850b004484d6a01f2a743cd
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_163
       rect:
@@ -2451,6 +3892,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: abd9fd8e6d2a22046917ca91e866f662
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_164
       rect:
@@ -2465,6 +3913,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eec73c9c5cfa43241a2e0cc6235b7e07
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_165
       rect:
@@ -2479,6 +3934,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb3d9ce5280de404f8ea83425ac2e328
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_166
       rect:
@@ -2493,6 +3955,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5558fbf22d21824cac8c442d058b14b
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_167
       rect:
@@ -2507,6 +3976,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bb8f7743182f9e6458b5aace583d2839
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_168
       rect:
@@ -2521,6 +3997,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c490c1627d83ecf49a9e6668454d40ef
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_169
       rect:
@@ -2535,6 +4018,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4773d1d60acda648931e407ac1a4f20
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_170
       rect:
@@ -2549,6 +4039,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 633a8fdd88e42a44886f504d5bfb1ede
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_171
       rect:
@@ -2563,6 +4060,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 987e5f6e8084b3443b866603cd8c27c7
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Searchman_exe5_172
       rect:
@@ -2577,9 +4081,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 993d802ee4557354289a7f0fc5a8bf4a
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: bb7c72fe6d992b440bdf593d992830bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
