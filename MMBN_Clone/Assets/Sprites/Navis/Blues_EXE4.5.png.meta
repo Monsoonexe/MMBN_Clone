@@ -1,119 +1,333 @@
 fileFormatVersion: 2
 guid: b869fe02fee6a334ab9b2df6f6106d9d
-timeCreated: 1536081802
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Blues_EXE4.5_0
-    21300002: Blues_EXE4.5_1
-    21300004: Blues_EXE4.5_2
-    21300006: Blues_EXE4.5_3
-    21300008: Blues_EXE4.5_4
-    21300010: Blues_EXE4.5_5
-    21300012: Blues_EXE4.5_6
-    21300014: Blues_EXE4.5_7
-    21300016: Blues_EXE4.5_8
-    21300018: Blues_EXE4.5_9
-    21300020: Blues_EXE4.5_10
-    21300022: Blues_EXE4.5_11
-    21300024: Blues_EXE4.5_12
-    21300026: Blues_EXE4.5_13
-    21300028: Blues_EXE4.5_14
-    21300030: Blues_EXE4.5_15
-    21300032: Blues_EXE4.5_16
-    21300034: Blues_EXE4.5_17
-    21300036: Blues_EXE4.5_18
-    21300038: Blues_EXE4.5_19
-    21300040: Blues_EXE4.5_20
-    21300042: Blues_EXE4.5_21
-    21300044: Blues_EXE4.5_22
-    21300046: Blues_EXE4.5_23
-    21300048: Blues_EXE4.5_24
-    21300050: Blues_EXE4.5_25
-    21300052: Blues_EXE4.5_26
-    21300054: Blues_EXE4.5_27
-    21300056: Blues_EXE4.5_28
-    21300058: Blues_EXE4.5_29
-    21300060: Blues_EXE4.5_30
-    21300062: Blues_EXE4.5_31
-    21300064: Blues_EXE4.5_32
-    21300066: Blues_EXE4.5_33
-    21300068: Blues_EXE4.5_34
-    21300070: Blues_EXE4.5_35
-    21300072: Blues_EXE4.5_36
-    21300074: Blues_EXE4.5_37
-    21300076: Blues_EXE4.5_38
-    21300078: Blues_EXE4.5_39
-    21300080: Blues_EXE4.5_40
-    21300082: Blues_EXE4.5_41
-    21300084: Blues_EXE4.5_42
-    21300086: Blues_EXE4.5_43
-    21300088: Blues_EXE4.5_44
-    21300090: Blues_EXE4.5_45
-    21300092: Blues_EXE4.5_46
-    21300094: Blues_EXE4.5_47
-    21300096: Blues_EXE4.5_52
-    21300098: Blues_EXE4.5_55
-    21300100: Blues_EXE4.5_56
-    21300102: Blues_EXE4.5_57
-    21300104: Blues_EXE4.5_58
-    21300106: Blues_EXE4.5_59
-    21300108: Blues_EXE4.5_60
-    21300110: Blues_EXE4.5_61
-    21300112: Blues_EXE4.5_62
-    21300114: Blues_EXE4.5_63
-    21300116: Blues_EXE4.5_65
-    21300118: Blues_EXE4.5_67
-    21300120: Blues_EXE4.5_68
-    21300122: Blues_EXE4.5_69
-    21300124: Blues_EXE4.5_70
-    21300126: Blues_EXE4.5_71
-    21300128: Blues_EXE4.5_72
-    21300130: Blues_EXE4.5_73
-    21300132: Blues_EXE4.5_74
-    21300134: Blues_EXE4.5_75
-    21300136: Blues_EXE4.5_76
-    21300138: Blues_EXE4.5_77
-    21300140: Blues_EXE4.5_78
-    21300142: Blues_EXE4.5_79
-    21300144: Blues_EXE4.5_80
-    21300146: Blues_EXE4.5_81
-    21300148: Blues_EXE4.5_82
-    21300150: Blues_EXE4.5_84
-    21300152: Blues_EXE4.5_85
-    21300154: Blues_EXE4.5_86
-    21300156: Blues_EXE4.5_87
-    21300158: Blues_EXE4.5_88
-    21300160: Blues_EXE4.5_89
-    21300162: Blues_EXE4.5_90
-    21300164: Blues_EXE4.5_91
-    21300166: Blues_EXE4.5_92
-    21300168: Blues_EXE4.5_93
-    21300170: Blues_EXE4.5_94
-    21300172: Blues_EXE4.5_95
-    21300174: Blues_EXE4.5_96
-    21300176: Blues_EXE4.5_97
-    21300178: Blues_EXE4.5_98
-    21300180: Blues_EXE4.5_99
-    21300182: Blues_EXE4.5_100
-    21300184: Blues_EXE4.5_101
-    21300186: Blues_EXE4.5_102
-    21300188: Blues_EXE4.5_103
-    21300190: Blues_EXE4.5_104
-    21300192: Blues_EXE4.5_105
-    21300194: Blues_EXE4.5_106
-    21300196: Blues_EXE4.5_107
-    21300198: Blues_EXE4.5_108
-    21300200: Blues_EXE4.5_109
-    21300202: Blues_EXE4.5_110
-    21300204: Blues_EXE4.5_111
-    21300206: Blues_EXE4.5_112
-    21300208: Blues_EXE4.5_113
-    21300210: Blues_EXE4.5_114
-    21300212: Blues_EXE4.5_115
-    21300214: Blues_EXE4.5_48
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Blues_EXE4.5_0
+  - first:
+      213: 21300002
+    second: Blues_EXE4.5_1
+  - first:
+      213: 21300004
+    second: Blues_EXE4.5_2
+  - first:
+      213: 21300006
+    second: Blues_EXE4.5_3
+  - first:
+      213: 21300008
+    second: Blues_EXE4.5_4
+  - first:
+      213: 21300010
+    second: Blues_EXE4.5_5
+  - first:
+      213: 21300012
+    second: Blues_EXE4.5_6
+  - first:
+      213: 21300014
+    second: Blues_EXE4.5_7
+  - first:
+      213: 21300016
+    second: Blues_EXE4.5_8
+  - first:
+      213: 21300018
+    second: Blues_EXE4.5_9
+  - first:
+      213: 21300020
+    second: Blues_EXE4.5_10
+  - first:
+      213: 21300022
+    second: Blues_EXE4.5_11
+  - first:
+      213: 21300024
+    second: Blues_EXE4.5_12
+  - first:
+      213: 21300026
+    second: Blues_EXE4.5_13
+  - first:
+      213: 21300028
+    second: Blues_EXE4.5_14
+  - first:
+      213: 21300030
+    second: Blues_EXE4.5_15
+  - first:
+      213: 21300032
+    second: Blues_EXE4.5_16
+  - first:
+      213: 21300034
+    second: Blues_EXE4.5_17
+  - first:
+      213: 21300036
+    second: Blues_EXE4.5_18
+  - first:
+      213: 21300038
+    second: Blues_EXE4.5_19
+  - first:
+      213: 21300040
+    second: Blues_EXE4.5_20
+  - first:
+      213: 21300042
+    second: Blues_EXE4.5_21
+  - first:
+      213: 21300044
+    second: Blues_EXE4.5_22
+  - first:
+      213: 21300046
+    second: Blues_EXE4.5_23
+  - first:
+      213: 21300048
+    second: Blues_EXE4.5_24
+  - first:
+      213: 21300050
+    second: Blues_EXE4.5_25
+  - first:
+      213: 21300052
+    second: Blues_EXE4.5_26
+  - first:
+      213: 21300054
+    second: Blues_EXE4.5_27
+  - first:
+      213: 21300056
+    second: Blues_EXE4.5_28
+  - first:
+      213: 21300058
+    second: Blues_EXE4.5_29
+  - first:
+      213: 21300060
+    second: Blues_EXE4.5_30
+  - first:
+      213: 21300062
+    second: Blues_EXE4.5_31
+  - first:
+      213: 21300064
+    second: Blues_EXE4.5_32
+  - first:
+      213: 21300066
+    second: Blues_EXE4.5_33
+  - first:
+      213: 21300068
+    second: Blues_EXE4.5_34
+  - first:
+      213: 21300070
+    second: Blues_EXE4.5_35
+  - first:
+      213: 21300072
+    second: Blues_EXE4.5_36
+  - first:
+      213: 21300074
+    second: Blues_EXE4.5_37
+  - first:
+      213: 21300076
+    second: Blues_EXE4.5_38
+  - first:
+      213: 21300078
+    second: Blues_EXE4.5_39
+  - first:
+      213: 21300080
+    second: Blues_EXE4.5_40
+  - first:
+      213: 21300082
+    second: Blues_EXE4.5_41
+  - first:
+      213: 21300084
+    second: Blues_EXE4.5_42
+  - first:
+      213: 21300086
+    second: Blues_EXE4.5_43
+  - first:
+      213: 21300088
+    second: Blues_EXE4.5_44
+  - first:
+      213: 21300090
+    second: Blues_EXE4.5_45
+  - first:
+      213: 21300092
+    second: Blues_EXE4.5_46
+  - first:
+      213: 21300094
+    second: Blues_EXE4.5_47
+  - first:
+      213: 21300096
+    second: Blues_EXE4.5_52
+  - first:
+      213: 21300098
+    second: Blues_EXE4.5_55
+  - first:
+      213: 21300100
+    second: Blues_EXE4.5_56
+  - first:
+      213: 21300102
+    second: Blues_EXE4.5_57
+  - first:
+      213: 21300104
+    second: Blues_EXE4.5_58
+  - first:
+      213: 21300106
+    second: Blues_EXE4.5_59
+  - first:
+      213: 21300108
+    second: Blues_EXE4.5_60
+  - first:
+      213: 21300110
+    second: Blues_EXE4.5_61
+  - first:
+      213: 21300112
+    second: Blues_EXE4.5_62
+  - first:
+      213: 21300114
+    second: Blues_EXE4.5_63
+  - first:
+      213: 21300116
+    second: Blues_EXE4.5_65
+  - first:
+      213: 21300118
+    second: Blues_EXE4.5_67
+  - first:
+      213: 21300120
+    second: Blues_EXE4.5_68
+  - first:
+      213: 21300122
+    second: Blues_EXE4.5_69
+  - first:
+      213: 21300124
+    second: Blues_EXE4.5_70
+  - first:
+      213: 21300126
+    second: Blues_EXE4.5_71
+  - first:
+      213: 21300128
+    second: Blues_EXE4.5_72
+  - first:
+      213: 21300130
+    second: Blues_EXE4.5_73
+  - first:
+      213: 21300132
+    second: Blues_EXE4.5_74
+  - first:
+      213: 21300134
+    second: Blues_EXE4.5_75
+  - first:
+      213: 21300136
+    second: Blues_EXE4.5_76
+  - first:
+      213: 21300138
+    second: Blues_EXE4.5_77
+  - first:
+      213: 21300140
+    second: Blues_EXE4.5_78
+  - first:
+      213: 21300142
+    second: Blues_EXE4.5_79
+  - first:
+      213: 21300144
+    second: Blues_EXE4.5_80
+  - first:
+      213: 21300146
+    second: Blues_EXE4.5_81
+  - first:
+      213: 21300148
+    second: Blues_EXE4.5_82
+  - first:
+      213: 21300150
+    second: Blues_EXE4.5_84
+  - first:
+      213: 21300152
+    second: Blues_EXE4.5_85
+  - first:
+      213: 21300154
+    second: Blues_EXE4.5_86
+  - first:
+      213: 21300156
+    second: Blues_EXE4.5_87
+  - first:
+      213: 21300158
+    second: Blues_EXE4.5_88
+  - first:
+      213: 21300160
+    second: Blues_EXE4.5_89
+  - first:
+      213: 21300162
+    second: Blues_EXE4.5_90
+  - first:
+      213: 21300164
+    second: Blues_EXE4.5_91
+  - first:
+      213: 21300166
+    second: Blues_EXE4.5_92
+  - first:
+      213: 21300168
+    second: Blues_EXE4.5_93
+  - first:
+      213: 21300170
+    second: Blues_EXE4.5_94
+  - first:
+      213: 21300172
+    second: Blues_EXE4.5_95
+  - first:
+      213: 21300174
+    second: Blues_EXE4.5_96
+  - first:
+      213: 21300176
+    second: Blues_EXE4.5_97
+  - first:
+      213: 21300178
+    second: Blues_EXE4.5_98
+  - first:
+      213: 21300180
+    second: Blues_EXE4.5_99
+  - first:
+      213: 21300182
+    second: Blues_EXE4.5_100
+  - first:
+      213: 21300184
+    second: Blues_EXE4.5_101
+  - first:
+      213: 21300186
+    second: Blues_EXE4.5_102
+  - first:
+      213: 21300188
+    second: Blues_EXE4.5_103
+  - first:
+      213: 21300190
+    second: Blues_EXE4.5_104
+  - first:
+      213: 21300192
+    second: Blues_EXE4.5_105
+  - first:
+      213: 21300194
+    second: Blues_EXE4.5_106
+  - first:
+      213: 21300196
+    second: Blues_EXE4.5_107
+  - first:
+      213: 21300198
+    second: Blues_EXE4.5_108
+  - first:
+      213: 21300200
+    second: Blues_EXE4.5_109
+  - first:
+      213: 21300202
+    second: Blues_EXE4.5_110
+  - first:
+      213: 21300204
+    second: Blues_EXE4.5_111
+  - first:
+      213: 21300206
+    second: Blues_EXE4.5_112
+  - first:
+      213: 21300208
+    second: Blues_EXE4.5_113
+  - first:
+      213: 21300210
+    second: Blues_EXE4.5_114
+  - first:
+      213: 21300212
+    second: Blues_EXE4.5_115
+  - first:
+      213: 21300214
+    second: Blues_EXE4.5_48
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -131,6 +345,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -141,7 +357,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -161,11 +377,13 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -175,7 +393,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -185,7 +404,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -212,6 +432,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4548871ed95ed94fb68ce2329ddc1b1
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_1
       rect:
@@ -226,6 +453,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 74205c94f127c6c4c87fff176d1d94b8
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_2
       rect:
@@ -240,6 +474,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5559674840df7fe4581dc5ec8ad8dcc4
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_3
       rect:
@@ -254,6 +495,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 100db2546a259fc4488df39221691c38
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_4
       rect:
@@ -268,6 +516,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ce83ab2499beb4a47b0f93fd2005d945
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_5
       rect:
@@ -282,6 +537,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1293d1037c78b6741ac5908b2163eee8
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_6
       rect:
@@ -296,6 +558,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 619b38b825dafa74c9984cf88d9180db
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_7
       rect:
@@ -310,6 +579,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 74d682fd16d88514dbcb36f84e3ed9a7
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_8
       rect:
@@ -324,6 +600,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f73d3340f5e30541aa1af73c12a3070
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_9
       rect:
@@ -338,6 +621,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: adfb3cc75b8fcea4ca0ac980e9af2e1b
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_10
       rect:
@@ -352,6 +642,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7e297a7b405c31a4f8f14d8f0eca8606
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_11
       rect:
@@ -366,6 +663,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b4043b86ac3dd1e4eada3bd43df32a64
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_12
       rect:
@@ -380,6 +684,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aaa4a6b75dc7991478f8df460377639b
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_13
       rect:
@@ -394,6 +705,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7fe429860ebe9df45a83f324489ae4aa
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_14
       rect:
@@ -408,6 +726,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0752fc0dad253a54394e8c98f699dc36
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_15
       rect:
@@ -422,6 +747,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ac17bdf02de4d0e4fbc45376197a3d39
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_16
       rect:
@@ -436,6 +768,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2040941ed5c775d4c98e6344b1bc067a
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_17
       rect:
@@ -450,6 +789,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2dfdb60dac4b3cc4bb06602e7542fd96
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_18
       rect:
@@ -464,6 +810,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f9f281ca288c0049850f529e8dbf6e3
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_19
       rect:
@@ -478,6 +831,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 681dec4ec4c87a147998bc4c828fd8fa
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_20
       rect:
@@ -492,6 +852,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c5835ead69bc2644948bd25bd353317
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_21
       rect:
@@ -506,6 +873,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 74734dc91077e71428c162eb6ac46348
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_22
       rect:
@@ -520,6 +894,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29c33ea93d2712e4891fabefa87ed35c
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_23
       rect:
@@ -534,6 +915,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 78fff1299e56b8e43bbf084089ca1d9b
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_24
       rect:
@@ -548,6 +936,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69e716647201ddf47b94a9a35be2c6fa
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_25
       rect:
@@ -562,6 +957,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0bcfd0e78efae794e93d217ef323473a
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_26
       rect:
@@ -576,6 +978,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f02fb0e2911181d4b9d673edbac24639
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_27
       rect:
@@ -590,6 +999,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3eed0d15844cd7947aa5162d0610c706
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_28
       rect:
@@ -604,6 +1020,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 207a91696ee34804fb6a54955fab773c
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_29
       rect:
@@ -618,6 +1041,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7f231db9765b0d746a0d8d68e7655cf3
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_30
       rect:
@@ -632,6 +1062,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0520e09ccd2cc34183ebad9b51cac96
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_31
       rect:
@@ -646,6 +1083,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b423ba87592a63e45b953a81fa690e82
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_32
       rect:
@@ -660,6 +1104,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a208f13bcb4d0ef458524003bd430040
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_33
       rect:
@@ -674,6 +1125,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 39756a21892eba74cb9b156645f8f51f
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_34
       rect:
@@ -688,6 +1146,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eebedfe457415384baac2e66dda4d681
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_35
       rect:
@@ -702,6 +1167,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ccb119eb2eb6f0f44a375396ffbab61f
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_36
       rect:
@@ -716,6 +1188,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9e353945ebbabcd4baeb9a9dc5934ff5
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_37
       rect:
@@ -730,6 +1209,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 255cab923fbe85b49ba930ea897fe72d
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_38
       rect:
@@ -744,6 +1230,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6daa71b797f26dc45b1c6d1a69f4faf6
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_39
       rect:
@@ -758,6 +1251,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 98f6312a1e95d54499523c12cd531a5a
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_40
       rect:
@@ -772,6 +1272,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7149e9c516e3e314dab8dee95886a6ef
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_41
       rect:
@@ -786,6 +1293,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 593f49fdd5e66dd4db0286588912cc8d
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_42
       rect:
@@ -800,6 +1314,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d0ee92e2fb7b5df43ae66a0ed718be9d
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_43
       rect:
@@ -814,6 +1335,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 93ef16968604e6946a11c31b3b34b2ac
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_44
       rect:
@@ -828,6 +1356,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e309d545c9e493a45b47db7cd632a3fc
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_45
       rect:
@@ -842,6 +1377,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3343a86b72c324747aec4d552dcd2504
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_46
       rect:
@@ -856,6 +1398,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1df45dd101e9bf248a29a2b751464df3
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_47
       rect:
@@ -870,6 +1419,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3919482327fd11b4f858e4614ab51e94
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_52
       rect:
@@ -884,6 +1440,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 512abbdca06f91f419c7f83dca421f42
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_55
       rect:
@@ -898,6 +1461,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c1ba269b6106434ebfdbbec81f9335c
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_56
       rect:
@@ -912,6 +1482,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45d04371d5874c2429f4648543695ba7
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_57
       rect:
@@ -926,6 +1503,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 842aa208d8d270045a945dd1ce35480b
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_58
       rect:
@@ -934,12 +1518,19 @@ TextureImporter:
         y: 663
         width: 59
         height: 65
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 16e4feb3030895f4aa632acb35dc5e89
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_59
       rect:
@@ -948,12 +1539,19 @@ TextureImporter:
         y: 663
         width: 49
         height: 65
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.13, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 11eb2e2598f5ec447b51bc550183dff3
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_60
       rect:
@@ -962,12 +1560,19 @@ TextureImporter:
         y: 663
         width: 49
         height: 65
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.13, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1ef9f5d1407485747bea25782e246ffd
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_61
       rect:
@@ -982,6 +1587,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d80886684c3473c4aafbd7c69128fcf8
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_62
       rect:
@@ -996,6 +1608,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 328273062dca56244a0261387aa70f82
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_63
       rect:
@@ -1010,6 +1629,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81a78d65bff15e24888f8b67b0914139
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_65
       rect:
@@ -1024,6 +1650,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6bfeefd8bb485874e8159de1969011b9
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_67
       rect:
@@ -1038,6 +1671,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4cfc089361038d3408737fc9859f1866
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_68
       rect:
@@ -1046,12 +1686,19 @@ TextureImporter:
         y: 533
         width: 42
         height: 60
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.22, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d7069527c5c8ef947a9182e01bf87523
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_69
       rect:
@@ -1060,12 +1707,19 @@ TextureImporter:
         y: 533
         width: 48
         height: 58
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd3676eaf9cbe9d4f8c53f0d75ac480b
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_70
       rect:
@@ -1074,12 +1728,19 @@ TextureImporter:
         y: 533
         width: 47
         height: 55
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.135, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 98f275e5e961b1d4881190e524921da3
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_71
       rect:
@@ -1094,6 +1755,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab815e6513c21174b887b05c4fec10f7
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_72
       rect:
@@ -1108,6 +1776,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a72d1915ef51f1b478b89c0f36039afd
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_73
       rect:
@@ -1122,6 +1797,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e09586144ed49e499d3ec6c9efce70d
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_74
       rect:
@@ -1136,6 +1818,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9d275a69026ffa3428434518051b29db
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_75
       rect:
@@ -1150,6 +1839,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 846c7654caa45de4f8c96f45b5c2ab84
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_76
       rect:
@@ -1164,6 +1860,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa48848ead734c54fbbc3d310193224c
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_77
       rect:
@@ -1178,6 +1881,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6ff34fd038716664199ac8506316a848
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_78
       rect:
@@ -1192,6 +1902,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82420807a3dbbbf41b6d0b97efc455c9
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_79
       rect:
@@ -1206,6 +1923,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b8833387abfee0c46b2c9758607558f5
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_80
       rect:
@@ -1220,6 +1944,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3496a38a6c687584b9e184d7094488a5
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_81
       rect:
@@ -1234,6 +1965,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4af09ae2a37736548baacfa6c210eb8d
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_82
       rect:
@@ -1248,6 +1986,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: acdb72e6694cd9f49a45a4f4b601c743
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_84
       rect:
@@ -1262,6 +2007,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d414a2d214678fa46854fcb7a4f77e5a
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_85
       rect:
@@ -1276,6 +2028,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d18601b8a957de842a344b82029b9ec3
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_86
       rect:
@@ -1290,6 +2049,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b1ef4984ac3b93f48b0a9f7effe7a340
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_87
       rect:
@@ -1304,6 +2070,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d1978bf7d11f64741946c64b3bac54d3
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_88
       rect:
@@ -1318,6 +2091,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 604abd3273e18e4469f4ce12d6fea046
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_89
       rect:
@@ -1332,6 +2112,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b8116976f704d2d4ca90d886023de007
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_90
       rect:
@@ -1346,6 +2133,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a05c3187e73d85644824e80b1518eeac
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_91
       rect:
@@ -1360,6 +2154,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2ed1c9cbf0ba3148933c208ef983529
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_92
       rect:
@@ -1374,6 +2175,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d60996eba62787b49b91f46c421504b4
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_93
       rect:
@@ -1388,6 +2196,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 116cd17277966014ebd6a414db1cc079
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_94
       rect:
@@ -1402,6 +2217,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c44d6192b02f83740becfd3e7ee9de41
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_95
       rect:
@@ -1416,6 +2238,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9704c5145c33a8c45961e4275b60edad
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_96
       rect:
@@ -1430,6 +2259,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6dc6b0b2119ddaf4093ec36fe1e32fb0
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_97
       rect:
@@ -1444,6 +2280,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5fea14af33f234c43addc3d3acb452b0
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_98
       rect:
@@ -1458,6 +2301,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f967e72cd3168bf46b0f32c4c897559c
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_99
       rect:
@@ -1472,6 +2322,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 308eafff6dfe55540bfa6e4aa7b09261
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_100
       rect:
@@ -1486,6 +2343,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d38cef6b7a765464eaf578b628216cdd
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_101
       rect:
@@ -1500,6 +2364,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8de7339920557a4c9bc6f28c68a7e41
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_102
       rect:
@@ -1514,6 +2385,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: b75de54165f731648a22e77f1c714215
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_103
       rect:
@@ -1528,6 +2406,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7705b62806f0b754186c8924f857d793
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_104
       rect:
@@ -1542,6 +2427,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8abc92a965aadc64db0312289a0e06ef
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_105
       rect:
@@ -1556,6 +2448,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87ae725cb883bb3479a195ef67607a41
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_106
       rect:
@@ -1570,6 +2469,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62c63bb5d093ece408e34127b6c07181
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_107
       rect:
@@ -1584,6 +2490,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2afcd565c504c3b40b3a0e15063f11ff
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_108
       rect:
@@ -1598,6 +2511,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8bbc0e8b894ab040bb070e12694670d
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_109
       rect:
@@ -1612,6 +2532,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d4f0bc9f397646547be06bbf02058fb5
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_110
       rect:
@@ -1626,6 +2553,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bc981a6b5fbbe584f81851ae07553a69
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_111
       rect:
@@ -1640,6 +2574,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7c896edc3d2f4b41bb0cb4fa01df2c9
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_112
       rect:
@@ -1654,6 +2595,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 3ebe10ccbd3e1ce41bf542ba84402076
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_113
       rect:
@@ -1668,6 +2616,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68f6fff6f17574944ae3e7fe6d7de372
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_114
       rect:
@@ -1682,6 +2637,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 1f540893a440f6e4a8f39f662334351d
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_115
       rect:
@@ -1696,6 +2658,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 706e2d8df4a3a254c8bd7f83b3f1de11
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Blues_EXE4.5_48
       rect:
@@ -1710,9 +2679,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 131d844420296204196390bf9e823eea
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: b7222113ed76c6642b4955d169433054
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
