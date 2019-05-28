@@ -19,7 +19,7 @@ MonoBehaviour:
     type: 3}
   animatorOverrideController: {fileID: 22100000, guid: 1070c3df9974b1a4bb7975323a329f6c,
     type: 2}
-  spriteOffset: {x: 20, y: -15, z: 0}
+  spriteOffset: {x: 45, y: -15, z: 0}
   orientation: 1
   chargeShotAudioClip: {fileID: 0}
   naviMoveSpeed: 1
