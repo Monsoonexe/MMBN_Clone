@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NaviAsset_GutsMan
   m_EditorClassIdentifier: 
   naviName: GutsMan
-  READY: 0
+  READY: 1
   emotionWindow: {fileID: 21300050, guid: 9516f3ffea81f934ba0f97eabc43818e, type: 3}
   characterSelectionPortrait: {fileID: 21300004, guid: 1892e49c2132c804b977f57fb2b42e8c,
     type: 3}
