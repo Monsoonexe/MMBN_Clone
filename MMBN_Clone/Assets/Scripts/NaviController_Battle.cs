@@ -42,14 +42,6 @@ public class NaviController_Battle : MonoBehaviour
     /// The next time that this is able to make an attack.
     /// </summary>
     private float nextAttackTime = 0.0f;
-    
-    //Attacks
-    private BaseAttack busterAttack;
-    private BaseAttack chargedBusterAttack;
-    private BaseAttack swordAttack;
-    private BaseAttack chargedSwordAttack;
-    private BaseAttack throwAttack;
-    private BaseAttack specialAttack;
 
     //current coordinates on board
     private int currentPanelX = -1; //init coordinates of current panel to invalid panel
@@ -272,14 +264,6 @@ public class NaviController_Battle : MonoBehaviour
         //load battle stuff
         this.naviMoveSpeed = naviAsset.naviMoveSpeed;
         this.element = naviAsset.element;
-
-        //load scriptable object abilities
-        this.busterAttack = naviAsset.busterAttack;
-        this.chargedBusterAttack = naviAsset.chargedBusterAttack;
-        this.swordAttack = naviAsset.swordAttack;
-        this.chargedSwordAttack = naviAsset.chargedSwordAttack;
-        this.throwAttack = naviAsset.throwAttack;
-        this.specialAttack = naviAsset.specialAttack;
     }
 
     /// <summary>
@@ -528,16 +512,16 @@ public class NaviController_Battle : MonoBehaviour
         if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
             //handle charge attack if fully charged
-            if (busterCharge > chargedBusterAttack.chargeTime)//if fully charged
+            if (busterCharge > naviAsset.chargedBusterAttack.chargeTime)//if fully charged
             {
-                StartCoroutine(chargedBusterAttack.TriggerAttack(this, bodyAnimator));//do attack logic
-                nextAttackTime = nowTime + chargedBusterAttack.delay;//always a delay between attacks
+                StartCoroutine(naviAsset.chargedBusterAttack.TriggerAttack(this, bodyAnimator));//do attack logic
+                nextAttackTime = nowTime + naviAsset.chargedBusterAttack.delay;//always a delay between attacks
 
             }
             else//regular buster shot
             {
-                StartCoroutine(busterAttack.TriggerAttack(this, bodyAnimator));//do attack logic
-                nextAttackTime = nowTime + busterAttack.delay;//always a delay between attacks
+                StartCoroutine(naviAsset.busterAttack.TriggerAttack(this, bodyAnimator));//do attack logic
+                nextAttackTime = nowTime + naviAsset.busterAttack.delay;//always a delay between attacks
 
             }
             //reset values after shot
@@ -548,7 +532,7 @@ public class NaviController_Battle : MonoBehaviour
         if (busterIsCharging)//charge up buster numbers
         {
             busterCharge += Time.deltaTime;
-            chargeAuraAnim.SetFloat("BusterCharge", busterCharge / chargedBusterAttack.chargeTime);//play charging animation
+            chargeAuraAnim.SetFloat("BusterCharge", busterCharge / naviAsset.chargedBusterAttack.chargeTime);//play charging animation
 
         }
         else
@@ -623,15 +607,15 @@ public class NaviController_Battle : MonoBehaviour
 
         if (fireSword && swordCooledDown)//FIRE!
         {
-            if (swordCharge > chargedSwordAttack.chargeTime)//if fully charged
+            if (swordCharge > naviAsset.chargedSwordAttack.chargeTime)//if fully charged
             {
-                StartCoroutine(chargedSwordAttack.TriggerAttack(this, bodyAnimator));
-                nextAttackTime = nowTime + chargedSwordAttack.delay;//reset time since last sword shot
+                StartCoroutine(naviAsset.chargedSwordAttack.TriggerAttack(this, bodyAnimator));
+                nextAttackTime = nowTime + naviAsset.chargedSwordAttack.delay;//reset time since last sword shot
             }
             else//regular sword swing
             {
-                StartCoroutine(swordAttack.TriggerAttack(this, bodyAnimator));
-                nextAttackTime = nowTime + swordAttack.delay;//reset time since last sword shot
+                StartCoroutine(naviAsset.swordAttack.TriggerAttack(this, bodyAnimator));
+                nextAttackTime = nowTime + naviAsset.swordAttack.delay;//reset time since last sword shot
 
             }
             //reset values after shot
@@ -642,7 +626,7 @@ public class NaviController_Battle : MonoBehaviour
         if (swordIsCharging)//charge up buster numbers
         {
             swordCharge += Time.deltaTime;
-            chargeAuraAnim.SetFloat("SwordCharge", swordCharge / chargedSwordAttack.chargeTime);//play animation, sending charge percent
+            chargeAuraAnim.SetFloat("SwordCharge", swordCharge / naviAsset.chargedSwordAttack.chargeTime);//play animation, sending charge percent
         }
         else
         {
@@ -679,10 +663,10 @@ public class NaviController_Battle : MonoBehaviour
         if (chipAttack && attackCooledDown)
         {
             movementDelayTimeSince = -1.0f;//reset movement
-            
-            specialAttack.TriggerAttack(this, bodyAnimator);
 
-            nextAttackTime = nowTime + specialAttack.delay;//set delay
+            naviAsset.specialAttack.TriggerAttack(this, bodyAnimator);
+
+            nextAttackTime = nowTime + naviAsset.specialAttack.delay;//set delay
         }
 
     }
@@ -717,8 +701,8 @@ public class NaviController_Battle : MonoBehaviour
         {
             movementDelayTimeSince = -1.0f;//reset movement
 
-            throwAttack.TriggerAttack(this, bodyAnimator);
-            nextAttackTime = nowTime + throwAttack.delay;//set delay
+            naviAsset.throwAttack.TriggerAttack(this, bodyAnimator);
+            nextAttackTime = nowTime + naviAsset.throwAttack.delay;//set delay
         }
 
     }
