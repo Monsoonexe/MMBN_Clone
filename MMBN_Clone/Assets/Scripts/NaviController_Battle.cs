@@ -660,7 +660,7 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //TODO check if has a chip available
-        if (chipAttack && attackCooledDown)
+        if (chipAttack && attackCooledDown && naviAsset.specialAttack)
         {
             movementDelayTimeSince = -1.0f;//reset movement
 
@@ -697,7 +697,7 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //TODO check if has a chip available
-        if (chipAttack && attackCooledDown)
+        if (chipAttack && attackCooledDown && naviAsset.throwAttack)
         {
             movementDelayTimeSince = -1.0f;//reset movement
 
