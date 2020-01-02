@@ -665,6 +665,7 @@ public class NaviController_Battle : MonoBehaviour
             if (!naviAsset.specialAttack)
             {
                 Debug.Log("Attack not implemented. Animating", this.naviAsset);
+                return;
             }
             movementDelayTimeSince = -1.0f;//reset movement
 
@@ -706,6 +707,7 @@ public class NaviController_Battle : MonoBehaviour
             if (!naviAsset.throwAttack)
             {
                 Debug.Log("Attack not implemented. Animating", this.naviAsset);
+                return;
             }
             movementDelayTimeSince = -1.0f;//reset movement
 
