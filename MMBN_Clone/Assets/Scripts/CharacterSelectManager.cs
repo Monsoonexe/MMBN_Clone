@@ -66,7 +66,7 @@ public class CharacterSelectManager : MonoBehaviour
         //set default cursor starting positions
         blueCursorCurrentPosition.x = 0;
         blueCursorCurrentPosition.y = 0;
-        redCursorCurrentPosition.x = listOfCharacterProfiles.Length - 1;
+        redCursorCurrentPosition.x = 3;
         redCursorCurrentPosition.y = 0;//TODO first value should be number of rows - 1
         //move cursors to starting positions
 
