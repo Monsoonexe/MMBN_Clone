@@ -660,8 +660,12 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //TODO check if has a chip available
-        if (chipAttack && attackCooledDown && naviAsset.specialAttack)
+        if (chipAttack && attackCooledDown)
         {
+            if (!naviAsset.specialAttack)
+            {
+                Debug.Log("Attack not implemented. Animating", this.naviAsset);
+            }
             movementDelayTimeSince = -1.0f;//reset movement
 
             naviAsset.specialAttack.TriggerAttack(this, bodyAnimator);
@@ -697,8 +701,12 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //TODO check if has a chip available
-        if (chipAttack && attackCooledDown && naviAsset.throwAttack)
+        if (chipAttack && attackCooledDown)
         {
+            if (!naviAsset.throwAttack)
+            {
+                Debug.Log("Attack not implemented. Animating", this.naviAsset);
+            }
             movementDelayTimeSince = -1.0f;//reset movement
 
             naviAsset.throwAttack.TriggerAttack(this, bodyAnimator);
