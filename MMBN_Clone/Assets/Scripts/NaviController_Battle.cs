@@ -688,7 +688,7 @@ public class NaviController_Battle : MonoBehaviour
 
         if (owningPlayer == 1)
         {
-            if (Input.GetKeyDown(KeyCode.V))
+            if (Input.GetKeyDown(KeyCode.E))
             {
                 chipAttack = true;
             }
@@ -696,7 +696,7 @@ public class NaviController_Battle : MonoBehaviour
         }
         if (owningPlayer == 2)
         {
-            if (Input.GetKeyDown(KeyCode.RightShift))
+            if (Input.GetKeyDown(KeyCode.Keypad7))
             {
                 chipAttack = true;
             }
