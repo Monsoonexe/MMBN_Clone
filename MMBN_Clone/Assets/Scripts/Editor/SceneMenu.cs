@@ -19,21 +19,21 @@ public class SceneMenu {
     [MenuItem("MegaScenes/BattleScene")]
     public static void OpenScene_BattleScene()
     {
-        QueryOpenScene("Assets/MegaMan Scenes/MegaMan Battle Scene.unity");
+        QueryOpenScene("Assets/Scenes/MegaMan Battle Scene.unity");
 
     }
 
     [MenuItem("MegaScenes/NaviSelect")]
     public static void OpenScene_NaviSelect()
     {
-        QueryOpenScene("Assets/MegaMan Scenes/Navi Select Screen.unity");
+        QueryOpenScene("Assets/Scenes/Navi Select Screen.unity");
 
     }
 
     [MenuItem("MegaScenes/Tournament Screen")]
     public static void OpenScene_TournamentScreen()
     {
-        QueryOpenScene("Assets/MegaMan Scenes/Tournament Screen.unity");
+        QueryOpenScene("Assets/Scenes/Tournament Screen.unity");
 
     }
 }
