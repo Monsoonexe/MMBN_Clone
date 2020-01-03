@@ -33,9 +33,9 @@ public class PlayerInfoController : MonoBehaviour
     
     private void SubscribeToEvents()
     {
-        targetNavi.takeDamage.AddListener(UpdateVisuals);
-        targetNavi.die.AddListener(UpdateVisuals);
-        targetNavi.recoverHealth.AddListener(UpdateVisuals);
+        targetNavi.takeDamageEvent.AddListener(UpdateVisuals);
+        targetNavi.dieEvent.AddListener(UpdateVisuals);
+        targetNavi.recoverHealthEvent.AddListener(UpdateVisuals);
     }
 
     public void UpdateVisuals()
