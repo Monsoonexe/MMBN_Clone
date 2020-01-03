@@ -14,7 +14,6 @@ public class NaviController_Battle : MonoBehaviour
 
     public NaviAsset NaviAsset { get { return naviAsset; } } //readonly
 
-
     [SerializeField]
     private Animator chargeAuraAnim;
 
@@ -28,6 +27,8 @@ public class NaviController_Battle : MonoBehaviour
     /// </summary>
     private Animator naviAnimator;
 
+    private SpriteRenderer mySpriteRenderer;
+
     //health and element stuff
     private int maxHealth = 100;//arbitrary defaults
 
@@ -40,11 +41,11 @@ public class NaviController_Battle : MonoBehaviour
 
     //buster stuff
     private bool busterIsCharging = false;
-    private float busterCharge = 0.0f;
+    private float busterChargeAmount = 0.0f;
 
     //sword stuff
     private bool swordIsCharging = false;
-    private float swordCharge = 0.0f;
+    private float swordChargeAmount = 0.0f;
 
     //attack stuff
     /// <summary>
@@ -92,11 +93,11 @@ public class NaviController_Battle : MonoBehaviour
     private List<StatusEffect> statusAilments = new List<StatusEffect>();
 
     [Header("---Events---")]
-    public UnityEvent takeDamage = new UnityEvent();
+    public UnityEvent takeDamageEvent = new UnityEvent();
 
-    public UnityEvent die = new UnityEvent();
+    public UnityEvent dieEvent = new UnityEvent();
 
-    public UnityEvent recoverHealth = new UnityEvent();
+    public UnityEvent recoverHealthEvent = new UnityEvent();
 
     void Awake()
     {
@@ -116,8 +117,7 @@ public class NaviController_Battle : MonoBehaviour
         }
 
         //init components
-        myTransform = transform;//cache for performance
-        naviAnimator = gameObject.GetComponent<Animator>();
+        GatherComponentReferences();
         naviAnimator.runtimeAnimatorController = naviAsset.animatorOverrideController; //set overrides
         
         if (!panelArray)
@@ -127,14 +127,13 @@ public class NaviController_Battle : MonoBehaviour
 
         if (!startingPanel)
         {
-            SetStartingPanel();
+            DetermineStartingPanel();
         }
     }
     
     // Use this for initialization
     void Start ()
     {
-        ConfigureSpriteOffset();//based on battle team, fixes sprite offset
         UpdateCurrentPanelCoordinates();
         //set starting values
         controlsDisabled = false;
@@ -163,24 +162,28 @@ public class NaviController_Battle : MonoBehaviour
 
         //remove old status ailments
     }//end Update()
-    
+
+    private void OnValidate()
+    {
+        GatherComponentReferences();
+        mySpriteRenderer.sprite = naviAsset.IdleSprite;
+        
+    }
+
+    private void GatherComponentReferences()
+    {
+        myTransform = gameObject.GetComponent<Transform>();//cache for performance
+        naviAnimator = gameObject.GetComponent<Animator>();
+        mySpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+    }
+
 
     private void InitializeDelays()//this function sets the delays
     {
         movementDelayTimeSince = movementDelay;//player should be able to move right away
         nextAttackTime = 0.0f;
     }
-
-    public Panel GetDesiredStartingPanel()
-    // gives where the Navi WANTS to start when asked. GameManager / Board Manager makes the call.
-    {
-        if (!startingPanel)
-        {
-            SetStartingPanel();
-        }
-        return startingPanel;
-    }
-
+    
     public Element GetElement()
     {
         return naviAsset.element;
@@ -200,18 +203,13 @@ public class NaviController_Battle : MonoBehaviour
     }
 
     /// <summary>
-    /// Make the sprite face left or right depending on team and original orientation.
+    /// Hard Move
     /// </summary>
-    private void ConfigureSpriteOffset()
+    /// <param name="x"></param>
+    /// <param name="y"></param>
+    public void MoveNavi(int x, int y)
     {
-        if (battleTeam == BattleTeam.BLUE && naviAsset.orientation != 1)
-        {
-            targetOrientation = -1;
-        }
-        if (battleTeam == BattleTeam.RED && naviAsset.orientation != -1)
-        {
-            targetOrientation = 1;
-        }
+        MoveNavi(panelArray.GetPanel(x, y));
     }
 
     /// <summary>
@@ -243,7 +241,7 @@ public class NaviController_Battle : MonoBehaviour
         if(canMoveToPanel)
         {
             //Debug.Log(currentPanel.panelOccupant.name);//print test
-            myTransform.position = targetPanel.GetPosition() + naviAsset.spriteOffset * targetOrientation;//move sprite to new location, offset the sprite to be at center of board
+            myTransform.position = targetPanel.OccupantAnchorPoint;//move sprite to new location, offset the sprite to be at center of board
             currentPanel.LeavePanel();//clear current Panel's of any occupants
             targetPanel.OccupyPanel(this);//target Panel now has this object as an occupant
             currentPanel = targetPanel; //this object now knows which Panel it is on
@@ -460,7 +458,7 @@ public class NaviController_Battle : MonoBehaviour
         if (fireBuster && busterCooledDown)//FIRE! regular buster
         {
             //handle charge attack if fully charged
-            if (busterCharge > naviAsset.chargedBusterAttack.chargeTime)//if fully charged
+            if (busterChargeAmount > naviAsset.chargedBusterAttack.chargeTime)//if fully charged
             {
                 StartCoroutine(naviAsset.chargedBusterAttack.TriggerAttack(this, naviAnimator));//do attack logic
                 nextAttackTime = nowTime + naviAsset.chargedBusterAttack.delay;//always a delay between attacks
@@ -473,14 +471,14 @@ public class NaviController_Battle : MonoBehaviour
 
             }
             //reset values after shot
-            busterCharge = 0;//reset charge amount when button is released
+            busterChargeAmount = 0;//reset charge amount when button is released
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
         }
 
         if (busterIsCharging)//charge up buster numbers
         {
-            busterCharge += Time.deltaTime;
-            chargeAuraAnim.SetFloat("BusterCharge", busterCharge / naviAsset.chargedBusterAttack.chargeTime);//play charging animation
+            busterChargeAmount += Time.deltaTime;
+            chargeAuraAnim.SetFloat("BusterCharge", busterChargeAmount / naviAsset.chargedBusterAttack.chargeTime);//play charging animation
 
         }
         else
@@ -555,7 +553,7 @@ public class NaviController_Battle : MonoBehaviour
 
         if (fireSword && swordCooledDown)//FIRE!
         {
-            if (swordCharge > naviAsset.chargedSwordAttack.chargeTime)//if fully charged
+            if (swordChargeAmount > naviAsset.chargedSwordAttack.chargeTime)//if fully charged
             {
                 StartCoroutine(naviAsset.chargedSwordAttack.TriggerAttack(this, naviAnimator));
                 nextAttackTime = nowTime + naviAsset.chargedSwordAttack.delay;//reset time since last sword shot
@@ -567,14 +565,14 @@ public class NaviController_Battle : MonoBehaviour
 
             }
             //reset values after shot
-            swordCharge = 0;//reset charge amount when button is released
+            swordChargeAmount = 0;//reset charge amount when button is released
             movementDelayTimeSince = 0.0f;//reset movement delay after firing
         }
 
         if (swordIsCharging)//charge up buster numbers
         {
-            swordCharge += Time.deltaTime;
-            chargeAuraAnim.SetFloat("SwordCharge", swordCharge / naviAsset.chargedSwordAttack.chargeTime);//play animation, sending charge percent
+            swordChargeAmount += Time.deltaTime;
+            chargeAuraAnim.SetFloat("SwordCharge", swordChargeAmount / naviAsset.chargedSwordAttack.chargeTime);//play animation, sending charge percent
         }
         else
         {
@@ -694,6 +692,7 @@ public class NaviController_Battle : MonoBehaviour
         //chargeAuraAnim.SetTrigger("DeathExplosion");//trigger explosion effect
         StartCoroutine(FadeToNothing());
         BattleManager.OnCombatantDeath(this);//call event or send message or somehow let everyone know that the game might be over
+        dieEvent.Invoke();
     }
 
     private IEnumerator FadeToNothing()
@@ -729,7 +728,7 @@ public class NaviController_Battle : MonoBehaviour
             StartDeath();//you have died
         }
 
-        if(damageAmount >=5)
+        if(damageAmount >= 5)
         {
             naviAnimator.SetBool("Damaged", true);
             controlsDisabled = true;
@@ -737,7 +736,7 @@ public class NaviController_Battle : MonoBehaviour
         }
     }
     
-    public void SetStartingPanel()//sets starting panel to center panel of team
+    public void DetermineStartingPanel()//sets starting panel to center panel of team
     {
         if (battleTeam == BattleTeam.BLUE)
         {
