@@ -83,6 +83,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1255260307508863987}
+  - component: {fileID: 9200427171369933583}
   m_Layer: 0
   m_Name: Player Info
   m_TagString: Untagged
@@ -112,6 +113,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9200427171369933583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255260307508863986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7e21404a9ea5c4b8a63c87381d5fbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetNavi: {fileID: 0}
+  healthTextTMP: {fileID: 4219921442802518440}
+  healthBackImage: {fileID: 1255260306979677889}
+  characterPortrait: {fileID: 1255260308126284168}
+  healthColorsAsset: {fileID: 11400000, guid: 4ef84c593abb16a46b21ad296e788882, type: 2}
+  healthFlashing: 0
 --- !u!1 &1255260308126284174
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.04256001}
   m_AnchorMax: {x: 1, y: 0.44529876}
-  m_AnchoredPosition: {x: 0.40000153, y: 0.76203537}
+  m_AnchoredPosition: {x: 0.40000153, y: 0.7620239}
   m_SizeDelta: {x: 4.266899, y: 1.4980769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1255260308126284169
@@ -220,7 +239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.08629513, y: 0.5587472}
   m_AnchorMax: {x: 0.93328834, y: 0.92}
-  m_AnchoredPosition: {x: -0.004131317, y: -0.13219261}
+  m_AnchoredPosition: {x: -0.004131317, y: -0.13218689}
   m_SizeDelta: {x: 0.0431017, y: -0.381362}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8319907360341921943
@@ -279,7 +298,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 26.85
+  m_fontSize: 28.45
   m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 1
