@@ -14,6 +14,11 @@ public class Panel : MonoBehaviour
     public Image panelTypeImage;
     public Vector3 panelImageOffset;
 
+    [SerializeField]
+    private Transform occupantAnchorPoint;
+
+    public Vector3 OccupantAnchorPoint { get => occupantAnchorPoint.position; } // readonly
+
     [Header("Panel Sprites")]
     [Header("*Blue Team")]
     public Sprite nullPanel_B;
