@@ -25,7 +25,8 @@ public class BattleManager : MonoBehaviour {
     }
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
         if (panelArray == null)
         {
             panelArray = GameObject.FindGameObjectWithTag("PanelArray").GetComponent<PanelArray>() as PanelArray;
@@ -35,12 +36,13 @@ public class BattleManager : MonoBehaviour {
             customGaugeManager = GameObject.FindGameObjectWithTag("CustomGauge").GetComponent<CustomGaugeManager>() as CustomGaugeManager;
         }
 
-        PlaceCombatants(combatants);
-
+        PlaceCombatants();
+        
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         if (!atCustomScreen)
         {
             customGaugeManager.IncrementCustomGauge();
@@ -49,6 +51,17 @@ public class BattleManager : MonoBehaviour {
         //
 
     }//end Update()
+
+    private void PlaceCombatants()
+    {
+        NaviController_Battle naviController;
+
+        naviController = combatants[0].GetComponent<NaviController_Battle>();
+        naviController.MoveNavi(1, 1);
+
+        naviController = combatants[1].GetComponent<NaviController_Battle>();
+        naviController.MoveNavi(4, 1);
+    }
 
     private static IEnumerator ReturnToCharacterSelectionScreen()
     {
@@ -64,21 +77,4 @@ public class BattleManager : MonoBehaviour {
         deadNavi.StartCoroutine(ReturnToCharacterSelectionScreen());//WHY USE DEADNAVI AS OBJECT REFERENCE TO START COROUTINE? why not?
     }
 
-    /// <summary>
-    /// Find where the combatants wish to be place and place them there.
-    /// </summary>
-    /// <param name="combatants_List"></param>
-    public static void PlaceCombatants(GameObject[] combatants_List)
-    {
-        NaviController_Battle naviController;
-        Panel targetPanel; 
-        foreach (var combatant in combatants_List)
-        {
-            naviController = combatant.GetComponent<NaviController_Battle>() as NaviController_Battle;// get the naviController
-            targetPanel = naviController.GetDesiredStartingPanel();//target the panel the navi wants to start at
-            naviController.transform.position = targetPanel.GetPosition() + naviController.NaviAsset.spriteOffset;//move sprite to new location, offset the sprite to be at center of board
-            targetPanel.OccupyPanel(naviController);//target Panel now has this object as an occupant
-            naviController.UpdateCurrentPanelCoordinates();//update coordinates of current panel
-        }
-    }
 }    
