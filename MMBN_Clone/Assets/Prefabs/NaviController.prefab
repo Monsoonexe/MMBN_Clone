@@ -48,17 +48,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   naviAsset: {fileID: 11400000, guid: 1cd10dabb902f014cb52d4270c121f3f, type: 2}
-  healthColorsAsset: {fileID: 11400000, guid: 4ef84c593abb16a46b21ad296e788882, type: 2}
-  bodyAnim: {fileID: 95308193376637780}
   chargeAuraAnim: {fileID: 95032798318585434}
   currentHealth: 4444
-  emotionWindow: {fileID: 0}
-  healthText: {fileID: 0}
   startingPanel: {fileID: 0}
   battleTeam: 0
   isPlayer: 1
   owningPlayer: 1
   statusAilments: []
+  takeDamageEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  dieEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  recoverHealthEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!95 &95308193376637780
 Animator:
   serializedVersion: 3
@@ -69,7 +80,7 @@ Animator:
   m_GameObject: {fileID: 1730545783177250}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8791eef046e24854a869272bd1994ee5, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -115,7 +126,7 @@ SpriteRenderer:
   m_SortingLayerID: 900528019
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bf1d1cfa5d629754bb29851389e33808, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,7 +134,7 @@ SpriteRenderer:
   m_Size: {x: 0.34, y: 0.45}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &6962412777392939540
