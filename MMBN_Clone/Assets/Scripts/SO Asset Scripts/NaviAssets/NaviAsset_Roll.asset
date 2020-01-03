@@ -17,9 +17,9 @@ MonoBehaviour:
   emotionWindow: {fileID: 21300010, guid: 1916580f06cb3e246a98388d6586e9d9, type: 3}
   characterSelectionPortrait: {fileID: 21300002, guid: 1892e49c2132c804b977f57fb2b42e8c,
     type: 3}
+  idleSprite: {fileID: 21300064, guid: 44b19a786a827ab448bd2cf6344b8e88, type: 3}
   animatorOverrideController: {fileID: 22100000, guid: 505bbc178326a974699c8d4aa673b670,
     type: 2}
-  spriteOffset: {x: 35, y: -15, z: 0}
   orientation: 1
   chargeShotAudioClip: {fileID: 0}
   naviMoveSpeed: 1

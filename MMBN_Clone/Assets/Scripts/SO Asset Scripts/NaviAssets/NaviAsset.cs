@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class NaviAsset : ScriptableObject {
+public class NaviAsset : ScriptableObject
+{
     public string naviName;
+
     public bool READY = false;
 
     [Header("Visual Stuff")]
     public Sprite emotionWindow;
     public Sprite characterSelectionPortrait;
+
+    [SerializeField]
+    private Sprite idleSprite;
+    
+    public Sprite IdleSprite { get => idleSprite; }
+
     public AnimatorOverrideController animatorOverrideController;
-    public Vector3 spriteOffset;
     public int orientation;//+1 for facing right -1 for facing left
 
     [Header("Sound")]
