@@ -29,7 +29,7 @@ public class FirstRaycast : GatherTargetsBehavior
         
         var userXform = user.transform;
 
-        var raycastHitInfo = Physics2D.Raycast(user.transform.position, user.transform.right * user.GetOrientation(), PanelArray.globalScale);
+        var raycastHitInfo = Physics2D.Raycast(user.transform.position, user.transform.right * user.TargetingOrientation, PanelArray.globalScale);
 
         if (raycastHitInfo)
         {

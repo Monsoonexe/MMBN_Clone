@@ -22,7 +22,7 @@ public class ColumnInFront : GatherTargetsBehavior
         var targetList = new Panel[maxTargets];//this type of attack
 
         user.GetCurrentPanelCoordinates(out int x, out int y);
-        x += user.GetOrientation() * spacesInFront;//get one column in front of user
+        x += user.TargetingOrientation * spacesInFront;//get one column in front of user
 
         targetList[0] = panelArray.GetPanel(x, y + 1);//one above
         targetList[1] = panelArray.GetPanel(x, y);//on same row
@@ -36,7 +36,7 @@ public class ColumnInFront : GatherTargetsBehavior
         var targetList = new NaviController_Battle[maxTargets];//this type of attack
 
         user.GetCurrentPanelCoordinates(out int x, out int y);
-        x += user.GetOrientation() * spacesInFront;//get one column in front of user
+        x += user.TargetingOrientation * spacesInFront;//get one column in front of user
 
         targetList[0] = panelArray.GetOccupantAtCoordinates(x, y + 1);//one above
         targetList[1] = panelArray.GetOccupantAtCoordinates(x, y);//on same row

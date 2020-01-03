@@ -71,9 +71,9 @@ public class NaviController_Battle : MonoBehaviour
     private Coroutine coroutine_controlsDisabled;
     
     /// <summary>
-    /// Points navi towards enemy.
+    /// Which direction should attacks face?
     /// </summary>
-    private int targetOrientation = 1;
+    public int TargetingOrientation { get => battleTeam == BattleTeam.BLUE ? 1 : -1; }
     
     [SerializeField]
     private Panel startingPanel; //panel that the Player WANTS to start at.  GameManager or BoardManager will actually determine where to start
@@ -108,7 +108,6 @@ public class NaviController_Battle : MonoBehaviour
             Debug.Log("PlayerManager found. Navi Assets loaded from previous scene.");
             var pm = playerManager.GetComponent<PlayerManager>() as PlayerManager;
             pm.GetNaviStats(ref this.battleTeam, ref this.naviAsset, ref this.maxHealth, ref this.currentHealth);
-
         }
         else
         {
@@ -169,7 +168,7 @@ public class NaviController_Battle : MonoBehaviour
         mySpriteRenderer.sprite = naviAsset.IdleSprite;
         
     }
-
+    
     private void GatherComponentReferences()
     {
         myTransform = gameObject.GetComponent<Transform>();//cache for performance
@@ -759,16 +758,7 @@ public class NaviController_Battle : MonoBehaviour
     {
         startingPanel = panelArray.GetPanel(x, y);
     }
-
-    /// <summary>
-    /// returns +1 or -1.  Used to help determine direction and facing
-    /// </summary>
-    /// <returns>+1 or -1</returns>
-    public int GetOrientation()
-    {
-        return naviAsset.orientation;
-    }
-
+    
     /// <summary>
     /// Get the coordinates of the panel that this navi is currently occupying.
     /// </summary>

@@ -13,7 +13,7 @@ public class ImmediatelyInFront : GatherTargetsBehavior
         user.GetCurrentPanelCoordinates(out int attackerX, out int attackerY);
 
         //ask the panel array what object is right in front of this user's coordinates
-        panelList[0] = panelArray.GetPanel(attackerX + user.GetOrientation() * squaresAhead, attackerY);
+        panelList[0] = panelArray.GetPanel(attackerX + user.TargetingOrientation * squaresAhead, attackerY);
 
         return panelList;
     }
@@ -26,7 +26,7 @@ public class ImmediatelyInFront : GatherTargetsBehavior
         user.GetCurrentPanelCoordinates(out int attackerX, out int attackerY);
 
         //ask the panel array what object is right in front of this user's coordinates
-        var occupantOnTargetPanel = panelArray.GetOccupantAtCoordinates(attackerX + user.GetOrientation() * squaresAhead, attackerY);
+        var occupantOnTargetPanel = panelArray.GetOccupantAtCoordinates(attackerX + user.TargetingOrientation * squaresAhead, attackerY);
 
         if (occupantOnTargetPanel)
         {//if something exists on this spot...
